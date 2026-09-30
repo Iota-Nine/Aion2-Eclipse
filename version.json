@@ -1,8 +1,8 @@
 {
-  "version": "1.0.6",
-  "tag": "v1.0.6",
-  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.6/Aion2-Eclipse-v1.0.6-win-x64.zip",
-  "name": "Eclipse v1.0.6",
-  "notes": "Compact is a light secondary view: more transparent, total damage only (no DPS), smaller bars.",
-  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.6"
+    "version":  "1.0.7",
+    "tag":  "v1.0.7",
+    "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.7/Aion2-Eclipse-v1.0.7-win-x64.zip",
+    "name":  "Eclipse v1.0.7",
+    "notes":  "Fixed auto-update when GitHub raw CDN was stuck on an old version.json. Checks jsDelivr + Releases API now. Compact stays the light totals-only view.",
+    "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.7"
 }
