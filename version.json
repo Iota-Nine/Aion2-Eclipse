@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.16",
-    "tag":  "v1.0.16",
-    "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.16/Aion2-Eclipse-v1.0.16-win-x64.zip",
-    "name":  "Eclipse v1.0.16",
-    "notes":  "Hardened character lock for friends: self-buff before combat gate, skill-CD class match in party, job-code scan, prefs never RememberUser(0).",
-    "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.16"
+    "version":  "1.0.17",
+    "tag":  "v1.0.17",
+    "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.17/Aion2-Eclipse-v1.0.17-win-x64.zip",
+    "name":  "Eclipse v1.0.17",
+    "notes":  "Spanish + Western EU names: Windows-1252 / accents / ñ supported alongside UTF-8 and UTF-16.",
+    "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.17"
 }
