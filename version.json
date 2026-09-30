@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.8",
-    "tag":  "v1.0.8",
-    "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.8/Aion2-Eclipse-v1.0.8-win-x64.zip",
-    "name":  "Eclipse v1.0.8",
-    "notes":  "Fix: party no longer disappears in dungeons. Entering a dungeon was wrongly treated as leaving the group, so Eclipse dropped to solo and hid ally damage. Roster now stays until a real leave/disband.",
-    "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.8"
+    "version":  "1.0.9",
+    "tag":  "v1.0.9",
+    "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.9/Aion2-Eclipse-v1.0.9-win-x64.zip",
+    "name":  "Eclipse v1.0.9",
+    "notes":  "Fix: UPDATE chip could miss new releases when the CDN tip was stale (you on 1.0.7 saw nothing while older clients still got prompted). Checker now takes the newest tip across raw + CDN + GitHub Releases, and ships purge the CDN cache.",
+    "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.9"
 }
