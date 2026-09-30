@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.19",
-    "tag":  "v1.0.19",
-    "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.19/Aion2-Eclipse-v1.0.19-win-x64.zip",
-    "name":  "Eclipse v1.0.19",
-    "notes":  "Clicking X fully quits Eclipse — no more background process.",
-    "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.19"
+    "version":  "1.0.20",
+    "tag":  "v1.0.20",
+    "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.20/Aion2-Eclipse-v1.0.20-win-x64.zip",
+    "name":  "Eclipse v1.0.20",
+    "notes":  "Secure YOU id from PlayerInfo TP for EN/FR/ES — fixed CP1252 crash, safer name decode, class 11-19 + icons cached.",
+    "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.20"
 }
