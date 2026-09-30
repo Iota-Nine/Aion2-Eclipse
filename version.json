@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.12",
-    "tag":  "v1.0.12",
-    "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.12/Aion2-Eclipse-v1.0.12-win-x64.zip",
-    "name":  "Eclipse v1.0.12",
-    "notes":  "fixed bug 129485",
-    "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.12"
+    "version":  "1.0.13",
+    "tag":  "v1.0.13",
+    "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.13/Aion2-Eclipse-v1.0.13-win-x64.zip",
+    "name":  "Eclipse v1.0.13",
+    "notes":  "fixed class logos + character detect for fresh installs. Class parse restored; solo first hit locks YOU; party uses local skill CD / teleport.",
+    "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.13"
 }
