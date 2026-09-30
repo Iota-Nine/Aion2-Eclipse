@@ -1,0 +1,5 @@
+# Keep this repo releases-only: README + license notes. Never commit source or the huge exe into git history.
+*
+!README.md
+!.gitignore
+!LICENSE
