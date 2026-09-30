@@ -4,6 +4,8 @@ Hey. This is a small overlay HUD I built for AION 2 — party DPS, personal tota
 
 I ship **binaries only** here. No source tree in this repo on purpose. Grab the latest build from **Releases** (the zip), extract it somewhere you can write to, and run `Aion2-Eclipse.exe`.
 
+**License (short version):** free for personal use. **Do not sell it, rebrand it, or slap it in a paid pack.** Full terms in [`LICENSE`](./LICENSE). If you find a paid mirror of my build, it’s unauthorized — tell me.
+
 ---
 
 ## Download
