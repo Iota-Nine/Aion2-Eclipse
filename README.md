@@ -1,73 +1,69 @@
 # AION 2 · Eclipse
 
-Hey. This is a small overlay HUD I built for AION 2 — party DPS, personal totals, level column, skill suggestions, the usual meter stuff, but as a compact always-on-top panel instead of a giant window.
+Yo.
 
-I ship **binaries only** here. No source tree in this repo on purpose. Grab the latest build from **Releases** (the zip), extract it somewhere you can write to, and run `Aion2-Eclipse.exe`.
+Eclipse is a small DPS meter that sits on top of AION 2. Party damage, your damage, levels, fight timer — the stuff you glance at mid-fight without alt-tabbing into a giant window.
 
-**License (short version):** free for personal use. **Do not sell it, rebrand it, or slap it in a paid pack.** Full terms in [`LICENSE`](./LICENSE). If you find a paid mirror of my build, it’s unauthorized — tell me.
+It watches the game’s network packets (Npcap). It does **not** read AION’s memory and it doesn’t click anything for you. Overlay only.
 
----
-
-## Download
-
-1. Open the [latest Release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
-2. Download `Aion2-Eclipse-*-win-x64.zip` (not “Source code”)
-3. Extract the whole folder
-4. Install [Npcap](https://npcap.com/#download) if you don’t already have it — tick **WinPcap API-compatible Mode**
-5. Launch `Aion2-Eclipse.exe`, then log into AION 2 (windowed or borderless)
-
-That’s it. .NET is baked into the exe. No account, no paid API key.
+I only put the **ready-to-run Windows build** here. No source code in this repo. That’s on purpose.
 
 ---
 
-## What it actually does
+## What you get
 
-Eclipse reads the game’s network traffic with Npcap (same general idea as RATmeter / packet meters). It does **not** open the AION process and poke memory.
+- Your row + your party when the game sends the group list
+- DPS for the current fight (resets after you stop hitting for a bit)
+- **Total damage** that stays until you hit the reset button (↺)
+- Levels when we get them from party packets
+- Click-through mode so you can play through the HUD (purple strip / Ctrl+Shift+L to grab the mouse back)
+- Auto-update: when I drop a new build, Eclipse notices and shows a little **UPDATE** chip up top — you click it, it downloads, restarts. Done.
 
-You’ll get:
-
-- One row per party member when the game sends the party list (name, class, DPS, total damage, level)
-- Solo row for you if you’re not grouped
-- Fight DPS that resets after idle · **total damage that only resets when you hit ↺** (or Ctrl+Shift+R)
-- Sticky character id after the first identification so you don’t need to teleport every login just to see your row
-- Party clear when you leave / get an empty list (no more ghost allies hanging around)
-- Optional click-through so mouse clicks go to the game; purple strip or Ctrl+Shift+L brings the mouse back to the HUD
-
-Skill suggestions are “what I observed hit hard + what’s off cooldown,” not a perfect rotation bot. Stigmas, combo conditions, range — that’s still on you.
+Not included / not magic: it won’t tell you the perfect rotation, it won’t invent party members the game didn’t send, and exclusive fullscreen can hide overlays (use windowed / borderless).
 
 ---
 
-## Hotkeys
+## Install (2 minutes)
 
-| What | How |
+1. Grab the zip from [Releases](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest) — the big `.zip`, **not** “Source code”
+2. Extract the folder somewhere you can write
+3. Install [Npcap](https://npcap.com/#download) with **WinPcap API-compatible Mode** checked
+4. Run `Aion2-Eclipse.exe`, then enter the world in AION 2
+
+No .NET install needed. No account. Free for personal use — don’t sell it or shove it in a paid pack ([LICENSE](./LICENSE)).
+
+---
+
+## Controls
+
+| Thing | How |
 |---|---|
-| Move HUD | Drag the Eclipse header |
-| Show / hide | Ctrl + Shift + H |
-| Click-through | ◇ button or Ctrl + Shift + L |
-| Grab mouse back | Purple strip at the bottom of the HUD, or Ctrl + Shift + L again |
+| Move it | Drag the Eclipse header |
+| Hide / show | Ctrl + Shift + H |
+| Click-through | ◇ or Ctrl + Shift + L |
+| Mouse back on HUD | Purple strip or Ctrl + Shift + L |
 | Reset totals | ↺ or Ctrl + Shift + R |
-| Compact suggestions | ▤ |
-| Class build panel | Build |
+| Class skill list | Build |
 
 ---
 
-## Updates
+## About updates (read this)
 
-On startup Eclipse checks this repo’s **Releases**. Newer zip → downloads → `Eclipse.Updater.exe` swaps files → relaunch.
+When I ship a new version, I write **what actually changed** in that Release — not just “update available”.
 
-I don’t push source here. When I ship a fix I just cut a new Release tag. You keep playing; next time you open Eclipse it should update itself (needs the updater exe from the original zip, and internet).
+Your Eclipse checks GitHub every couple of minutes. If there’s something newer, you get a gold **UPDATE** button in the header. Click it → it pulls the zip → restarts on the new build. Keep `Eclipse.Updater.exe` next to the main exe (it’s in the zip).
+
+Fresh install? Always take the **latest** Release.
 
 ---
 
-## Notes / honesty box
+## If something’s weird
 
-- Exclusive fullscreen can hide overlays. Windowed / borderless works.
-- If capture fails, check Npcap install + that you’re not blocking the driver.
-- Logs and settings live in a `data/` folder next to the exe after first run. Don’t zip that folder when sharing.
-- Local read-only API on `127.0.0.1:18942` if you want to script something. Token in `data/api-token.txt`. Not an official NC API.
-- Community project, not affiliated with NCSOFT / AION. Icons and names belong to their owners.
-- Packet layout changes when the game patches — if numbers look wrong after an update, wait for a new Release from me.
+- No numbers → Npcap / driver / run as a normal user with write access to the folder
+- Overlay missing → don’t use exclusive fullscreen
+- Settings & logs live in `data/` next to the exe — don’t share that folder
+- Game patches break packet layouts sometimes. If meters go stupid after a patch, wait for a new Release from me
 
-Built this for my own sessions, figured other people might want the same compact meter. If something’s broken, open an Issue on the Release page or yell at me wherever you found the link.
+Not affiliated with NCSOFT. Made this for my own runs; sharing the build so other people don’t have to reinvent the same HUD.
 
 — Iota-Nine
