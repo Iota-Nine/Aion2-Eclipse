@@ -53,9 +53,9 @@ Skill suggestions are “what I observed hit hard + what’s off cooldown,” no
 
 ## Updates
 
-On startup Eclipse checks this GitHub repo’s **Releases**. If I upload a newer version zip, it downloads that asset and swaps the files via `Eclipse.Updater.exe`. You don’t need to dig through commits — just keep the updater next to the main exe (it’s in the zip).
+On startup Eclipse checks this repo’s **Releases**. Newer zip → downloads → `Eclipse.Updater.exe` swaps files → relaunch.
 
-When I push a new build: bump the version, publish a new Release tag, attach the zip. That’s the whole pipeline.
+I don’t push source here. When I ship a fix I just cut a new Release tag. You keep playing; next time you open Eclipse it should update itself (needs the updater exe from the original zip, and internet).
 
 ---
 
