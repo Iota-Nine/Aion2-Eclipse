@@ -1,69 +1,86 @@
-# AION 2 · Eclipse
+# Eclipse — free AION 2 DPS meter
 
-Yo.
+**See your party’s damage while you fight. No signup. No paywall. Download the exe and go.**
 
-Eclipse is a small DPS meter that sits on top of AION 2. Party damage, your damage, levels, fight timer — the stuff you glance at mid-fight without alt-tabbing into a giant window.
+[⬇️ **Download free (Windows)**](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
 
-It watches the game’s network packets (Npcap). It does **not** read AION’s memory and it doesn’t click anything for you. Overlay only.
-
-I only put the **ready-to-run Windows build** here. No source code in this repo. That’s on purpose.
+Grab the big `.zip` on that page — **not** “Source code”. Extract → run `Aion2-Eclipse.exe`.
 
 ---
 
-## What you get
+## What Eclipse does
 
-- Your row + your party when the game sends the group list
-- DPS for the current fight (resets after you stop hitting for a bit)
-- **Total damage** that stays until you hit the reset button (↺)
-- Levels when we get them from party packets
-- Click-through mode so you can play through the HUD (purple strip / Ctrl+Shift+L to grab the mouse back)
-- Auto-update: when I drop a new build, Eclipse notices and shows a little **UPDATE** chip up top — you click it, it downloads, restarts. Done.
+You’re mid-dungeon. Somebody’s carrying. Somebody’s not. Eclipse puts a thin overlay on top of AION 2 so you can **see live party damage** without alt-tabbing or opening a second app.
 
-Not included / not magic: it won’t tell you the perfect rotation, it won’t invent party members the game didn’t send, and exclusive fullscreen can hide overlays (use windowed / borderless).
+| You get | Why it matters |
+|---|---|
+| **You + your party** on one meter | Know who actually hits when the boss dies |
+| **Fight DPS** (resets when combat idles) | Clean number for the pull you just did |
+| **Total damage** (until you hit ↺) | Session totals that don’t vanish mid-run |
+| **Levels** when the game sends them | Roster that looks like your group UI |
+| **Click-through HUD** | Play through the overlay; purple strip / hotkey when you need the mouse |
+| **Auto-update** | Gold **UPDATE** chip when I ship — one click, restart, done |
+
+Built for people who want the meter **and nothing else** in the way. No account. No Discord login. No “Pro” tier. Free for personal use.
 
 ---
 
-## Install (2 minutes)
+## Why this one
 
-1. Grab the zip from [Releases](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest) — the big `.zip`, **not** “Source code”
-2. Extract the folder somewhere you can write
-3. Install [Npcap](https://npcap.com/#download) with **WinPcap API-compatible Mode** checked
+Most meters want you to install half a toolkit, make an account, or bury the download under a website. Eclipse is the opposite:
+
+- **Exe only** in this repo — ready to run
+- **Npcap packets** — reads combat traffic the game already sends. No memory reading, no injecting, no clicking for you
+- **Stays on top** of borderless / windowed AION 2
+- **Updates itself** when I push a Release
+
+If you just want “who did how much damage in this dungeon,” this is that.
+
+---
+
+## Install (about 2 minutes)
+
+1. **[Download the latest Release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** → the `.zip`
+2. Extract somewhere you can write (Desktop folder is fine)
+3. Install [Npcap](https://npcap.com/#download) and check **WinPcap API-compatible Mode**
 4. Run `Aion2-Eclipse.exe`, then enter the world in AION 2
 
-No .NET install needed. No account. Free for personal use — don’t sell it or shove it in a paid pack ([LICENSE](./LICENSE)).
+No .NET desktop runtime to hunt down. Keep `Eclipse.Updater.exe` next to the main exe (it’s in the zip).
+
+**Free.** Don’t sell it, don’t put it in a paid pack — see [LICENSE](./LICENSE).
 
 ---
 
 ## Controls
 
-| Thing | How |
+| Action | How |
 |---|---|
-| Move it | Drag the Eclipse header |
-| Hide / show | Ctrl + Shift + H |
-| Click-through | ◇ or Ctrl + Shift + L |
-| Mouse back on HUD | Purple strip or Ctrl + Shift + L |
-| Reset totals | ↺ or Ctrl + Shift + R |
-| Class skill list | Build |
+| Move | Drag the Eclipse header |
+| Hide / show | `Ctrl + Shift + H` |
+| Click-through | ◇ or `Ctrl + Shift + L` |
+| Mouse back on HUD | Purple strip or `Ctrl + Shift + L` |
+| Reset totals | ↺ or `Ctrl + Shift + R` |
+| Compact / Full | Toggle in the header |
 
 ---
 
-## About updates (read this)
+## Updates
 
-When I ship a new version, I write **what actually changed** in that Release — not just “update available”.
+Every Release has **real notes** (what broke, what I fixed) — not “misc improvements.”
 
-Your Eclipse checks GitHub every couple of minutes. If there’s something newer, you get a gold **UPDATE** button in the header. Click it → it pulls the zip → restarts on the new build. Keep `Eclipse.Updater.exe` next to the main exe (it’s in the zip).
-
-Fresh install? Always take the **latest** Release.
+While Eclipse is open it checks GitHub often. Newer build → gold **UPDATE** in the header → click → download → restart. Always prefer the [latest Release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest) for a fresh install.
 
 ---
 
-## If something’s weird
+## If numbers don’t show
 
-- No numbers → Npcap / driver / run as a normal user with write access to the folder
-- Overlay missing → don’t use exclusive fullscreen
-- Settings & logs live in `data/` next to the exe — don’t share that folder
-- Game patches break packet layouts sometimes. If meters go stupid after a patch, wait for a new Release from me
+- Reinstall Npcap with WinPcap API-compatible mode
+- Don’t use exclusive fullscreen (borderless / windowed)
+- Give the folder write access — settings live in `data/` next to the exe (don’t share that folder)
+- After a big game patch, packet layouts can shift — wait for a new Release from me
 
-Not affiliated with NCSOFT. Made this for my own runs; sharing the build so other people don’t have to reinvent the same HUD.
+Not affiliated with NCSOFT. I built this for my own groups and publish the build so other players can use it free.
+
+**Start here → [Download Eclipse](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)**
 
 — Iota-Nine
