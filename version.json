@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "1.0.4",
-    "tag":  "v1.0.4",
-    "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.4/Aion2-Eclipse-v1.0.4-win-x64.zip",
-    "name":  "Eclipse v1.0.4",
-    "notes":  "Updates show up in a few seconds now. Eclipse watches a tiny version file on GitHub instead of waiting minutes. Click the gold UPDATE chip when it pops.",
-    "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.4"
+    "version":  "1.0.5",
+    "tag":  "v1.0.5",
+    "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.5/Aion2-Eclipse-v1.0.5-win-x64.zip",
+    "name":  "Eclipse v1.0.5",
+    "notes":  "New COMPACT button in the header. Click it for a tight damage graph: target/party name up top, up to 4 players with class icon, DPS/s, total damage on colored bars (cyan for #1, purple for the rest), fight timer + TARGET DPS at the bottom. Click FULL to go back.",
+    "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.5"
 }
