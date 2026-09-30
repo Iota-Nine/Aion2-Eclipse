@@ -1,6 +1,30 @@
-This repository distributes prebuilt Windows binaries of AION 2 · Eclipse via GitHub Releases only.
+AION 2 · Eclipse — Binary Distribution Terms
+Copyright (c) 2026 Iota-Nine. All rights reserved.
 
-Game assets, trademarks, and AION / NCSOFT materials remain property of their respective owners.
-Packet-capture meter logic is derived in part from community RATmeter work; see upstream projects for GPL terms if you obtain corresponding source elsewhere.
+This GitHub repository publishes PREBUILT Windows binaries only.
+No application source code is provided here.
 
-Community project — not affiliated with NCSOFT.
+YOU MAY:
+- Download the official Release zip from this repository
+- Use Eclipse for personal / private play
+- Keep copies for your own machines
+
+YOU MAY NOT, without my prior written permission:
+- Sell, rent, license, or commercially redistribute Eclipse (paid or “donate for download”)
+- Rebrand, repack, or claim the binary as your own product
+- Upload the exe/zip to other storefronts, “premium” Discord bots, or mirror sites for profit
+- Bundle it into a paid pack, cheat suite, or subscription
+- Remove or alter this license / author credit in redistributed copies (if any redistribution is later allowed in writing)
+
+Reverse engineering for interoperability / security research on your own machine is not encouraged;
+shipping a competing paid build derived from this binary is explicitly forbidden under these terms.
+
+Game data, trademarks, and AION / NCSOFT materials belong to their respective owners.
+Packet-capture ideas overlap with community meters (e.g. RATmeter lineage). This repo still
+does not ship source. If you need upstream GPL corresponding source, obtain it from those
+upstream projects — not from here.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND.
+Not affiliated with NCSOFT.
+
+— Iota-Nine
