@@ -1,8 +1,8 @@
 {
-  "version": "1.0.5",
-  "tag": "v1.0.5",
-  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.5/Aion2-Eclipse-v1.0.5-win-x64.zip",
-  "name": "Eclipse v1.0.5",
-  "notes": "COMPACT button: damage graph with up to 4 party members, DPS/s and total damage bars.",
-  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.5"
+  "version": "1.0.6",
+  "tag": "v1.0.6",
+  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.6/Aion2-Eclipse-v1.0.6-win-x64.zip",
+  "name": "Eclipse v1.0.6",
+  "notes": "Compact is a light secondary view: more transparent, total damage only (no DPS), smaller bars.",
+  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.6"
 }
