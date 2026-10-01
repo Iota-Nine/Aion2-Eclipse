@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.26",
-    "tag":  "v1.0.26",
-    "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.26/Aion2-Eclipse-v1.0.26-win-x64.zip",
-    "name":  "Eclipse v1.0.26",
-    "notes":  "bug fixed",
-    "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.26"
+    "version":  "1.0.27",
+    "tag":  "v1.0.27",
+    "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.27/Aion2-Eclipse-v1.0.27-win-x64.zip",
+    "name":  "Eclipse v1.0.27",
+    "notes":  "Fixes packet handling, player identity, combat totals, HUD and update installation. 160 checks passed.",
+    "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.27"
 }
