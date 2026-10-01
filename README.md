@@ -14,8 +14,9 @@ Free AION 2 DPS meter for Windows x64.
 ## Features
 
 - Live party DPS overlay
+- Player levels in the party list
 - Click-through HUD
-- Auto-update
+- Auto-update with download integrity checks
 
 ## Controls
 
