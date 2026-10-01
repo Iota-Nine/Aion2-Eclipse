@@ -1,0 +1,39 @@
+name: Bug report / Signaler un bug
+description: Report a problem with Eclipse installation, capture, updates or shutdown.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please use the latest release first. Ne partagez pas de jeton API, mot de passe ou informations de compte."
+  - type: input
+    id: version
+    attributes:
+      label: Eclipse version / Version Eclipse
+      placeholder: "Example: v1.0.30"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows and AION 2 region / Windows et région du jeu
+      placeholder: "Example: Windows 11 x64, Korea"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected feature / Fonction concernée
+      options:
+        - Installation / Npcap
+        - Capture / Identity / Party levels
+        - Damage / DPS values
+        - Update
+        - Shutdown
+        - Other
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps and actual result / Étapes et résultat obtenu
+      description: Include what you expected and the exact error text, if any.
+    validations:
+      required: true

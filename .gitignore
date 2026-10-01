@@ -4,3 +4,9 @@
 !.gitignore
 !LICENSE
 !version.json
+!CHANGELOG.md
+!docs/
+!docs/**
+!.github/
+!.github/ISSUE_TEMPLATE/
+!.github/ISSUE_TEMPLATE/**
