@@ -3,6 +3,6 @@
     "tag":  "v1.0.26",
     "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v1.0.26/Aion2-Eclipse-v1.0.26-win-x64.zip",
     "name":  "Eclipse v1.0.26",
-    "notes":  "Class icon back on TP alone — no skill needed. Fixed Unknown Class wiping job on teleport; prefs class reinjected.",
+    "notes":  "bug fixed",
     "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.26"
 }
