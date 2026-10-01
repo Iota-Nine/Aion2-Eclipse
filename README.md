@@ -15,6 +15,12 @@ Setup installs Eclipse in your user account and creates Desktop and Start menu s
 
 Start Eclipse before entering the world; if already in-game, teleport once. Join your party after starting Eclipse so its member information can be received.
 
+## Update
+
+Click **UPDATE** in Eclipse. The download is checked before Eclipse closes, and the application restarts after installation.
+
+If an older version closes and reopens without updating, download **v1.0.30 or newer**, close Eclipse and run **Eclipse.Setup.exe** from the extracted ZIP once. This replaces the old update tool. Later updates can use the UPDATE button normally.
+
 ## Features
 
 - Live party DPS overlay
