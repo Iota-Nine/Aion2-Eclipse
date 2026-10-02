@@ -34,6 +34,8 @@ Eclipse is a free AION 2 damage meter for Windows with a live party overlay and 
 | **A/B build comparisons** | Compare completed runs with matching target, region, declared difficulty and personal class. See observed DPS, critical-hit and back-attack changes. |
 | **Personal build profiles** | Save class skill selections, notes, activity and region. Your run keeps a snapshot of the selected profile for later review. |
 | **Dated class meta and community builds** | Refresh MetaRoad's contextual class rankings and links to community builds. Source, update date and regional uncertainty stay visible. Your own runs also form a separate local class ranking. |
+| **Dedicated Rift timers** | Prominent portal countdown, a separate five-minute entry window and one-hour event timer, next four openings in local time and UTC. Select EU, NA, SA, JP, TW or KR from the dated Talentbuilds community reference. |
+| **Rift reminders** | Favourite the Rift and enable its independent alert at 10 minutes before, 5 minutes before or opening. Region, favourite and timing are saved; reminders continue while minimized. |
 | **Boss and event timers** | A dated Korean-server calendar with server time, local time, upcoming events and matchmaking groups; personal monster reminders and target segments are also available. |
 | **Favourite boss alerts** | Star the event, enable **Notify me** and choose **10 minutes before**, **5 minutes before** or **at the scheduled time**. Reminders work while minimized and avoid duplicate alerts. |
 | **English / Français** | English on first launch; switch client, overlay and setup labels to French. Your language choice is saved. |
@@ -41,6 +43,16 @@ Eclipse is a free AION 2 damage meter for Windows with a live party overlay and 
 | **Exports and diagnostics** | Export run data and a share card; create a restricted diagnostic report for support. Logs and authentication tokens are excluded from that report. |
 | **Guided setup and updates** | Included application runtime, automatic prerequisite check, official Npcap installation with consent when needed, shortcuts and verified in-app update downloads. |
 | **Complete shutdown** | Minimize to keep collecting. Close Eclipse to quit its client, overlay and capture process. |
+
+## Dedicated Rift timers
+
+**Catch the entry window. Keep track of the event after the portal closes.** The Rift panel leads the Rifts & events page, works without game capture and shows your next four openings. Its countdown distinguishes a waiting portal, an open entry window and an ongoing event with entry closed.
+
+![AION 2 Rift timer — Eclipse English Spacetime Rift portal countdown, event duration and regional favourite alerts](docs/images/eclipse-rifts-en.png)
+
+Choose your **game server** in the Rift panel, star it and enable the reminder. Rift alerts have their own timing, separate from boss favourites. The new settings leave existing language and boss reminders intact and do not enable audio automatically.
+
+The bundled [Talentbuilds event timeline](https://talentbuilds.com/aion2/events-timeline) reference was checked on **2 October 2026**. Its EU/NA/SA/JP/KR schedules share one clock; TW is one hour later. The site actually calculates openings in **America/New_York (EST/EDT)**, which Eclipse converts per opening to your local time. It lists a **5-minute entry window** and a **1-hour event**. The separate 6sword KR reference lists 15-minute entry. Both sources remain visible: these are attributed scheduled reminders, not confirmation from game packets or an official global timetable. Check the source and in-game notices if the schedules disagree.
 
 ## Screenshots — English interface
 
@@ -72,7 +84,7 @@ The images below come from the native Windows application. Combat data is simula
 
 ## Install Eclipse
 
-1. Open the **[latest release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** and download **`Aion2-Eclipse-v2.1.5-win-x64.zip`** under Assets. GitHub's “Source code” archives are not the application.
+1. Open the **[latest release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** and download **`Aion2-Eclipse-v2.1.6-win-x64.zip`** under Assets. GitHub's “Source code” archives are not the application.
 2. **Extract the entire ZIP** to a folder on your PC.
 3. Run **`Eclipse.Setup.exe`**. Choose your language. If Npcap is missing, setup downloads its official installer, asks for Windows permission and lets you accept the installation wizard. Eclipse continues when it finishes.
 4. Open AION 2. If you were already in the world, teleport or change channels once to receive your character identity. Join or refresh your party after starting Eclipse.
@@ -80,9 +92,9 @@ The images below come from the native Windows application. Combat data is simula
 
 Setup creates Desktop and Start menu shortcuts and installs Eclipse for your Windows account. The application runtime is included; no separate .NET installation is required. Internet is needed for downloads, external sources and updates. The download targets **Windows x64**; native interface checks were performed on Windows 11.
 
-## Upgrade from V1
+## Upgrade from V1 or an earlier V2
 
-**Click UPDATE in V1 to install V2 BETA in the same folder.** V2 uses the same executable name and public update channel. Existing `data` and HUD preferences are preserved; V2 creates its own client history there. The updater verifies the release and checks the installed executable version before restarting it.
+**Click UPDATE in Eclipse to install the latest V2 BETA in the same folder.** V2 uses the same executable name and public update channel. Existing `data` and HUD preferences are preserved; V2 creates its own client history there. The updater verifies the release and checks the installed executable version before restarting it.
 
 If an older updater keeps reopening V1, download the latest ZIP, extract it fully and run **`Eclipse.Setup.exe`** once. V1 is superseded; historical release pages remain available. An already downloaded V1 executable does not disable itself remotely.
 

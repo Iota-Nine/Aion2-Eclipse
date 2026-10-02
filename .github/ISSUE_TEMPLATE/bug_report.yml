@@ -9,7 +9,7 @@ body:
     id: version
     attributes:
       label: Eclipse version / Version Eclipse
-      placeholder: "Example: v2.1.5 BETA"
+      placeholder: "Example: v2.1.6 BETA"
     validations:
       required: true
   - type: input
@@ -30,6 +30,7 @@ body:
         - Dungeon reset / Run history
         - Builds / Meta
         - Boss timers / Alerts
+        - Rift timer / Region / Reminder
         - Glass interface / Language / Overlay
         - Update
         - Shutdown

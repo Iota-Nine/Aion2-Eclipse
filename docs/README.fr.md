@@ -28,6 +28,8 @@ Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Window
 | **Comparaison A/B** | Compare des runs terminés avec cible, région, difficulté déclarée et classe personnelle correspondantes. Observe les variations de DPS, critiques et attaques de dos. |
 | **Profils de build** | Sélection des compétences, notes, activité et région. Chaque run conserve une copie du profil utilisé. |
 | **Méta et builds communautaires** | Actualisation des classements contextuels et liens MetaRoad, avec date, source et incertitude régionale visibles. Classement local séparé d'après tes propres runs. |
+| **Timer des failles** | Panneau prioritaire : prochaine ouverture, entrée de 5 min et événement de 1 h séparés, quatre ouvertures suivantes en heure locale et UTC. Référence Talentbuilds pour EU, NA, SA, JP, TW et KR. |
+| **Alertes de faille** | Favori + rappel indépendant à 10 min, 5 min ou à l’ouverture. Serveur et réglages mémorisés ; rappel actif en fenêtre réduite. |
 | **Chronos de boss et d'événements** | Calendrier daté des serveurs coréens, heure du serveur et heure locale, groupes de matchmaking, segments de cibles et rappels personnels de monstres. |
 | **Alertes de boss favoris** | Étoile + **Notify me**, puis choix entre **10 min avant**, **5 min avant** et **à l'heure prévue**. Fonctionne en fenêtre réduite, sans doublons. |
 | **Anglais / Français** | Anglais à la première ouverture, français dans les réglages du client, du HUD et du setup. Choix mémorisé. |
@@ -35,6 +37,14 @@ Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Window
 | **Exports et diagnostic** | Données du run, carte de partage et rapport de diagnostic limité, sans journaux ni jeton d'authentification. |
 | **Setup et mises à jour** | Runtime inclus, prérequis vérifiés, installation officielle Npcap avec consentement si nécessaire, raccourcis et téléchargement UPDATE vérifié. |
 | **Fermeture complète** | Réduire conserve la capture. La croix ferme le client, le HUD et le processus de capture. |
+
+## Le nouveau timer des failles
+
+Le panneau de la faille apparaît en premier dans **Rifts & events**. Il distingue l'ouverture du portail, la fermeture de l'entrée et la fin de l'événement. Choisis ton serveur de jeu, ajoute la faille aux favoris et active son rappel ; le délai est indépendant des boss et fonctionne sans capture du jeu. Aucun son n'est activé automatiquement.
+
+![Timer de faille AION 2 — capture anglaise du panneau Eclipse, portail et événement séparés](images/eclipse-rifts-en.png)
+
+Référence communautaire [Talentbuilds](https://talentbuilds.com/aion2/events-timeline), vérifiée le **2 octobre 2026** : EU/NA/SA/JP/KR partagent les horaires de cette source, TW est une heure plus tard. Son calcul suit New York (EST/EDT) ; Eclipse convertit chaque ouverture dans ton fuseau. Talentbuilds indique 5 min d'entrée et 1 h d'événement, alors que la référence KR de 6sword indique 15 min d'entrée. Les sources restent distinctes et visibles. Ce sont des rappels de calendrier, pas une détection réelle du portail ni des horaires globaux officiellement confirmés. Consulte la source et les annonces du jeu en cas d'écart.
 
 ## Captures — interface anglaise
 
@@ -54,7 +64,7 @@ Les images viennent du client Windows natif et utilisent des données de démons
 
 ## Installation
 
-1. Dans la **[dernière release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)**, télécharge **`Aion2-Eclipse-v2.1.5-win-x64.zip`** dans Assets. Les archives « Source code » de GitHub ne contiennent pas l'application.
+1. Dans la **[dernière release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)**, télécharge **`Aion2-Eclipse-v2.1.6-win-x64.zip`** dans Assets. Les archives « Source code » de GitHub ne contiennent pas l'application.
 2. **Extrais tout le ZIP** dans un dossier de ton PC.
 3. Lance **`Eclipse.Setup.exe`** et choisis la langue. Si Npcap manque, l'assistant télécharge son installateur officiel. Accepte la permission Windows et termine l'assistant Npcap ; Eclipse continue automatiquement.
 4. Lance AION 2. Si tu étais déjà en jeu, téléporte-toi ou change de canal une fois. Rejoins ou actualise le groupe après avoir ouvert Eclipse.
@@ -62,7 +72,7 @@ Les images viennent du client Windows natif et utilisent des données de démons
 
 Le setup installe Eclipse pour ton compte Windows et crée les raccourcis Bureau et menu Démarrer. Le runtime est inclus : aucune installation .NET séparée. Internet est nécessaire pour les téléchargements, les sources externes et les mises à jour. Le paquet cible **Windows x64** ; l'interface native a été vérifiée sous Windows 11.
 
-## Mise à jour depuis la V1
+## Mise à jour depuis la V1 ou une V2 précédente
 
 **UPDATE installe la V2 BETA dans le même dossier.** Le nom de l'exécutable et le canal public restent compatibles. Le dossier `data` et les réglages du HUD sont conservés ; le client V2 y ajoute son historique. L'updater vérifie la release et la version réellement installée avant de relancer Eclipse.
 

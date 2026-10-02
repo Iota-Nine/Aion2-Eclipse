@@ -1,5 +1,16 @@
 # Eclipse release notes
 
+## v2.1.6 — Rift entry and event timers
+
+- Dedicated Rift panel at the top of Rifts & events, with waiting, scheduled portal-open and event-active/entry-closed phases.
+- Separate five-minute entry and one-hour event clocks, progress bars and next four local/UTC openings.
+- Dated Talentbuilds regional reference for EU, NA, SA, JP, TW and KR, using the site’s America/New_York clock including DST and the TW one-hour difference.
+- Independent favourite reminders at 10 minutes before, 5 minutes before or opening; saved region and timing, minimized operation, restart deduplication and no missed-alert replay after sleep.
+- English default and translated French controls. Existing boss schedules, language choices and preferences are retained; new Rift alerts start disabled.
+- Source and verification date visible. Talentbuilds’s five-minute entry differs from the separate 6sword KR reference; neither source is presented as live portal detection or a confirmed global schedule.
+
+Validation: 432 logic checks, native Rift phases and FR/EN/regional control checks, favourite audio timings and minimized notification checks. Actual ZIP migration verified from copied V1 and 2.1.5 installations with existing data preserved.
+
 ## v2.1.5 — Eclipse V2 BETA, the main update
 
 V2 replaces V1 on the official download and update channel. This is the full Glass client release for existing Eclipse users and new installations.
