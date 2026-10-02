@@ -1,93 +1,111 @@
-# Eclipse â€” Free AION 2 DPS Meter for Windows
+# Eclipse V2 BETA — Free AION 2 DPS Meter & Combat Analyzer
 
-![Eclipse AION 2 DPS meter â€” live party damage overlay for Windows](docs/images/eclipse-banner.svg)
+![Eclipse V2 BETA — AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
 
 [![Latest release](https://img.shields.io/github/v/release/Iota-Nine/Aion2-Eclipse?label=Download&color=75bdcf)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Iota-Nine/Aion2-Eclipse/total?color=9384d0)](https://github.com/Iota-Nine/Aion2-Eclipse/releases)
-[![Windows x64](https://img.shields.io/badge/Windows-x64-507cab)](#installation)
+![Public BETA](https://img.shields.io/badge/V2-PUBLIC%20BETA-d8bd88)
+![Windows x64](https://img.shields.io/badge/Windows-x64-507cab)
+![English and French](https://img.shields.io/badge/Language-EN%20%2F%20FR-75bdcf)
 
-**Eclipse is a free AION 2 damage meter with a live party DPS overlay, total damage, player levels and a movable HUD.** Follow your group's combat performance while playing. No account or signup required.
+**See your party's DPS while you play. Understand the whole run when you finish.**
 
-**[Download Eclipse for Windows](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** Â· [FranÃ§ais](docs/README.fr.md) Â· [What's new](CHANGELOG.md) Â· [Report a bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
+Eclipse is a free AION 2 damage meter for Windows with a live party overlay and a full Glass desktop client. Follow damage, inspect skills, review dungeon runs and compare your builds in one place. Keep it on a second monitor, minimize it during the fight, then come back to your expedition summary.
 
-Download the **Windows `.zip` asset**, not GitHub's â€œSource codeâ€ archive. This repository distributes prebuilt binaries; application source code is not published here.
+**[Download Eclipse V2 BETA for Windows](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** · [Français](docs/README.fr.md) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-## Available now
+**V2 BETA is the main Eclipse update and replaces V1.** Existing users can use **UPDATE**; new users get the same V2 ZIP. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
 
-| Feature | What it does |
+![AION 2 DPS meter — Eclipse V2 BETA English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
+
+*Native screenshot of the released client. All gallery combat values are explicitly labelled demo data.*
+
+## A clearer view of every fight
+
+| Feature | What you get |
 |---|---|
-| **Live party DPS meter** | Shows received damage and average damage per second for your party. |
-| **Total combat damage** | Keeps damage totals across targets until the encounter is reset. |
-| **Player levels** | Displays levels when identity packets provide them; missing levels remain unknown. |
-| **Movable, click-through overlay** | Position the compact HUD on your game screen and let clicks pass through. |
-| **Guided Windows setup** | Detects prerequisites, opens the official Npcap installer when needed and creates shortcuts. |
-| **In-app updates** | Verifies downloads, installs the release and reports failures. |
-| **Complete shutdown** | Closing Eclipse quits its auxiliary windows and capture process. |
+| **Live party DPS overlay** | Your party's observed DPS, total damage, contribution and received player levels. The HUD starts enabled and shares the client's measurements. |
+| **Glass desktop client** | Translucent panels, animated AION artwork, Eclipse branding and an entirely silent startup intro. Move, resize or place the client on another monitor. |
+| **Dungeon / teleport reset** | A recognized local teleport packet ends the previous run and resets damage and DPS. The previous summary is archived before the next hits are counted. |
+| **Party and skill analysis** | Inspect each member's damage, skill breakdown, critical hits, back attacks, maximum hits and received death counts. Nearby players outside the identified party are excluded. |
+| **Expedition summary** | Total damage, duration, party contribution, burst windows, gaps between hits and target segments, together with the declared build used for that run. |
+| **Interactive damage timeline** | Select a time range, inspect individual hits and find strong five-second burst windows. Large runs keep complete totals and mark partial timeline coverage when relevant. |
+| **Run history** | Local archives, search and filters, favourites, notes, interrupted-run recovery and configurable retention. Reopen a previous encounter after the dungeon. |
+| **A/B build comparisons** | Compare completed runs with matching target, region, declared difficulty and personal class. See observed DPS, critical-hit and back-attack changes. |
+| **Personal build profiles** | Save class skill selections, notes, activity and region. Your run keeps a snapshot of the selected profile for later review. |
+| **Dated class meta and community builds** | Refresh MetaRoad's contextual class rankings and links to community builds. Source, update date and regional uncertainty stay visible. Your own runs also form a separate local class ranking. |
+| **Boss and event timers** | A dated Korean-server calendar with server time, local time, upcoming events and matchmaking groups; personal monster reminders and target segments are also available. |
+| **Favourite boss alerts** | Star the event, enable **Notify me** and choose **10 minutes before**, **5 minutes before** or **at the scheduled time**. Reminders work while minimized and avoid duplicate alerts. |
+| **English / Français** | English on first launch; switch client, overlay and setup labels to French. Your language choice is saved. |
+| **Performance controls** | Adjust transparency, animation quality and always-on-top behaviour. Visual effects stop when minimized while capture, timers and saving continue. |
+| **Exports and diagnostics** | Export run data and a share card; create a restricted diagnostic report for support. Logs and authentication tokens are excluded from that report. |
+| **Guided setup and updates** | Included application runtime, automatic prerequisite check, official Npcap installation with consent when needed, shortcuts and verified in-app update downloads. |
+| **Complete shutdown** | Minimize to keep collecting. Close Eclipse to quit its client, overlay and capture process. |
 
-## Installation
+## Screenshots — English interface
 
-1. Open **[the latest release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** and download `Aion2-Eclipse-â€¦-win-x64.zip`.
-2. Extract the **entire ZIP** to a writable folder, such as Documents.
-3. Run **`Eclipse.Setup.exe`**.
-4. Accept the Windows permission prompt. If Npcap is missing, setup downloads and opens its official installer: review and accept its installation wizard.
-5. Open AION 2, enter the world and use a skill. If Eclipse was started after entering the world, teleport or change channels once. Join your party after starting Eclipse so its identity information can be received.
+The images below come from the native Windows application. Combat data is simulated for the gallery; no real player records are published.
 
-Setup installs Eclipse in your Windows user account and creates Desktop and Start menu shortcuts. The .NET runtime is included. Internet access is required for downloads and for fetching [Npcap](https://npcap.com/#download) when absent.
+### Party analysis
 
-**Windows 11 x64 is recommended.** Existing portable installations can continue to run; missing prerequisites also trigger setup guidance at first launch.
+![Eclipse AION 2 party DPS analysis — English player damage, critical hits and skill breakdown](docs/images/eclipse-analysis-en.png)
 
-## Updates and recent fixes
+### Expedition summary
 
-Click **UPDATE** in Eclipse. The release download is checked before Eclipse closes; the client restarts after installation.
+![AION 2 dungeon run summary — total party damage, burst DPS and target segments in Eclipse](docs/images/eclipse-summary-en.png)
 
-**v1.0.30 fixes the update loop and processes left running after closing the window.** It also improves recovery from locked or read-only files and exposes update failures. See the [changelog](CHANGELOG.md) and [release notes](https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.30).
+### Run history
 
-**Stuck on an older version?** Close Eclipse, download the latest ZIP, extract it and run **`Eclipse.Setup.exe` once**. This replaces the old update tool; subsequent updates can use UPDATE normally.
+![Eclipse AION 2 combat history — English saved runs, favourites and build comparison](docs/images/eclipse-history-en.png)
 
-## Controls
+### Builds and dated meta
 
-| Action | Shortcut |
-|---|---|
-| Hide / show the HUD | `Ctrl+Shift+H` |
-| Toggle click-through | `Ctrl+Shift+L` |
-| Reset the encounter | `Ctrl+Shift+R` |
+![Eclipse AION 2 builds and meta — English personal profiles and dated community sources](docs/images/eclipse-builds-en.png)
 
-## Frequently asked questions
+### Boss and event reminders
 
-**Does it work in Europe or with a different Windows language?**
+![AION 2 boss timers in Eclipse — English Korean-server event calendar and favourite alerts](docs/images/eclipse-timers-en.png)
 
-There is no country or Windows-language restriction. Compatibility depends on the AION 2 client protocol, capture driver and PC configuration. Every region and machine has not been validated; a country alone does not establish compatibility.
+### Overlay
 
-**Does Eclipse use an official AION 2 API?**
+![Eclipse AION 2 English DPS overlay — party damage, player levels and compact live HUD](docs/images/eclipse-overlay-en.png)
 
-Combat values come from locally received network events. Eclipse does not obtain damage from an official NCSOFT combat API. Its local API is a separate interface for reading Eclipse's own state.
+## Install Eclipse
 
-**Why doesn't DPS reset to zero every second?**
+1. Open the **[latest release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** and download **`Aion2-Eclipse-v2.1.5-win-x64.zip`** under Assets. GitHub's “Source code” archives are not the application.
+2. **Extract the entire ZIP** to a folder on your PC.
+3. Run **`Eclipse.Setup.exe`**. Choose your language. If Npcap is missing, setup downloads its official installer, asks for Windows permission and lets you accept the installation wizard. Eclipse continues when it finishes.
+4. Open AION 2. If you were already in the world, teleport or change channels once to receive your character identity. Join or refresh your party after starting Eclipse.
+5. The **overlay is enabled by default**. Use the desktop client on the same display or a second monitor. Open Preferences for French, transparency and performance settings.
 
-Encounter DPS is **total received damage Ã· encounter duration**. It is an average, so it does not reset each second. A rolling burst measurement answers a different question: damage over a recent time window.
+Setup creates Desktop and Start menu shortcuts and installs Eclipse for your Windows account. The application runtime is included; no separate .NET installation is required. Internet is needed for downloads, external sources and updates. The download targets **Windows x64**; native interface checks were performed on Windows 11.
 
-**Are the damage values real?**
+## Upgrade from V1
 
-Live damage values are calculated from received combat events. Missing packets, incomplete identity information or a game protocol change can limit coverage. Unknown levels and missing information are not invented. A DPS ranking alone does not measure tanking, healing or support quality.
+**Click UPDATE in V1 to install V2 BETA in the same folder.** V2 uses the same executable name and public update channel. Existing `data` and HUD preferences are preserved; V2 creates its own client history there. The updater verifies the release and checks the installed executable version before restarting it.
 
-**Npcap missing, no party or unknown levels?**
+If an older updater keeps reopening V1, download the latest ZIP, extract it fully and run **`Eclipse.Setup.exe`** once. V1 is superseded; historical release pages remain available. An already downloaded V1 executable does not disable itself remotely.
 
-Run `Eclipse.Setup.exe`, finish the Npcap wizard if offered, then start Eclipse before entering the world. Teleport or change channels once and rejoin the party. If it persists, [report the problem](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose) with your Eclipse version, Windows version, game region and reproduction steps.
+## How the numbers work
 
-## Eclipse V2 â€” prototype in development
+**Are these real damage values?** In normal mode, Eclipse uses damage events received from AION 2 network traffic. Demo mode is explicitly marked. Values that have not arrived remain unknown; player levels are shown only when received. Capture started late, missing packets or a changed game protocol can affect completeness.
 
-A separate, unpublished V2 prototype is being tested: a glass desktop client for a second monitor, expedition summaries, per-player and per-skill analysis, selectable timelines, A/B run comparison, personal build profiles, dated meta sources and monster combat timers with personal respawn reminders.
+**Why doesn't DPS reset every second?** DPS is a rate calculated from damage over a duration. The HUD shows the current fight's average, the full client shows the run average, and the timeline and five-second burst view show short windows. Total damage accumulates until the run is ended or reset.
 
-**These V2 features are not included in the current public v1.0.30 ZIP.** Respawn reminders use a user-declared delay and server/channel context; they are not a verified universal spawn schedule. Demonstration screenshots contain fictional data. Meta sources are dated and region-specific; a KR ranking is not presented as a validated European meta.
+**Does it detect every dungeon name?** Automatic boundaries currently rely on the recognized local teleport / login packet, including instance transitions. Other teleports also reset the run. V2 does not claim a complete dungeon-name database, and a transition without that packet cannot be guaranteed. Party queue changes alone do not erase combat.
 
-![Eclipse V2 prototype â€” glass AION 2 party DPS client with fictional demonstration data](docs/images/eclipse-v2-prototype-combat.png)
+**Is there an official AION API?** Combat capture uses local network packets through Npcap. Eclipse also exposes its own authenticated, loopback-only local API for local integrations; that is separate from an official game API. Meta and build sources are fetched over HTTPS.
 
-![Eclipse V2 prototype expedition summary â€” party damage and peak burst using fictional data](docs/images/eclipse-v2-prototype-summary.png)
+**Will it work from another country?** Your physical location and interface language do not choose the game protocol. Windows configuration, network adapters and the AION 2 server/client version matter. Choose the appropriate source region in Preferences and use the connection page to diagnose capture. BETA compatibility is not guaranteed for every machine or future regional patch.
 
-Prototype interface previews; **not the released v1 client**. AION 2 artwork: NCSOFT, from the official AION 2 website. These are demonstration captures, not player-performance benchmarks.
+**Are boss timers live spawn detection?** They are scheduled reminders. The built-in timetable is a dated transcription for **Korean servers**, converted to your local time, based on [6Sword's AION 2 timers](https://6sword.com/en/aion2/timers) and the linked official notices. Other regions remain pending official schedules; Eclipse does not substitute Korean times for Europe or North America. The favourite alarm is optional; the intro stays silent.
 
-## Support and project terms
+**Is the class meta universal?** No. [MetaRoad's contextual tier list](https://metaroad.gg/aion2/getting-started/aion-2-class-tier-list-before-global-launch-best-classes-for-pve-pvp) and [community builds](https://metaroad.gg/aion2/community-builds) are dated community sources. The app refreshes them at launch and periodically, shows cached dates if unavailable and keeps regional uncertainty visible. Local rankings reflect only your saved runs, not all players.
 
-[Report a bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose), include useful reproduction details, and avoid sharing API tokens or account credentials. If Eclipse helps your party, starring the repository helps other players discover it.
+## Feedback and project information
 
-Free for personal use under the [binary distribution terms](LICENSE). Eclipse is an independent community tool and is not affiliated with NCSOFT. AION 2 and related artwork belong to their respective owners.
+Found a capture, update or interface problem? **[Open a bug report](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)** with your Eclipse version, Windows version, game region and reproduction steps. Use the diagnostic export in Preferences and review what you share.
+
+Eclipse is maintained by **Iota-Nine** as an independent AION 2 community project. This repository distributes prebuilt Windows releases and their documentation. Personal data, API tokens and local combat archives are not part of the public download.
+
+AION, AION 2, NCSOFT artwork and game data belong to their respective owners. Eclipse is not affiliated with or endorsed by NCSOFT. Community packet-capture lineage and third-party components are acknowledged in the project; see [distribution terms](LICENSE).

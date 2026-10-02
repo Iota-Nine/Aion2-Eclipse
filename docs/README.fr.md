@@ -1,66 +1,93 @@
-# Eclipse — compteur DPS AION 2 gratuit pour Windows
+# Eclipse V2 BETA — Compteur DPS AION 2 et analyse des combats
 
-**Eclipse affiche les DPS du groupe, les dégâts reçus, les niveaux des joueurs et un HUD déplaçable pour AION 2.** Gratuit pour un usage personnel, sans compte ni inscription.
+![Eclipse V2 BETA — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
-**[Télécharger Eclipse](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** · [English](../README.md) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
+**Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
+
+Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Windows à l'interface translucide. Regarde les compétences qui font la différence, conserve tes bilans et compare tes builds. Place le client sur un deuxième écran, réduis-le pendant le combat, puis retrouve ton résumé après le donjon.
+
+**[Télécharger Eclipse V2 BETA](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** · [English](../README.md) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
+
+**La V2 BETA est la mise à jour principale d'Eclipse et remplace la V1.** Depuis la V1, clique sur **UPDATE**. Les nouveaux utilisateurs téléchargent le même ZIP. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
+
+![Interface anglaise d'Eclipse V2 BETA — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
+
+*Capture de l'application Windows publiée, avec des valeurs fictives signalées dans l'interface. Toutes les captures de présentation sont en anglais.*
+
+## Toutes les fonctionnalités
+
+| Fonction | Ce qu'elle apporte |
+|---|---|
+| **HUD DPS du groupe** | DPS observés, dégâts totaux, contribution et niveaux reçus. L'overlay démarre activé et partage les mesures du client. |
+| **Client Glass** | Panneaux translucides, illustrations AION animées, identité Eclipse et intro silencieuse. Fenêtre déplaçable et redimensionnable, compatible avec un deuxième écran. |
+| **Nouveau run à la téléportation** | Le paquet local reconnu clôt le précédent bilan et remet les compteurs à zéro avant les nouveaux dégâts. Le précédent run reste dans l'historique. |
+| **Analyse du groupe et des compétences** | Dégâts de chaque joueur, poids des compétences, critiques, attaques de dos, coups maximums et morts reçues. Les attaquants proches hors du groupe identifié sont exclus. |
+| **Bilan d'expédition** | Dégâts, durée, contribution, fenêtres de burst, périodes sans impacts, segments de cibles et contexte du build choisi. |
+| **Courbe interactive** | Sélection d'une plage de temps, inspection des impacts et recherche de fenêtres fortes de cinq secondes. Les totaux restent complets lorsque la courbe est partielle. |
+| **Historique local** | Recherche, filtres, favoris, notes, récupération des runs interrompus et durée de conservation réglable. |
+| **Comparaison A/B** | Compare des runs terminés avec cible, région, difficulté déclarée et classe personnelle correspondantes. Observe les variations de DPS, critiques et attaques de dos. |
+| **Profils de build** | Sélection des compétences, notes, activité et région. Chaque run conserve une copie du profil utilisé. |
+| **Méta et builds communautaires** | Actualisation des classements contextuels et liens MetaRoad, avec date, source et incertitude régionale visibles. Classement local séparé d'après tes propres runs. |
+| **Chronos de boss et d'événements** | Calendrier daté des serveurs coréens, heure du serveur et heure locale, groupes de matchmaking, segments de cibles et rappels personnels de monstres. |
+| **Alertes de boss favoris** | Étoile + **Notify me**, puis choix entre **10 min avant**, **5 min avant** et **à l'heure prévue**. Fonctionne en fenêtre réduite, sans doublons. |
+| **Anglais / Français** | Anglais à la première ouverture, français dans les réglages du client, du HUD et du setup. Choix mémorisé. |
+| **Réglages de performance** | Transparence, qualité des animations et premier plan. Les effets s'arrêtent en fenêtre réduite ; capture, chronos et sauvegardes continuent. |
+| **Exports et diagnostic** | Données du run, carte de partage et rapport de diagnostic limité, sans journaux ni jeton d'authentification. |
+| **Setup et mises à jour** | Runtime inclus, prérequis vérifiés, installation officielle Npcap avec consentement si nécessaire, raccourcis et téléchargement UPDATE vérifié. |
+| **Fermeture complète** | Réduire conserve la capture. La croix ferme le client, le HUD et le processus de capture. |
+
+## Captures — interface anglaise
+
+Les images viennent du client Windows natif et utilisent des données de démonstration. Aucun historique de joueur réel n'est publié.
+
+![Analyse DPS AION 2 — dégâts, critiques et compétences du groupe dans Eclipse](images/eclipse-analysis-en.png)
+
+![Résumé de donjon AION 2 — dégâts totaux, burst et segments de cibles](images/eclipse-summary-en.png)
+
+![Historique des runs AION 2 — favoris et comparaison des builds dans Eclipse](images/eclipse-history-en.png)
+
+![Builds et méta AION 2 — profils personnels et sources datées](images/eclipse-builds-en.png)
+
+![Chronos de boss AION 2 — calendrier coréen et alertes de favoris en anglais](images/eclipse-timers-en.png)
+
+![HUD Eclipse AION 2 — overlay anglais avec DPS, dégâts et niveaux du groupe](images/eclipse-overlay-en.png)
 
 ## Installation
 
-1. Télécharge le fichier **`Aion2-Eclipse-…-win-x64.zip`** dans la dernière release. Ne prends pas « Source code ».
-2. Extrais **tout le ZIP** dans un dossier accessible en écriture, par exemple Documents.
-3. Lance **`Eclipse.Setup.exe`**.
-4. Accepte la demande Windows. Si Npcap manque, le setup télécharge et ouvre son installateur officiel : lis et accepte son assistant.
-5. Entre dans AION 2 et utilise une compétence. Si tu étais déjà en jeu, téléporte-toi ou change de canal une fois. Rejoins le groupe après avoir démarré Eclipse pour recevoir ses informations.
+1. Dans la **[dernière release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)**, télécharge **`Aion2-Eclipse-v2.1.5-win-x64.zip`** dans Assets. Les archives « Source code » de GitHub ne contiennent pas l'application.
+2. **Extrais tout le ZIP** dans un dossier de ton PC.
+3. Lance **`Eclipse.Setup.exe`** et choisis la langue. Si Npcap manque, l'assistant télécharge son installateur officiel. Accepte la permission Windows et termine l'assistant Npcap ; Eclipse continue automatiquement.
+4. Lance AION 2. Si tu étais déjà en jeu, téléporte-toi ou change de canal une fois. Rejoins ou actualise le groupe après avoir ouvert Eclipse.
+5. **L'overlay est activé par défaut.** Déplace le grand client sur l'écran de ton choix. Dans Preferences, choisis Français, la transparence et la qualité des effets.
 
-Le setup crée les raccourcis Bureau et menu Démarrer et installe Eclipse dans ton compte Windows. Le runtime .NET est inclus. Internet est nécessaire pour télécharger Npcap s'il manque. Windows 11 x64 est recommandé.
+Le setup installe Eclipse pour ton compte Windows et crée les raccourcis Bureau et menu Démarrer. Le runtime est inclus : aucune installation .NET séparée. Internet est nécessaire pour les téléchargements, les sources externes et les mises à jour. Le paquet cible **Windows x64** ; l'interface native a été vérifiée sous Windows 11.
 
-## Fonctions de la version publique
+## Mise à jour depuis la V1
 
-- DPS moyens du groupe et dégâts de combat, cumulés entre les cibles jusqu'au reset.
-- Niveaux des joueurs lorsque leurs informations sont reçues ; les valeurs manquantes restent inconnues.
-- HUD déplaçable et mode laissant passer les clics.
-- Setup guidé et détection des prérequis.
-- Mise à jour intégrée avec vérification du téléchargement et récupération des erreurs.
-- Fermeture du client, du HUD et de la capture.
+**UPDATE installe la V2 BETA dans le même dossier.** Le nom de l'exécutable et le canal public restent compatibles. Le dossier `data` et les réglages du HUD sont conservés ; le client V2 y ajoute son historique. L'updater vérifie la release et la version réellement installée avant de relancer Eclipse.
 
-## Mise à jour et fermeture corrigées en v1.0.30
+Si un ancien updater boucle sur la V1, télécharge le dernier ZIP, extrais-le entièrement et lance **`Eclipse.Setup.exe`** une fois. La V1 est remplacée, mais les anciennes pages de release restent accessibles. Un ancien exécutable déjà téléchargé ne se désactive pas à distance.
 
-La v1.0.30 corrige UPDATE qui ferme puis rouvre l'ancienne version, ainsi que la croix laissant Eclipse en arrière-plan. Elle gère mieux les fichiers verrouillés et conserve les détails d'échec. [Notes de release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v1.0.30).
+## Mesures et sources
 
-Si une ancienne version reste bloquée, ferme Eclipse, télécharge et extrais le dernier ZIP, puis lance **`Eclipse.Setup.exe` une fois** pour remplacer l'ancien outil de mise à jour. Ensuite, utilise UPDATE normalement.
+**Les dégâts sont-ils réels ?** En utilisation normale, Eclipse lit les événements de dégâts reçus dans le trafic AION 2. La démo est clairement signalée. Les niveaux non reçus restent inconnus. Une capture démarrée tard, des paquets manquants ou un changement de protocole peuvent affecter la complétude.
 
-## Raccourcis
+**Pourquoi le DPS ne revient pas à zéro chaque seconde ?** C'est un débit : dégâts divisés par une durée. Le HUD affiche la moyenne du combat courant ; le client affiche celle du run. La courbe et le burst de cinq secondes décrivent des fenêtres courtes. Les dégâts totaux s'accumulent jusqu'à la fin ou la remise à zéro du run.
 
-| Action | Raccourci |
-|---|---|
-| Afficher / masquer le HUD | `Ctrl+Shift+H` |
-| Laisser passer les clics | `Ctrl+Shift+L` |
-| Réinitialiser le combat | `Ctrl+Shift+R` |
+**Tous les donjons sont-ils nommés automatiquement ?** Les frontières reposent sur le paquet local de téléportation / connexion reconnu, notamment pour les changements d'instance. Les autres téléportations remettent aussi le run à zéro. Il n'y a pas de base exhaustive des noms de donjons ; une transition sans ce paquet n'est pas garantie. Modifier une file de groupe ne clôt pas le combat.
 
-## Comprendre les valeurs
+**API ou réseau ?** La capture combat utilise les paquets locaux via Npcap. L'API locale authentifiée d'Eclipse sert aux intégrations sur ton PC ; ce n'est pas une API officielle du jeu. Les sources de méta et de builds sont consultées en HTTPS.
 
-Les données de combat viennent des événements réseau reçus localement, pas d'une API officielle de combat NCSOFT. L'API locale d'Eclipse donne accès à l'état calculé par Eclipse.
+**Depuis un autre pays ?** Le pays et la langue de l'interface ne choisissent pas le protocole du jeu. Windows, les cartes réseau et la version du client / serveur AION 2 comptent. Choisis la bonne région de source et consulte le panneau de connexion. Cette BETA ne garantit pas chaque PC ni chaque futur patch régional.
 
-Les DPS du combat sont **les dégâts totaux reçus divisés par la durée du combat**. Ils ne repartent donc pas à zéro chaque seconde. Des paquets manquants, une identité incomplète ou un changement du protocole du jeu peuvent limiter la couverture. Le classement DPS ne résume pas la qualité des soins, du tanking ou du soutien.
+**Les chronos confirment-ils une apparition ?** Ce sont des rappels d'horaires. Le calendrier intégré est une transcription datée pour les **serveurs coréens**, convertie dans ton heure locale, d'après [6Sword](https://6sword.com/en/aion2/timers) et ses liens officiels. Les autres régions attendent des horaires officiels ; les horaires coréens ne sont pas appliqués à l'Europe ou à l'Amérique du Nord. Seuls les favoris explicitement activés sonnent. L'intro reste silencieuse.
 
-Le logiciel n'impose pas de restriction de pays ou de langue Windows. Sa compatibilité dépend du client AION 2, du pilote de capture et du PC ; toutes les régions et configurations n'ont pas été validées.
+**La méta est-elle universelle ?** Les [classements contextuels MetaRoad](https://metaroad.gg/aion2/getting-started/aion-2-class-tier-list-before-global-launch-best-classes-for-pve-pvp) et les [builds communautaires](https://metaroad.gg/aion2/community-builds) sont des sources datées. L'app les actualise au démarrage et périodiquement, affiche le cache daté si elles sont indisponibles et signale l'incertitude régionale. Le classement local représente uniquement tes runs sauvegardés.
 
-## V2 en préparation
+## Retours et projet
 
-Une copie séparée est en test : client translucide pour deuxième écran, bilan d'expédition, compétences et cibles, sélection d'une plage de temps, comparaison A/B, favoris et notes, profils de builds, sources méta datées, réglages de performance et chronos de monstres.
+**[Signale un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)** avec la version Eclipse, Windows, la région du jeu et les étapes du problème. Tu peux générer un diagnostic depuis Preferences et vérifier ce que tu partages.
 
-**La V2 n'est pas dans le ZIP public v1.0.30.** Les rappels de respawn reposent sur un délai déclaré et un serveur/canal ; ils ne garantissent pas un horaire officiel. Les démos utilisent des valeurs fictives, et une source méta KR n'est pas présentée comme une méta européenne validée.
+Eclipse est maintenu par **Iota-Nine**, comme projet communautaire indépendant. Ce dépôt distribue les releases Windows compilées et leur documentation. Les données personnelles, jetons API et archives de combat locales sont exclus du téléchargement public.
 
-![Prototype Eclipse V2 — client AION 2 Glass, démonstration avec données fictives](images/eclipse-v2-prototype-combat.png)
-
-![Bilan d'expédition Eclipse V2 — dégâts du groupe et burst, données fictives](images/eclipse-v2-prototype-summary.png)
-
-Captures du prototype, distinct du client v1 distribué. Visuels AION 2 : NCSOFT, issus du site officiel du jeu.
-
-## Aide
-
-Pour un souci de Npcap, relance le setup et termine son assistant. Pour une identité ou un groupe manquant, démarre Eclipse avant d'entrer dans le monde, téléporte-toi et rejoins le groupe.
-
-[Signale un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose) avec la version Eclipse, la version Windows, la région du jeu et les étapes permettant de reproduire le problème. Ne partage pas de jeton API ni d'identifiant de compte.
-
-Le dépôt distribue les exécutables précompilés ; le code source de l'application n'y est pas publié. [Conditions de distribution](../LICENSE). Projet communautaire indépendant, sans affiliation avec NCSOFT. AION 2 et ses visuels appartiennent à leurs titulaires respectifs.
+AION, AION 2, les illustrations NCSOFT et les données du jeu appartiennent à leurs ayants droit. Eclipse n'est pas affilié à NCSOFT. Voir les [conditions de distribution](../LICENSE).
