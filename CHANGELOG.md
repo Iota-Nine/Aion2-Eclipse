@@ -1,6 +1,20 @@
 # Eclipse release notes
 
+## v2.1.7 — Corrected regional schedules, conditional UPDATE and official website
+
+- AION2Hub replaces the former timer sources. Global EU/NA/SA/JP and Korea use fixed UTC+9, Taiwan UTC+8. Region-specific Rift openings convert to the device timezone without following US DST.
+- Travel Rift entry/lifetime is unspecified by the new source. Removed the unconfirmed five-minute entry and one-hour activity phases; show the server clock and next opening instead.
+- Corrected regional Kaira intervals, executor weekdays, Abyss Event, siege bosses and KR/TW-only activities. Removed unsupported matchmaking offsets. Each card links to its dated community source.
+- Boss favourite keys, Rift selection, language and reminder timing are preserved. Alert delivery IDs include the service; former-source receipts do not suppress corrected openings.
+- UPDATE appears in the full client only when a newer release is detected, matching the overlay. A glass progress panel shows the real download percentage and animated verification/preparation phases. Report a bug opens the new official website form with the installed version.
+- Version 2.1.7 replaces the current BETA labels in client, overlay, intro and promotional screenshots. This branding change does not guarantee every future regional protocol.
+- English/French website, native English screenshots, optional original ambient music, guided download and private persistent bug reports with JSON export. No automatic player-log upload.
+
+Validation: 436 logic checks, native regional/FR/EN/reminder/update/close checks, final ZIP migrations from V1 and 2.1.6, 424 original files unchanged. Website form persistence, JSON download, language and mobile layout checked locally.
+
 ## v2.1.6 — Rift entry and event timers
+
+The schedules and portal durations in this historical release were superseded by the corrected 2.1.7 source below.
 
 - Dedicated Rift panel at the top of Rifts & events, with waiting, scheduled portal-open and event-active/entry-closed phases.
 - Separate five-minute entry and one-hour event clocks, progress bars and next four local/UTC openings.
