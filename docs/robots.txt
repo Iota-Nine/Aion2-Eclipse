@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://iota-nine.github.io/Aion2-Eclipse/sitemap.xml

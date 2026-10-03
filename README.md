@@ -56,7 +56,7 @@ Travel portal entry/lifetime is **not confirmed by this source**, so Eclipse no 
 
 ## Official website and bug reports
 
-**[Open the Eclipse website](https://eclipse-aion2-dps-meter.koayo.chatgpt.site)** for downloads, English/French features, client screenshots and optional ambient music. **Report a bug** in the client opens the private website form with your version filled in. Submitted fields are stored for support; JSON export is available. Combat logs and tokens are not uploaded automatically. GitHub Issues remain available for public discussions.
+**[Open the Eclipse website](https://iota-nine.github.io/Aion2-Eclipse/)** for downloads, English/French features, client screenshots and optional ambient music. **Report a bug** in the client opens the private website form with your version filled in. Submitted fields are stored for support; JSON export is available. Combat logs and tokens are not uploaded automatically. GitHub Issues remain available for public discussions.
 
 ## Screenshots — English interface
 

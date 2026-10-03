@@ -50,7 +50,7 @@ La durée du portail de voyage n'est **pas confirmée par cette source** : les p
 
 ## Site officiel et rapports de bugs
 
-**[Ouvrir le site Eclipse](https://eclipse-aion2-dps-meter.koayo.chatgpt.site)** : téléchargement, présentation FR/EN, captures et musique d'ambiance facultative. **Report a bug** dans le client ouvre le formulaire privé avec ta version. Les champs envoyés sont enregistrés pour le dépannage et exportables en JSON. Aucun log de combat ni jeton n'est transmis automatiquement. GitHub Issues reste disponible pour les discussions publiques.
+**[Ouvrir le site Eclipse](https://iota-nine.github.io/Aion2-Eclipse/)** : téléchargement, présentation FR/EN, captures et musique d'ambiance facultative. **Report a bug** dans le client ouvre le formulaire privé avec ta version. Les champs envoyés sont enregistrés pour le dépannage et exportables en JSON. Aucun log de combat ni jeton n'est transmis automatiquement. GitHub Issues reste disponible pour les discussions publiques.
 
 ## Captures — interface anglaise
 
