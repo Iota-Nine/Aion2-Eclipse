@@ -1,5 +1,13 @@
 # Eclipse release notes
 
+## v2.1.8 — Live official website and bug report link
+
+- Report a bug opens the published production website with the installed version. Updated README links and screenshots to 2.1.8.
+- Conditional UPDATE, real download progress, regional schedules, favourite reminders and silent app intro retained.
+- Website presentation uses one gallery with distinct client views and tighter section spacing.
+
+Validation: 436 logic checks, native UI, final ZIP migrations from V1 and 2.1.7, 424 original files unchanged. The private report table is accessible only through the owner's Sites account.
+
 ## v2.1.7 — Corrected regional schedules, conditional UPDATE and official website
 
 - AION2Hub replaces the former timer sources. Global EU/NA/SA/JP and Korea use fixed UTC+9, Taiwan UTC+8. Region-specific Rift openings convert to the device timezone without following US DST.

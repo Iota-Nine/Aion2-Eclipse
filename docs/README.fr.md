@@ -1,16 +1,16 @@
-# Eclipse 2.1.7 — Compteur DPS AION 2 et analyse des combats
+# Eclipse 2.1.8 — Compteur DPS AION 2 et analyse des combats
 
-![Eclipse 2.1.7 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 2.1.8 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
 Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Windows à l'interface translucide. Regarde les compétences qui font la différence, conserve tes bilans et compare tes builds. Place le client sur un deuxième écran, réduis-le pendant le combat, puis retrouve ton résumé après le donjon.
 
-**[Télécharger Eclipse 2.1.7](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** · [English](../README.md) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
+**[Télécharger Eclipse 2.1.8](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** · [English](../README.md) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**La Eclipse 2.1.7 est la mise à jour principale d'Eclipse et remplace la V1.** Depuis la V1, clique sur **UPDATE**. Les nouveaux utilisateurs téléchargent le même ZIP. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
+**Eclipse 2.1.8 est la mise à jour principale d'Eclipse et remplace la V1.** Depuis la V1, clique sur **UPDATE**. Les nouveaux utilisateurs téléchargent le même ZIP. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
 
-![Interface anglaise d'Eclipse 2.1.7 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
+![Interface anglaise d'Eclipse 2.1.8 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
 
 *Capture de l'application Windows publiée, avec des valeurs fictives signalées dans l'interface. Toutes les captures de présentation sont en anglais.*
 
@@ -50,7 +50,7 @@ La durée du portail de voyage n'est **pas confirmée par cette source** : les p
 
 ## Site officiel et rapports de bugs
 
-**[Ouvrir le site Eclipse](https://eclipse-aion2-dps-meter.smart-bead-7533.chatgpt.site)** : téléchargement, présentation FR/EN, captures et musique d'ambiance facultative. **Report a bug** dans le client ouvre le formulaire privé avec ta version. Les champs envoyés sont enregistrés pour le dépannage et exportables en JSON. Aucun log de combat ni jeton n'est transmis automatiquement. GitHub Issues reste disponible pour les discussions publiques.
+**[Ouvrir le site Eclipse](https://eclipse-aion2-dps-meter.koayo.chatgpt.site)** : téléchargement, présentation FR/EN, captures et musique d'ambiance facultative. **Report a bug** dans le client ouvre le formulaire privé avec ta version. Les champs envoyés sont enregistrés pour le dépannage et exportables en JSON. Aucun log de combat ni jeton n'est transmis automatiquement. GitHub Issues reste disponible pour les discussions publiques.
 
 ## Captures — interface anglaise
 
@@ -70,7 +70,7 @@ Les images viennent du client Windows natif et utilisent des données de démons
 
 ## Installation
 
-1. Dans la **[dernière release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)**, télécharge **`Aion2-Eclipse-v2.1.7-win-x64.zip`** dans Assets. Les archives « Source code » de GitHub ne contiennent pas l'application.
+1. Dans la **[dernière release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)**, télécharge **`Aion2-Eclipse-v2.1.8-win-x64.zip`** dans Assets. Les archives « Source code » de GitHub ne contiennent pas l'application.
 2. **Extrais tout le ZIP** dans un dossier de ton PC.
 3. Lance **`Eclipse.Setup.exe`** et choisis la langue. Si Npcap manque, l'assistant télécharge son installateur officiel. Accepte la permission Windows et termine l'assistant Npcap ; Eclipse continue automatiquement.
 4. Lance AION 2. Si tu étais déjà en jeu, téléporte-toi ou change de canal une fois. Rejoins ou actualise le groupe après avoir ouvert Eclipse.
@@ -80,7 +80,7 @@ Le setup installe Eclipse pour ton compte Windows et crée les raccourcis Bureau
 
 ## Mise à jour depuis la V1 ou une V2 précédente
 
-**UPDATE apparaît dans le client uniquement lorsqu'une version plus récente est détectée, comme dans l'overlay.** Une barre lumineuse indique le pourcentage réel du téléchargement, puis les étapes de vérification et de préparation. **UPDATE installe Eclipse 2.1.7 dans le même dossier.** Le nom de l'exécutable et le canal public restent compatibles. Le dossier `data` et les réglages du HUD sont conservés ; le client V2 y ajoute son historique. L'updater vérifie la release et la version réellement installée avant de relancer Eclipse.
+**UPDATE apparaît dans le client uniquement lorsqu'une version plus récente est détectée, comme dans l'overlay.** Une barre lumineuse indique le pourcentage réel du téléchargement, puis les étapes de vérification et de préparation. **UPDATE installe Eclipse 2.1.8 dans le même dossier.** Le nom de l'exécutable et le canal public restent compatibles. Le dossier `data` et les réglages du HUD sont conservés ; le client V2 y ajoute son historique. L'updater vérifie la release et la version réellement installée avant de relancer Eclipse.
 
 Si un ancien updater boucle sur la V1, télécharge le dernier ZIP, extrais-le entièrement et lance **`Eclipse.Setup.exe`** une fois. La V1 est remplacée, mais les anciennes pages de release restent accessibles. Un ancien exécutable déjà téléchargé ne se désactive pas à distance.
 

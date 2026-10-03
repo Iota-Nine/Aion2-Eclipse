@@ -1,9 +1,9 @@
 {
-  "version": "2.1.7",
-  "tag": "v2.1.7",
-  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v2.1.7/Aion2-Eclipse-v2.1.7-win-x64.zip",
-  "sha256": "b1425f9766d5778f2011a7df44f5972757a1dec6b6bf186f465890b00448d70d",
-  "name": "Eclipse 2.1.7 — Corrected regional timers",
+  "version": "2.1.8",
+  "tag": "v2.1.8",
+  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v2.1.8/Aion2-Eclipse-v2.1.8-win-x64.zip",
+  "sha256": "7674cdac68d8bb257154489b5d3a2d46cd3f9c203f854aed31a025996292779b",
+  "name": "Eclipse 2.1.8 — Corrected regional timers",
   "notes": "Corrected AION2Hub Rift and boss schedules: fixed server UTC+9, Taiwan UTC+8, regional activities, local display and favourite alerts. Conditional UPDATE with live download progress and bug report button; English default, French available. Version label replaces BETA.",
-  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v2.1.7"
+  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v2.1.8"
 }

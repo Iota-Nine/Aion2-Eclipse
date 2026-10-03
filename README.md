@@ -1,10 +1,10 @@
-# Eclipse 2.1.7 — Free AION 2 DPS Meter & Combat Analyzer
+# Eclipse 2.1.8 — Free AION 2 DPS Meter & Combat Analyzer
 
-![Eclipse 2.1.7 — AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
+![Eclipse 2.1.8 — AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
 
 [![Latest release](https://img.shields.io/github/v/release/Iota-Nine/Aion2-Eclipse?label=Download&color=75bdcf)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Iota-Nine/Aion2-Eclipse/total?color=9384d0)](https://github.com/Iota-Nine/Aion2-Eclipse/releases)
-![Version 2.1.7](https://img.shields.io/badge/Version-2.1.7-d8bd88)
+![Version 2.1.8](https://img.shields.io/badge/Version-2.1.8-d8bd88)
 ![Windows x64](https://img.shields.io/badge/Windows-x64-507cab)
 ![English and French](https://img.shields.io/badge/Language-EN%20%2F%20FR-75bdcf)
 
@@ -12,11 +12,11 @@
 
 Eclipse is a free AION 2 damage meter for Windows with a live party overlay and a full Glass desktop client. Follow damage, inspect skills, review dungeon runs and compare your builds in one place. Keep it on a second monitor, minimize it during the fight, then come back to your expedition summary.
 
-**[Download Eclipse 2.1.7 for Windows](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** · [Français](docs/README.fr.md) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
+**[Download Eclipse 2.1.8 for Windows](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** · [Français](docs/README.fr.md) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 2.1.7 is the main Eclipse update and replaces V1.** Existing users can use **UPDATE**; new users get the same V2 ZIP. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
+**Eclipse 2.1.8 is the main Eclipse update and replaces V1.** Existing users can use **UPDATE**; new users get the same V2 ZIP. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
 
-![AION 2 DPS meter — Eclipse 2.1.7 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
+![AION 2 DPS meter — Eclipse 2.1.8 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
 
 *Native screenshot of the released client. All gallery combat values are explicitly labelled demo data.*
 
@@ -56,7 +56,7 @@ Travel portal entry/lifetime is **not confirmed by this source**, so Eclipse no 
 
 ## Official website and bug reports
 
-**[Open the Eclipse website](https://eclipse-aion2-dps-meter.smart-bead-7533.chatgpt.site)** for downloads, English/French features, client screenshots and optional ambient music. **Report a bug** in the client opens the private website form with your version filled in. Submitted fields are stored for support; JSON export is available. Combat logs and tokens are not uploaded automatically. GitHub Issues remain available for public discussions.
+**[Open the Eclipse website](https://eclipse-aion2-dps-meter.koayo.chatgpt.site)** for downloads, English/French features, client screenshots and optional ambient music. **Report a bug** in the client opens the private website form with your version filled in. Submitted fields are stored for support; JSON export is available. Combat logs and tokens are not uploaded automatically. GitHub Issues remain available for public discussions.
 
 ## Screenshots — English interface
 
@@ -88,7 +88,7 @@ The images below come from the native Windows application. Combat data is simula
 
 ## Install Eclipse
 
-1. Open the **[latest release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** and download **`Aion2-Eclipse-v2.1.7-win-x64.zip`** under Assets. GitHub's “Source code” archives are not the application.
+1. Open the **[latest release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** and download **`Aion2-Eclipse-v2.1.8-win-x64.zip`** under Assets. GitHub's “Source code” archives are not the application.
 2. **Extract the entire ZIP** to a folder on your PC.
 3. Run **`Eclipse.Setup.exe`**. Choose your language. If Npcap is missing, setup downloads its official installer, asks for Windows permission and lets you accept the installation wizard. Eclipse continues when it finishes.
 4. Open AION 2. If you were already in the world, teleport or change channels once to receive your character identity. Join or refresh your party after starting Eclipse.
@@ -98,7 +98,7 @@ Setup creates Desktop and Start menu shortcuts and installs Eclipse for your Win
 
 ## Upgrade from V1 or an earlier V2
 
-**UPDATE appears in the full client only when a newer version is detected, just like the overlay.** A luminous progress panel shows the real download percentage, then verification and installation preparation. **Click UPDATE in Eclipse to install Eclipse 2.1.7 in the same folder.** V2 uses the same executable name and public update channel. Existing `data` and HUD preferences are preserved; V2 creates its own client history there. The updater verifies the release and checks the installed executable version before restarting it.
+**UPDATE appears in the full client only when a newer version is detected, just like the overlay.** A luminous progress panel shows the real download percentage, then verification and installation preparation. **Click UPDATE in Eclipse to install Eclipse 2.1.8 in the same folder.** V2 uses the same executable name and public update channel. Existing `data` and HUD preferences are preserved; V2 creates its own client history there. The updater verifies the release and checks the installed executable version before restarting it.
 
 If an older updater keeps reopening V1, download the latest ZIP, extract it fully and run **`Eclipse.Setup.exe`** once. V1 is superseded; historical release pages remain available. An already downloaded V1 executable does not disable itself remotely.
 
