@@ -12,9 +12,9 @@
 
 Eclipse is a free AION 2 damage meter for Windows with a live party overlay and a full Glass desktop client. Follow damage, inspect skills, review dungeon runs and compare your builds in one place. Keep it on a second monitor, minimize it during the fight, then come back to your expedition summary.
 
-**[Download Eclipse 2.1.8 for Windows](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** · [Français](docs/README.fr.md) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
+**[Download the Windows installer (.exe)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · [Français](docs/README.fr.md) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 2.1.8 is the main Eclipse update and replaces V1.** Existing users can use **UPDATE**; new users get the same V2 ZIP. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
+**Eclipse 2.1.8 is the main Eclipse update and replaces V1.** Existing users can use **UPDATE**; new users download **Eclipse-Setup.exe**, which includes the complete application. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
 
 ![AION 2 DPS meter — Eclipse 2.1.8 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
 
@@ -88,9 +88,9 @@ The images below come from the native Windows application. Combat data is simula
 
 ## Install Eclipse
 
-1. Open the **[latest release](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)** and download **`Aion2-Eclipse-v2.1.8-win-x64.zip`** under Assets. GitHub's “Source code” archives are not the application.
-2. **Extract the entire ZIP** to a folder on your PC.
-3. Run **`Eclipse.Setup.exe`**. Choose your language. If Npcap is missing, setup downloads its official installer, asks for Windows permission and lets you accept the installation wizard. Eclipse continues when it finishes.
+1. **[Download Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** directly. The full application, images, game data and runtime are included.
+2. **Run the installer** and choose English or French. No ZIP extraction is needed.
+3. If Npcap is missing, setup downloads its official installer, asks for Windows permission and lets you accept the installation wizard. Eclipse continues when it finishes.
 4. Open AION 2. If you were already in the world, teleport or change channels once to receive your character identity. Join or refresh your party after starting Eclipse.
 5. The **overlay is enabled by default**. Use the desktop client on the same display or a second monitor. Open Preferences for French, transparency and performance settings.
 
@@ -100,7 +100,7 @@ Setup creates Desktop and Start menu shortcuts and installs Eclipse for your Win
 
 **UPDATE appears in the full client only when a newer version is detected, just like the overlay.** A luminous progress panel shows the real download percentage, then verification and installation preparation. **Click UPDATE in Eclipse to install Eclipse 2.1.8 in the same folder.** V2 uses the same executable name and public update channel. Existing `data` and HUD preferences are preserved; V2 creates its own client history there. The updater verifies the release and checks the installed executable version before restarting it.
 
-If an older updater keeps reopening V1, download the latest ZIP, extract it fully and run **`Eclipse.Setup.exe`** once. V1 is superseded; historical release pages remain available. An already downloaded V1 executable does not disable itself remotely.
+If an older updater keeps reopening V1, run **`Eclipse-Setup.exe`** once. The complete ZIP remains available in release assets for portable installation and in-app updates. V1 is superseded; historical release pages remain available. An already downloaded V1 executable does not disable itself remotely.
 
 ## How the numbers work
 

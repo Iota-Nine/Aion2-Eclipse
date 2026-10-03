@@ -2,6 +2,7 @@
 
 ## v2.1.8 — Live official website and bug report link
 
+- Direct Eclipse-Setup.exe download: complete application payload embedded and SHA-256 checked before extraction. No manual ZIP extraction; guided Npcap consent retained. Standalone installation verified in an isolated folder.
 - Report a bug opens the published production website with the installed version. Updated README links and screenshots to 2.1.8.
 - Conditional UPDATE, real download progress, regional schedules, favourite reminders and silent app intro retained.
 - Website presentation uses one gallery with distinct client views and tighter section spacing.
