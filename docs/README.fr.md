@@ -1,4 +1,6 @@
-# Eclipse 2.1.8 — Compteur DPS AION 2 et analyse des combats
+# Eclipse — DPS meter AION 2 gratuit pour Windows
+
+**[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
 ![Eclipse 2.1.8 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
@@ -6,7 +8,7 @@
 
 Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Windows à l'interface translucide. Regarde les compétences qui font la différence, conserve tes bilans et compare tes builds. Place le client sur un deuxième écran, réduis-le pendant le combat, puis retrouve ton résumé après le donjon.
 
-**[Télécharger l’installateur Windows (.exe)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · [English](../README.md) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
+[Fonctionnalités](#toutes-les-fonctionnalités) · [Installation](#installation) · [Mesures et sources](#mesures-et-sources) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
 **Eclipse 2.1.8 est la mise à jour principale d'Eclipse et remplace la V1.** Depuis la V1, clique sur **UPDATE**. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
 
@@ -101,6 +103,8 @@ Si un ancien updater boucle sur la V1, télécharge le dernier ZIP, extrais-le e
 **La méta est-elle universelle ?** Les [classements contextuels MetaRoad](https://metaroad.gg/aion2/getting-started/aion-2-class-tier-list-before-global-launch-best-classes-for-pve-pvp) et les [builds communautaires](https://metaroad.gg/aion2/community-builds) sont des sources datées. L'app les actualise au démarrage et périodiquement, affiche le cache daté si elles sont indisponibles et signale l'incertitude régionale. Le classement local représente uniquement tes runs sauvegardés.
 
 ## Retours et projet
+
+**Eclipse vous aide en groupe ?** Ajoutez une étoile au projet sur GitHub et partagez la [page officielle de téléchargement](https://iota-nine.github.io/Aion2-Eclipse/fr/) avec votre groupe. Des retours précis et des problèmes reproductibles permettent d'améliorer la prochaine version.
 
 **[Signale un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)** avec la version Eclipse, Windows, la région du jeu et les étapes du problème. Tu peux générer un diagnostic depuis Preferences et vérifier ce que tu partages.
 
