@@ -2,7 +2,7 @@
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 2.1.9 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 2.1.10 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
@@ -10,13 +10,13 @@ Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Window
 
 [Fonctionnalités](#toutes-les-fonctionnalités) · [Installation](#installation) · [Mesures et sources](#mesures-et-sources) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 2.1.9 est une mise à jour corrective de la V2.** Depuis la V1, clique sur **UPDATE**. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
+**Eclipse 2.1.10 ajoute l’analyse directe depuis l’historique et corrige la fermeture de l’overlay dans la V2.** Depuis une version précédente, clique sur **UPDATE** lorsqu'il apparaît. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
 
-![Interface anglaise d'Eclipse 2.1.9 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
+![Interface anglaise d'Eclipse 2.1.10 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
 
 *Capture de l'application Windows publiée, avec des valeurs fictives signalées dans l'interface. Toutes les captures de présentation sont en anglais.*
 
-La 2.1.9 corrige aussi le blocage des dégâts après un run clôturé ou interrompu lorsqu'un chargement ultérieur mène à une activité absente du catalogue. Le combat reste sans nom de donjon inventé. Le propriétaire a confirmé en jeu la résolution du cas initial sans DPS.
+Le correctif 2.1.9 inclus restaure le comptage des dégâts après un run clôturé ou interrompu lorsqu'un chargement ultérieur mène à une activité absente du catalogue. Le combat reste sans nom de donjon inventé. Le propriétaire a confirmé en jeu la résolution du cas initial sans DPS.
 
 ## Toutes les fonctionnalités
 
@@ -28,7 +28,7 @@ La 2.1.9 corrige aussi le blocage des dégâts après un run clôturé ou interr
 | **Analyse du groupe et des compétences** | Dégâts de chaque joueur, poids des compétences, critiques, attaques de dos, coups maximums et morts reçues. Les attaquants proches hors du groupe identifié sont exclus. |
 | **Bilan d'expédition** | Dégâts, durée, contribution, fenêtres de burst, périodes sans impacts, segments de cibles et contexte du build choisi. |
 | **Courbe interactive** | Sélection d'une plage de temps, inspection des impacts et recherche de fenêtres fortes de cinq secondes. Les totaux restent complets lorsque la courbe est partielle. |
-| **Historique local** | Recherche, filtres, favoris, notes, récupération des runs interrompus et durée de conservation réglable. |
+| **Historique local** | Cliquer un donjon ouvre son analyse : dégâts totaux de tous les membres, fines barres de contribution, puis détails et chronologie. Retour conserve filtres et défilement. Favoris, notes et récupération des runs interrompus restent disponibles. |
 | **Comparaison A/B** | Compare des runs terminés avec cible, région, difficulté déclarée et classe personnelle correspondantes. Observe les variations de DPS, critiques et attaques de dos. |
 | **Profils de build** | Sélection des compétences, notes, activité et région. Chaque run conserve une copie du profil utilisé. |
 | **Méta et builds communautaires** | Actualisation des classements contextuels et liens MetaRoad, avec date, source et incertitude régionale visibles. Classement local séparé d'après tes propres runs. |
@@ -40,7 +40,7 @@ La 2.1.9 corrige aussi le blocage des dégâts après un run clôturé ou interr
 | **Réglages de performance** | Transparence, qualité des animations et premier plan. Les effets s'arrêtent en fenêtre réduite ; capture, chronos et sauvegardes continuent. |
 | **Exports et diagnostic** | Données du run, carte de partage et rapport de diagnostic limité, sans journaux ni jeton d'authentification. |
 | **Setup et mises à jour** | Runtime inclus, prérequis vérifiés, installation officielle Npcap avec consentement si nécessaire, raccourcis et téléchargement UPDATE vérifié. |
-| **Fermeture complète** | Réduire conserve la capture. La croix ferme le client, le HUD et le processus de capture. |
+| **Overlay et fermeture** | Fermer l’overlay laisse le client et la capture actifs ; son bouton le rouvre. Fermer le client termine les sauvegardes et arrête la capture. Réduire continue de mesurer. |
 
 ## Le nouveau timer des failles
 
@@ -59,6 +59,8 @@ La durée du portail de voyage n'est **pas confirmée par cette source** : les p
 ## Captures — interface anglaise
 
 Les images viennent du client Windows natif et utilisent des données de démonstration. Aucun historique de joueur réel n'est publié.
+
+![Analyse directe d’un donjon dans Eclipse 2.1.10 — dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
 
 ![Analyse DPS AION 2 — dégâts, critiques et compétences du groupe dans Eclipse](images/eclipse-analysis-en.png)
 
@@ -84,7 +86,7 @@ Le setup installe Eclipse pour ton compte Windows et crée les raccourcis Bureau
 
 ## Mise à jour depuis la V1 ou une V2 précédente
 
-**UPDATE apparaît dans le client uniquement lorsqu'une version plus récente est détectée, comme dans l'overlay.** Une barre lumineuse indique le pourcentage réel du téléchargement, puis les étapes de vérification et de préparation. **UPDATE installe Eclipse 2.1.9 dans le même dossier.** Le nom de l'exécutable et le canal public restent compatibles. Le dossier `data` et les réglages du HUD sont conservés ; le client V2 y ajoute son historique. L'updater vérifie la release et la version réellement installée avant de relancer Eclipse.
+**UPDATE apparaît dans le client uniquement lorsqu'une version plus récente est détectée, comme dans l'overlay.** Une barre lumineuse indique le pourcentage réel du téléchargement, puis les étapes de vérification et de préparation. **UPDATE installe Eclipse 2.1.10 dans le même dossier.** Le nom de l'exécutable et le canal public restent compatibles. Le dossier `data` et les réglages du HUD sont conservés ; le client V2 y ajoute son historique. L'updater vérifie la release et la version réellement installée avant de relancer Eclipse.
 
 Si un ancien updater boucle sur la V1, télécharge le dernier ZIP, extrais-le entièrement et lance **`Eclipse.Setup.exe`** une fois. La V1 est remplacée, mais les anciennes pages de release restent accessibles. Un ancien exécutable déjà téléchargé ne se désactive pas à distance.
 
@@ -92,9 +94,9 @@ Si un ancien updater boucle sur la V1, télécharge le dernier ZIP, extrais-le e
 
 **Les dégâts sont-ils réels ?** En utilisation normale, Eclipse lit les événements de dégâts reçus dans le trafic AION 2. La démo est clairement signalée. Les niveaux non reçus restent inconnus. Une capture démarrée tard, des paquets manquants ou un changement de protocole peuvent affecter la complétude.
 
-**Pourquoi le DPS ne revient pas à zéro chaque seconde ?** C'est un débit : dégâts divisés par une durée. Le HUD affiche la moyenne du combat courant ; le client affiche celle du run. La courbe et le burst de cinq secondes décrivent des fenêtres courtes. Les dégâts totaux s'accumulent jusqu'à la fin ou la remise à zéro du run.
+**Pourquoi le DPS ne revient pas à zéro chaque seconde ?** C'est un débit : dégâts divisés par une durée. Le HUD et le client en direct utilisent la fenêtre du combat courant, puis reviennent à zéro après 2 secondes sans dégâts positifs du groupe. Les bilans archivés affichent la moyenne du run. La courbe et le burst de cinq secondes décrivent des fenêtres courtes. Les dégâts totaux s'accumulent jusqu'à la fin ou la remise à zéro du run.
 
-**Tous les donjons sont-ils nommés automatiquement ?** Les frontières reposent sur le paquet local de téléportation / connexion reconnu, notamment pour les changements d'instance. Les autres téléportations remettent aussi le run à zéro. Il n'y a pas de base exhaustive des noms de donjons ; une transition sans ce paquet n'est pas garantie. Modifier une file de groupe ne clôt pas le combat.
+**Tous les donjons sont-ils nommés automatiquement ?** Le catalogue reconnaît 22 activités à partir des identités de NPC reçues. Les TP internes conservent le run actif. La fin automatique est limitée aux boss finaux vérifiés de 7 donjons ; utilise **Finish run / Interrupt run** pour les autres fins. Entrer dans une autre activité reconnue archive le run inachevé comme interrompu. Les activités inconnues restent mesurables sans nom inventé. Modifier une file de groupe ne clôt pas le combat.
 
 **API ou réseau ?** La capture combat utilise les paquets locaux via Npcap. L'API locale authentifiée d'Eclipse sert aux intégrations sur ton PC ; ce n'est pas une API officielle du jeu. Les sources de méta et de builds sont consultées en HTTPS.
 

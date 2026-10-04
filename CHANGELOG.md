@@ -1,5 +1,22 @@
 # Eclipse release notes
 
+## v2.1.10 — Direct run analysis and overlay fixes
+
+Eclipse 2.1.10 makes reviewing a dungeon run faster and fixes overlay and client closure.
+
+- Click a dungeon in **Run history** to open its analysis directly.
+- See **every party member's total damage**, sorted by contribution, with a thin class-coloured bar. Players who left the party remain in the saved run.
+- Keep the existing skill breakdown, hits and timeline underneath. Time-range selection changes the details while the recap keeps the whole run's totals.
+- **Back to run history** restores your search, filters and scroll position; the same run can be opened again.
+- Closing the **overlay** leaves the desktop client and damage capture running. Use the Overlay button to reopen it.
+- Closing the **main client** hides both windows promptly, finishes pending saves and stops capture before exiting.
+
+The 2.1.9 DPS and dungeon corrections are included: live party DPS returns to zero after 2 seconds without received positive damage, while run totals remain cumulative. Internal teleports preserve runs. Activity recognition covers 22 catalogue entries; automatic final-boss completion remains limited to 7 dungeons.
+
+**Install:** download **Eclipse-Setup.exe**, or click **UPDATE** when it appears in Eclipse. The complete application runtime is included; the official Npcap consent wizard is offered if the driver is missing. Existing history, language and HUD settings are preserved. English is the default; French is selectable. Startup remains silent.
+
+Validation: 500 logic checks, 22 native history-analysis checks, English/French and compact layouts, both client close paths with an existing Npcap driver and isolated local API, migrations from V1 and 2.1.9, and standalone payload verification. Gallery values are labelled demo data. This release does not extend dungeon or regional protocol coverage.
+
 ## v2.1.9 — DPS and dungeon-run corrective update
 
 Eclipse 2.1.9 is a corrective update to V2.

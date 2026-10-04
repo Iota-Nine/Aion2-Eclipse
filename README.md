@@ -2,11 +2,11 @@
 
 **[Download Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Official website](https://iota-nine.github.io/Aion2-Eclipse/)** · [Français](docs/README.fr.md)
 
-![Eclipse 2.1.9 — AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
+![Eclipse 2.1.10 — AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
 
 [![Latest release](https://img.shields.io/github/v/release/Iota-Nine/Aion2-Eclipse?label=Download&color=75bdcf)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Iota-Nine/Aion2-Eclipse/total?color=9384d0)](https://github.com/Iota-Nine/Aion2-Eclipse/releases)
-![Version 2.1.9](https://img.shields.io/badge/Version-2.1.9-d8bd88)
+![Version 2.1.10](https://img.shields.io/badge/Version-2.1.10-d8bd88)
 ![Windows x64](https://img.shields.io/badge/Windows-x64-507cab)
 ![English and French](https://img.shields.io/badge/Language-EN%20%2F%20FR-75bdcf)
 
@@ -16,13 +16,13 @@ Eclipse is a free AION 2 damage meter for Windows with a live party overlay and 
 
 [Features](#a-clearer-view-of-every-fight) · [Install Eclipse](#install-eclipse) · [How the numbers work](#how-the-numbers-work) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 2.1.9 is a corrective update to Eclipse V2.** Existing users can use **UPDATE**; new users download **Eclipse-Setup.exe**, which includes the complete application. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
+**Eclipse 2.1.10 adds direct run-history analysis and fixes overlay closure in Eclipse V2.** Existing users can use **UPDATE**; new users download **Eclipse-Setup.exe**, which includes the complete application. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
 
-![AION 2 DPS meter — Eclipse 2.1.9 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
+![AION 2 DPS meter — Eclipse 2.1.10 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
 
 *Native screenshot of the released client. All gallery combat values are explicitly labelled demo data.*
 
-The 2.1.9 correction also restores damage measurement after a completed or interrupted run when a later world load leads to an activity missing from the catalogue. Such combat remains unnamed; no dungeon or victory is guessed. The original no-DPS case was confirmed resolved by the owner in game.
+The included 2.1.9 correction restores damage measurement after a completed or interrupted run when a later world load leads to an activity missing from the catalogue. Such combat remains unnamed; no dungeon or victory is guessed. The original no-DPS case was confirmed resolved by the owner in game.
 
 ## A clearer view of every fight
 
@@ -34,7 +34,7 @@ The 2.1.9 correction also restores damage measurement after a completed or inter
 | **Party and skill analysis** | Inspect each member's damage, skill breakdown, critical hits, back attacks, maximum hits and received death counts. Nearby players outside the identified party are excluded. |
 | **Expedition summary** | Total damage, duration, party contribution, burst windows, gaps between hits and target segments, together with the declared build used for that run. |
 | **Interactive damage timeline** | Select a time range, inspect individual hits and find strong five-second burst windows. Large runs keep complete totals and mark partial timeline coverage when relevant. |
-| **Run history** | Local archives, search and filters, favourites, notes, interrupted-run recovery and configurable retention. Reopen a previous encounter after the dungeon. |
+| **Run history** | Click a dungeon to open its analysis directly: every member’s total damage with thin contribution bars, followed by skills, hits and timeline. Back restores your filters and scroll. Local favourites, notes and interrupted runs remain available. |
 | **A/B build comparisons** | Compare completed runs with matching target, region, declared difficulty and personal class. See observed DPS, critical-hit and back-attack changes. |
 | **Personal build profiles** | Save class skill selections, notes, activity and region. Your run keeps a snapshot of the selected profile for later review. |
 | **Dated class meta and community builds** | Refresh MetaRoad's contextual class rankings and links to community builds. Source, update date and regional uncertainty stay visible. Your own runs also form a separate local class ranking. |
@@ -46,7 +46,7 @@ The 2.1.9 correction also restores damage measurement after a completed or inter
 | **Performance controls** | Adjust transparency, animation quality and always-on-top behaviour. Visual effects stop when minimized while capture, timers and saving continue. |
 | **Exports and diagnostics** | Export run data and a share card; create a restricted diagnostic report for support. Logs and authentication tokens are excluded from that report. |
 | **Guided setup and updates** | Included application runtime, automatic prerequisite check, official Npcap installation with consent when needed, shortcuts and verified in-app update downloads. |
-| **Complete shutdown** | Minimize to keep collecting. Close Eclipse to quit its client, overlay and capture process. |
+| **Overlay and shutdown** | Close the overlay independently and reopen it from the client. Close the main client to finish pending saves and stop capture; minimize it to keep collecting. |
 
 ## Dedicated Rift timers
 
@@ -65,6 +65,10 @@ Travel portal entry/lifetime is **not confirmed by this source**, so Eclipse no 
 ## Screenshots — English interface
 
 The images below come from the native Windows application. Combat data is simulated for the gallery; no real player records are published.
+
+### Open a dungeon directly from history
+
+![Eclipse 2.1.10 AION 2 run history analysis — total damage and contribution bars for every party member](docs/images/eclipse-history-analysis-en.png)
 
 ### Party analysis
 
@@ -102,7 +106,7 @@ Setup creates Desktop and Start menu shortcuts and installs Eclipse for your Win
 
 ## Upgrade from V1 or an earlier V2
 
-**UPDATE appears in the full client only when a newer version is detected, just like the overlay.** A luminous progress panel shows the real download percentage, then verification and installation preparation. **Click UPDATE in Eclipse to install Eclipse 2.1.9 in the same folder.** V2 uses the same executable name and public update channel. Existing `data` and HUD preferences are preserved; V2 creates its own client history there. The updater verifies the release and checks the installed executable version before restarting it.
+**UPDATE appears in the full client only when a newer version is detected, just like the overlay.** A luminous progress panel shows the real download percentage, then verification and installation preparation. **Click UPDATE in Eclipse to install Eclipse 2.1.10 in the same folder.** V2 uses the same executable name and public update channel. Existing `data` and HUD preferences are preserved; V2 creates its own client history there. The updater verifies the release and checks the installed executable version before restarting it.
 
 If an older updater keeps reopening V1, run **`Eclipse-Setup.exe`** once. The complete ZIP remains available in release assets for portable installation and in-app updates. V1 is superseded; historical release pages remain available. An already downloaded V1 executable does not disable itself remotely.
 
@@ -110,9 +114,9 @@ If an older updater keeps reopening V1, run **`Eclipse-Setup.exe`** once. The co
 
 **Are these real damage values?** In normal mode, Eclipse uses damage events received from AION 2 network traffic. Demo mode is explicitly marked. Values that have not arrived remain unknown; player levels are shown only when received. Capture started late, missing packets or a changed game protocol can affect completeness.
 
-**Why doesn't DPS reset every second?** DPS is a rate calculated from damage over a duration. The HUD shows the current fight's average, the full client shows the run average, and the timeline and five-second burst view show short windows. Total damage accumulates until the run is ended or reset.
+**Why doesn't DPS reset every second?** DPS is a rate calculated from damage over a duration. The live HUD and live client use the current fight window, returning to zero after 2 seconds without received positive party damage. Archived summaries show the run average; the timeline and five-second burst view show short windows. Total damage accumulates until the run is ended or reset.
 
-**Does it detect every dungeon name?** Automatic boundaries currently rely on the recognized local teleport / login packet, including instance transitions. Other teleports also reset the run. V2 does not claim a complete dungeon-name database, and a transition without that packet cannot be guaranteed. Party queue changes alone do not erase combat.
+**Does it detect every dungeon name?** The catalogue recognizes 22 activities from received NPC identities. Internal teleports preserve an active dungeon run. Automatic completion is limited to verified final bosses in 7 dungeons; use **Finish run / Interrupt run** for other endings. Entering a different recognized activity archives an unfinished run as interrupted. Unknown activities remain measurable without a guessed name. Party queue changes alone do not erase combat.
 
 **Is there an official AION API?** Combat capture uses local network packets through Npcap. Eclipse also exposes its own authenticated, loopback-only local API for local integrations; that is separate from an official game API. Meta and build sources are fetched over HTTPS.
 
