@@ -1,5 +1,19 @@
 # Eclipse release notes
 
+## v2.1.9 — DPS and dungeon-run corrective update
+
+Eclipse 2.1.9 is a corrective update to V2.
+
+- Live party DPS returns to **0 after 2 seconds without received positive party damage**. The next hit starts a fresh DPS window; run totals and archived averages are retained.
+- Internal dungeon teleports preserve the same run. Supported final-boss deaths archive its last hits and reset live totals. Interrupted runs retain their summary.
+- Fix the permanent no-DPS state after a closed run and a later world load into an activity missing from the catalogue. Unknown combat remains measurable without claiming dungeon recognition.
+- Protect old targets from late hits; handle reused player/target IDs and delayed NPC identity.
+- Recognize 22 catalogue activities, including three sealed dungeons and Flauke Legion Outpost. Automatic completion is limited to verified final bosses in seven dungeons; other finishes use **Finish run / Interrupt run**.
+
+**Install:** download **Eclipse-Setup.exe** below, or click **UPDATE** in your current installation. The standalone EXE includes the complete application; guided Npcap consent remains available if needed. Existing language, HUD settings and history are preserved. English is the default; French remains selectable. The app intro is silent.
+
+Validation: 500 logic checks, native Windows interface and update controls, ZIP migrations from V1 and 2.1.8, standalone extraction/install verification. The owner confirmed the original no-DPS fix in game. The two-second cutoff is verified with timed fixtures; complete coverage of every dungeon/region is not claimed.
+
 ## v2.1.8 — Live official website and bug report link
 
 - Direct Eclipse-Setup.exe download: complete application payload embedded and SHA-256 checked before extraction. No manual ZIP extraction; guided Npcap consent retained. Standalone installation verified in an isolated folder.

@@ -2,7 +2,7 @@
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 2.1.8 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 2.1.9 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
@@ -10,19 +10,21 @@ Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Window
 
 [Fonctionnalités](#toutes-les-fonctionnalités) · [Installation](#installation) · [Mesures et sources](#mesures-et-sources) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 2.1.8 est la mise à jour principale d'Eclipse et remplace la V1.** Depuis la V1, clique sur **UPDATE**. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
+**Eclipse 2.1.9 est une mise à jour corrective de la V2.** Depuis la V1, clique sur **UPDATE**. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
 
-![Interface anglaise d'Eclipse 2.1.8 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
+![Interface anglaise d'Eclipse 2.1.9 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
 
 *Capture de l'application Windows publiée, avec des valeurs fictives signalées dans l'interface. Toutes les captures de présentation sont en anglais.*
+
+La 2.1.9 corrige aussi le blocage des dégâts après un run clôturé ou interrompu lorsqu'un chargement ultérieur mène à une activité absente du catalogue. Le combat reste sans nom de donjon inventé. Le propriétaire a confirmé en jeu la résolution du cas initial sans DPS.
 
 ## Toutes les fonctionnalités
 
 | Fonction | Ce qu'elle apporte |
 |---|---|
-| **HUD DPS du groupe** | DPS observés, dégâts totaux, contribution et niveaux reçus. L'overlay démarre activé et partage les mesures du client. |
+| **HUD DPS du groupe** | Le DPS live revient à 0 après 2 secondes sans dégâts positifs reçus et repart sur une nouvelle fenêtre au prochain impact. Les dégâts cumulés et les niveaux reçus restent disponibles. L'overlay démarre activé et partage les mesures du client. |
 | **Client Glass** | Panneaux translucides, illustrations AION animées, identité Eclipse et intro silencieuse. Fenêtre déplaçable et redimensionnable, compatible avec un deuxième écran. |
-| **Nouveau run à la téléportation** | Le paquet local reconnu clôt le précédent bilan et remet les compteurs à zéro avant les nouveaux dégâts. Le précédent run reste dans l'historique. |
+| **Comptage du donjon corrigé** | Les TP internes conservent le run. Une mort de boss final prise en charge archive le bilan et remet les totaux live à zéro ; les interruptions conservent un bilan récupéré. 22 activités reconnues, fin automatique limitée à 7 donjons. Les autres fins restent manuelles. |
 | **Analyse du groupe et des compétences** | Dégâts de chaque joueur, poids des compétences, critiques, attaques de dos, coups maximums et morts reçues. Les attaquants proches hors du groupe identifié sont exclus. |
 | **Bilan d'expédition** | Dégâts, durée, contribution, fenêtres de burst, périodes sans impacts, segments de cibles et contexte du build choisi. |
 | **Courbe interactive** | Sélection d'une plage de temps, inspection des impacts et recherche de fenêtres fortes de cinq secondes. Les totaux restent complets lorsque la courbe est partielle. |
@@ -82,7 +84,7 @@ Le setup installe Eclipse pour ton compte Windows et crée les raccourcis Bureau
 
 ## Mise à jour depuis la V1 ou une V2 précédente
 
-**UPDATE apparaît dans le client uniquement lorsqu'une version plus récente est détectée, comme dans l'overlay.** Une barre lumineuse indique le pourcentage réel du téléchargement, puis les étapes de vérification et de préparation. **UPDATE installe Eclipse 2.1.8 dans le même dossier.** Le nom de l'exécutable et le canal public restent compatibles. Le dossier `data` et les réglages du HUD sont conservés ; le client V2 y ajoute son historique. L'updater vérifie la release et la version réellement installée avant de relancer Eclipse.
+**UPDATE apparaît dans le client uniquement lorsqu'une version plus récente est détectée, comme dans l'overlay.** Une barre lumineuse indique le pourcentage réel du téléchargement, puis les étapes de vérification et de préparation. **UPDATE installe Eclipse 2.1.9 dans le même dossier.** Le nom de l'exécutable et le canal public restent compatibles. Le dossier `data` et les réglages du HUD sont conservés ; le client V2 y ajoute son historique. L'updater vérifie la release et la version réellement installée avant de relancer Eclipse.
 
 Si un ancien updater boucle sur la V1, télécharge le dernier ZIP, extrais-le entièrement et lance **`Eclipse.Setup.exe`** une fois. La V1 est remplacée, mais les anciennes pages de release restent accessibles. Un ancien exécutable déjà téléchargé ne se désactive pas à distance.
 
