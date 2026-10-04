@@ -9,7 +9,7 @@ body:
     id: version
     attributes:
       label: Eclipse version / Version Eclipse
-      placeholder: "Example: v2.1.10"
+      placeholder: "Example: v3.0.0"
     validations:
       required: true
   - type: input

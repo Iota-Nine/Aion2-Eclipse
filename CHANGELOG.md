@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## v3.0.0 — Party healing and shield applications
+
+Eclipse 3.0.0 adds reported party healing and observed shield applications to the Glass client's run analysis.
+
+- **Party healing and HPS:** see received healing totals, each caster's contribution, average HPS over the full run, skill details, healing-over-time ticks and recipients. The local user can play any class; healers with zero damage remain identified in the party.
+- **Shield applications:** count observed applications of selected shield skills, with companion notifications deduplicated. Shield capacity and damage absorbed are **unknown**.
+- **Identity corrections:** healing and recipients remain attached to the same character across internal teleports and session-ID changes. Reused IDs do not transfer old support totals to another player.
+- **Saved runs:** new archives retain support details. Earlier archives show **Not recorded**, rather than pretending they contained zero healing. Support is kept separate from DPS and total damage.
+- **Diagnostics:** Preferences → Export diagnostics includes counts of recognized support candidates, accepted events and rejection reasons. Export during the affected run; these counters reset with it. The support diagnostic contains no player names, packet payloads or credentials.
+
+**Measurement limits:** support decoding currently covers eight recognized healing families and five named shield families. Effective healing and overheal are not determined. Automated packet, identity and UI checks do not establish complete live-game or regional protocol coverage; real comparisons by users remain necessary.
+
+The existing features stay available: independent live overlay, party DPS returning to zero after 2 seconds without positive received damage, cumulative run damage, direct history analysis with contribution bars and Back navigation, full skill/hit details, saved builds, comparisons, Rift/event timers and optional favourite-boss alerts. Internal dungeon teleports preserve runs; 22 activity entries are recognized, with automatic final-boss completion limited to 7 dungeons. Startup stays silent.
+
+**Install or update:** download **Eclipse-Setup.exe**, or use **UPDATE** when it appears in Eclipse. Runtime is included; the official Npcap consent wizard is offered if its driver is missing. Existing history, language and HUD preferences are preserved. English is the default; French is selectable. No Eclipse account is required.
+
+Validation: 577 logic checks including synchronized and fragmented TCP, LZ4 compressed batches and all nine local classes; 14 native support checks, 22 history-analysis checks, English/French/compact support views, isolated lifecycle, V1/2.1.10 migrations and standalone setup verification. Gallery values are fictional demo data.
+
 ## v2.1.10 — Direct run analysis and overlay fixes
 
 Eclipse 2.1.10 makes reviewing a dungeon run faster and fixes overlay and client closure.

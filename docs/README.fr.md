@@ -2,7 +2,7 @@
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 2.1.10 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 3.0.0 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
@@ -10,9 +10,9 @@ Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Window
 
 [Fonctionnalités](#toutes-les-fonctionnalités) · [Installation](#installation) · [Mesures et sources](#mesures-et-sources) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 2.1.10 ajoute l’analyse directe depuis l’historique et corrige la fermeture de l’overlay dans la V2.** Depuis une version précédente, clique sur **UPDATE** lorsqu'il apparaît. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
+**Eclipse 3.0.0 ajoute les soins reçus du groupe, les HPS moyens du run et les applications de boucliers reconnues.** Depuis une version précédente, clique sur **UPDATE** lorsqu'il apparaît. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
 
-![Interface anglaise d'Eclipse 2.1.10 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
+![Interface anglaise d'Eclipse 3.0.0 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
 
 *Capture de l'application Windows publiée, avec des valeurs fictives signalées dans l'interface. Toutes les captures de présentation sont en anglais.*
 
@@ -22,6 +22,8 @@ Le correctif 2.1.9 inclus restaure le comptage des dégâts après un run clôtu
 
 | Fonction | Ce qu'elle apporte |
 |---|---|
+| **Soins du groupe et HPS** | Soins reçus, parts des soigneurs, HPS moyens, compétences/ticks et destinataires. Le joueur local peut être DPS ou tank ; les healers à zéro dégât restent visibles. Soins effectifs et overheal inconnus. |
+| **Applications de bouclier** | Applications de compétences reconnues, notifications doublonnées regroupées. Capacité et dégâts absorbés inconnus. |
 | **HUD DPS du groupe** | Le DPS live revient à 0 après 2 secondes sans dégâts positifs reçus et repart sur une nouvelle fenêtre au prochain impact. Les dégâts cumulés et les niveaux reçus restent disponibles. L'overlay démarre activé et partage les mesures du client. |
 | **Client Glass** | Panneaux translucides, illustrations AION animées, identité Eclipse et intro silencieuse. Fenêtre déplaçable et redimensionnable, compatible avec un deuxième écran. |
 | **Comptage du donjon corrigé** | Les TP internes conservent le run. Une mort de boss final prise en charge archive le bilan et remet les totaux live à zéro ; les interruptions conservent un bilan récupéré. 22 activités reconnues, fin automatique limitée à 7 donjons. Les autres fins restent manuelles. |
@@ -60,7 +62,7 @@ La durée du portail de voyage n'est **pas confirmée par cette source** : les p
 
 Les images viennent du client Windows natif et utilisent des données de démonstration. Aucun historique de joueur réel n'est publié.
 
-![Analyse directe d’un donjon dans Eclipse 2.1.10 — dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
+![Analyse directe d’un donjon dans Eclipse 3.0.0 — dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
 
 ![Analyse DPS AION 2 — dégâts, critiques et compétences du groupe dans Eclipse](images/eclipse-analysis-en.png)
 
@@ -84,11 +86,11 @@ Les images viennent du client Windows natif et utilisent des données de démons
 
 Le setup installe Eclipse pour ton compte Windows et crée les raccourcis Bureau et menu Démarrer. Le runtime est inclus : aucune installation .NET séparée. Internet est nécessaire pour les téléchargements, les sources externes et les mises à jour. Le paquet cible **Windows x64** ; l'interface native a été vérifiée sous Windows 11.
 
-## Mise à jour depuis la V1 ou une V2 précédente
+## Mise à jour depuis la V1 ou la V2
 
-**UPDATE apparaît dans le client uniquement lorsqu'une version plus récente est détectée, comme dans l'overlay.** Une barre lumineuse indique le pourcentage réel du téléchargement, puis les étapes de vérification et de préparation. **UPDATE installe Eclipse 2.1.10 dans le même dossier.** Le nom de l'exécutable et le canal public restent compatibles. Le dossier `data` et les réglages du HUD sont conservés ; le client V2 y ajoute son historique. L'updater vérifie la release et la version réellement installée avant de relancer Eclipse.
+**UPDATE apparaît dans le client uniquement lorsqu'une version plus récente est détectée, comme dans l'overlay.** Une barre lumineuse indique le pourcentage réel du téléchargement, puis les étapes de vérification et de préparation. **UPDATE installe Eclipse 3.0.0 dans le même dossier.** Le nom de l'exécutable et le canal public restent compatibles. Le dossier `data`, l'historique des runs et les réglages du HUD sont conservés. L'updater vérifie la release et la version réellement installée avant de relancer Eclipse.
 
-Si un ancien updater boucle sur la V1, télécharge le dernier ZIP, extrais-le entièrement et lance **`Eclipse.Setup.exe`** une fois. La V1 est remplacée, mais les anciennes pages de release restent accessibles. Un ancien exécutable déjà téléchargé ne se désactive pas à distance.
+Si un ancien updater boucle sur la V1, lance **`Eclipse-Setup.exe`** une fois. Le ZIP complet reste disponible pour l'installation portable et les mises à jour intégrées. La V1 est remplacée, mais les anciennes pages de release restent accessibles. Un ancien exécutable déjà téléchargé ne se désactive pas à distance.
 
 ## Mesures et sources
 
@@ -115,3 +117,10 @@ Si un ancien updater boucle sur la V1, télécharge le dernier ZIP, extrais-le e
 Eclipse est maintenu par **Iota-Nine**, comme projet communautaire indépendant. Ce dépôt distribue les releases Windows compilées et leur documentation. Les données personnelles, jetons API et archives de combat locales sont exclus du téléchargement public.
 
 AION, AION 2, les illustrations NCSOFT et les données du jeu appartiennent à leurs ayants droit. Eclipse n'est pas affilié à NCSOFT. Voir les [conditions de distribution](../LICENSE).
+
+
+### Soins et boucliers dans Eclipse 3.0.0
+
+![Soins du groupe, HPS et applications de boucliers — interface anglaise, données fictives](images/eclipse-support-en.png)
+
+Couverture : huit familles de soins et cinq de boucliers. Zéro événement reçu ne prouve pas l’absence de soins. Exporter le diagnostic dans Préférences pendant le run concerné. Validation réelle par les utilisateurs encore nécessaire.
