@@ -16,7 +16,9 @@ Eclipse is a free AION 2 damage meter for Windows with a live party overlay and 
 
 [Features](#a-clearer-view-of-every-fight) · [Install Eclipse](#install-eclipse) · [How the numbers work](#how-the-numbers-work) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 3.0.1 adds healing/HPS and allied shield bars to the compact and full HUD, corrects shield classification and removes the large mouse-recovery button.** Existing users can use **UPDATE**; new users download **Eclipse-Setup.exe**, which includes the complete application. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
+**3.0.1 overlay correction:** the minus button keeps the header visible; plus restores the meter. Already on 3.0.1? [Redownload the setup](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe) for this same-version fix. Saved runs and settings are preserved.
+
+**Eclipse 3.0.1 adds healing/HPS and allied shield bars to the compact and full HUD, corrects shield classification and removes the large mouse-recovery button.** Users on an older version can use **UPDATE**; new users download **Eclipse-Setup.exe**, which includes the complete application. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
 
 ![AION 2 DPS meter — Eclipse 3.0.1 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
 
@@ -29,6 +31,7 @@ The included 2.1.9 correction restores damage measurement after a completed or i
 | Feature | What you get |
 |---|---|
 | **Live party DPS overlay** | Live party DPS returns to 0 after 2 seconds without received positive damage and starts a fresh DPS window on the next hit. Run totals and received player levels remain available. The HUD starts enabled and shares the client's measurements. |
+| **Collapsible overlay** | Press **−** to keep only the draggable header, then **+** to restore compact/full counters. Measurements keep running. |
 | **HUD mouse shortcut** | Press **Ctrl+Alt+L** to toggle click-through. The reminder is integrated into the HUD; no large recovery button. An occupied shortcut leaves the HUD clickable. |
 | **Glass desktop client** | Translucent panels, animated AION artwork, Eclipse branding and an entirely silent startup intro. Move, resize or place the client on another monitor. |
 | **Dungeon run correction** | Internal teleports preserve damage and the run. Supported final-boss deaths archive it and reset live totals; interruptions keep a recovered summary. 22 activity entries are recognized; automatic completion is limited to 7 dungeons. Other finishes remain manual. |

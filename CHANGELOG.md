@@ -2,6 +2,17 @@
 
 ## v3.0.1 — Live HUD healing and allied shields
 
+### Overlay fold correction — 5 October 2026, same version 3.0.1
+
+The **−** button now folds the overlay to its visible, draggable header. Press **+** to restore the meter. It works in compact and full views; the selected mode, width and position are retained. Live measurements and cumulative damage/healing/shield totals continue while folded. Closing the overlay still leaves the main client running.
+
+**Already on 3.0.1?** Download the current **Eclipse-Setup.exe** and reinstall to receive this same-version correction. **UPDATE** detects higher versions, so it will not appear for an existing 3.0.1 installation. Saved runs and settings are preserved.
+
+Validation: 56 native fold checks in English/French and compact/full modes, existing HUD support/shortcut/analysis/history checks, isolated shutdown and ZIP/setup migrations including a previous 3.0.1 installation. Screenshot uses fictional demo data.
+
+![Folded Eclipse HUD — header stays visible, English, fictional demo encounter](https://raw.githubusercontent.com/Iota-Nine/Aion2-Eclipse/main/docs/images/eclipse-hud-folded-en.png)
+
+
 Eclipse 3.0.1 brings party support into the live HUD, in compact and full modes.
 
 - **Healing under the damage bars:** green rows show each player's observed healing total and average HPS over the run. Healers remain visible even with zero damage.

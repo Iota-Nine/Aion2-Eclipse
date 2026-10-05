@@ -2,8 +2,8 @@
   "version": "3.0.1",
   "tag": "v3.0.1",
   "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.1/Aion2-Eclipse-v3.0.1-win-x64.zip",
-  "sha256": "0e7f52d5c94055a6b7d0fa920326548d6819b10c0951033923692ab1a1fb209e",
-  "name": "Eclipse 3.0.1 - Live HUD healing and allied shields",
-  "notes": "Healing/HPS and allied shield application bars in compact/full HUD. Multi-class shield classification corrected, including Cleric specializations. Large mouse recovery button removed; Ctrl+Alt+L toggles click-through. Shield capacity and blocked/absorbed damage remain unknown. History and preferences preserved.",
+  "sha256": "d7981685d8cd867e1467e2bf3009210c2ca9dbbbc5aca793e71ca8c3b5ea415e",
+  "name": "Eclipse 3.0.1 - Live HUD support and collapsible overlay",
+  "notes": "Overlay minus button folds to the visible header; plus restores the compact/full meter. Measurements continue while folded. Healing/HPS and allied shield application bars retained. Already on 3.0.1: redownload the setup for this same-version correction; UPDATE only detects higher versions. Saved runs and preferences preserved.",
   "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.1"
 }

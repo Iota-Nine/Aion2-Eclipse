@@ -1,5 +1,8 @@
 # Eclipse — DPS meter AION 2 gratuit pour Windows
 
+**Correctif du repli du HUD — même version 3.0.1.** Le bouton **−** replie l'overlay sur son en-tête visible et déplaçable ; **+** réaffiche les compteurs. Compact/complet, position et largeur conservés. Les mesures et cumuls continuent. Si vous êtes déjà en 3.0.1, retéléchargez **Eclipse-Setup.exe** et réinstallez : UPDATE ne détecte que les versions supérieures. Historique et réglages conservés.
+
+
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
 ![Eclipse 3.0.1 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
