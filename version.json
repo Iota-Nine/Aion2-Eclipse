@@ -1,9 +1,9 @@
 {
-  "version": "3.0.2",
-  "tag": "v3.0.2",
-  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.2/Aion2-Eclipse-v3.0.2-win-x64.zip",
-  "sha256": "78b52fb63cf607d3c19f4b3cfeec48aa734b1d50719c4aeb3f98bdb3a7225bb1",
-  "name": "Eclipse 3.0.2 - Overlay fold update",
-  "notes": "Overlay minus folds to the visible header; plus restores the compact/full meter. Measurements continue. UPDATE available from 3.0.1 and earlier; history and settings preserved.",
-  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.2"
+  "version": "3.0.3",
+  "tag": "v3.0.3",
+  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.3/Aion2-Eclipse-v3.0.3-win-x64.zip",
+  "sha256": "dd2d1d1d8990afaf98576f7bacbf035949f096e60b2d2440039ec2452f053e2f",
+  "name": "Eclipse 3.0.3 - Live HUD and Alt+F8",
+  "notes": "Original HUD directly connected to the combat engine. Alt+F8 shows, hides or reopens it; compact/full, healing, allied shields and history retained. UPDATE available from 3.0.2 and older.",
+  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.3"
 }

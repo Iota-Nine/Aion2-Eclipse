@@ -1,5 +1,28 @@
 # Eclipse release notes
 
+## v3.0.3 — Live HUD and Alt+F8
+
+Eclipse 3.0.3 connects the original transparent HUD directly to the client's combat engine and adds **Alt+F8**.
+
+- **Alt+F8** shows or hides the HUD automatically once Eclipse is running. It works with the desktop client minimized and can reopen an overlay closed with ×. Showing the HUD does not activate it over the game. If another app owns Alt+F8, the client reports the conflict and its HUD button stays available.
+- The production overlay reads the same in-process damage, party identity, healing and allied-shield counters as the client. It requires no separate preview helper or API connection. Reset refreshes the displayed counters immediately.
+- The original appearance and controls remain: compact/full, header fold, move, click-through with **Ctrl+Alt+L**, **Ctrl+Alt+H**, **Ctrl+Alt+R**, Build, and UPDATE only when an update is detected.
+- Live DPS returns to zero after 2 seconds without positive damage; cumulative run damage and received support totals remain. Existing dungeon, history, build, timer and language features are retained.
+- **UPDATE** is available from 3.0.2 and older. History and settings are preserved; the installed 3.0.3 does not repeatedly ask for the same update.
+
+**Download:** **Eclipse-Setup.exe** below includes the application and runtime. English is default; French is selectable. If Npcap is missing, its official consent wizard is offered.
+
+Compatibility: this release uses the standard Windows overlay. It does not integrate into Steam or add exclusive-fullscreen rendering. Shield values still describe observed allied applications; capacity and absorbed damage remain unknown.
+
+Validation: 615 logic checks; native damage/healing/shield display and Alt+F8 lifecycle checks; existing compact/full EN/FR, fold, mouse shortcut, history, analysis and update UI checks; isolated shutdown; ZIP upgrades from V1, 3.0.0, both 3.0.1 builds and 3.0.2; standalone setup verification. Combat fixtures and gallery values are fictional. These checks do not replace exhaustive live-game protocol validation.
+
+![Eclipse compact overlay — English, fictional demo encounter](https://raw.githubusercontent.com/Iota-Nine/Aion2-Eclipse/main/docs/images/eclipse-hud-support-compact-en.png)
+
+---
+
+**Français** — La 3.0.3 relie directement le HUD original au moteur de combat du client et ajoute **Alt+F8** pour afficher/masquer l'overlay, même lorsque le client est réduit, ou le rouvrir après ×. Les compteurs se rafraîchissent après RESET. Apparence, fonctions, historique et réglages conservés. UPDATE proposé depuis la 3.0.2 et les versions précédentes. Cette version conserve l'overlay Windows habituel ; l'intégration Steam et le plein écran exclusif restent hors de cette release. Les boucliers restent un nombre d'applications observées, sans capacité en PV ni absorption inventée.
+
+
 ## v3.0.2 — Overlay fold update
 
 Eclipse 3.0.2 delivers the overlay fold correction through **UPDATE**, including for users already on 3.0.1.
