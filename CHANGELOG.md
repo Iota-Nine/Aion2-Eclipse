@@ -1,5 +1,25 @@
 # Eclipse release notes
 
+## v3.0.2 — Overlay fold update
+
+Eclipse 3.0.2 delivers the overlay fold correction through **UPDATE**, including for users already on 3.0.1.
+
+- Press **−** to fold the overlay to its visible, draggable header. Press **+** to restore the meter.
+- Compact/full mode, width and position are retained. Live measurements and cumulative damage, healing and allied-shield application counts continue while folded.
+- **UPDATE** appears in both the client and overlay when the new version is detected. Installing 3.0.2 clears the prompt; existing run history, language and HUD settings are preserved.
+- The existing healing/HPS and allied-shield bars remain available in compact and full modes. Shield capacity and absorbed damage are still unknown.
+
+**Install/update:** use **UPDATE** when it appears, or download **Eclipse-Setup.exe** below. English is the default; French is selectable. Runtime is included. The official Npcap consent wizard is offered if the driver is missing. No manual reinstallation is required just because you have 3.0.1.
+
+Validation: 615 logic checks, 56 native fold checks in English/French and compact/full modes, existing support/shortcut/history/analysis checks, isolated shutdown, final ZIP upgrades from V1, 3.0.0 and both 3.0.1 builds, plus standalone setup verification. Screenshots use fictional demo data; automated UI checks are not an exhaustive live-game protocol test.
+
+![Folded Eclipse overlay — English, fictional demo encounter](https://raw.githubusercontent.com/Iota-Nine/Aion2-Eclipse/main/docs/images/eclipse-hud-folded-en.png)
+
+---
+
+**Français** — La 3.0.2 rend le correctif du repli disponible via **UPDATE**, y compris depuis la 3.0.1. **−** conserve l'en-tête visible et déplaçable ; **+** réaffiche les compteurs. Les mesures continuent, le format compact/complet et la position sont conservés. Historique et réglages préservés. Mise à jour depuis le client ou l'overlay, ou via **Eclipse-Setup.exe**. Les limites de mesure des boucliers restent inchangées.
+
+
 ## v3.0.1 — Live HUD healing and allied shields
 
 ### Overlay fold correction — 5 October 2026, same version 3.0.1

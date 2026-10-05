@@ -1,11 +1,10 @@
 # Eclipse — DPS meter AION 2 gratuit pour Windows
 
-**Correctif du repli du HUD — même version 3.0.1.** Le bouton **−** replie l'overlay sur son en-tête visible et déplaçable ; **+** réaffiche les compteurs. Compact/complet, position et largeur conservés. Les mesures et cumuls continuent. Si vous êtes déjà en 3.0.1, retéléchargez **Eclipse-Setup.exe** et réinstallez : UPDATE ne détecte que les versions supérieures. Historique et réglages conservés.
-
+**Nouveau en 3.0.2 :** UPDATE propose le correctif du repli, aussi depuis la 3.0.1. **−** garde l'en-tête visible, **+** réaffiche les compteurs. Mesures, historique et réglages conservés.
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 3.0.1 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 3.0.2 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
@@ -13,9 +12,9 @@ Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Window
 
 [Fonctionnalités](#toutes-les-fonctionnalités) · [Installation](#installation) · [Mesures et sources](#mesures-et-sources) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 3.0.1 affiche les soins/HPS et les boucliers sur les alliés dans le HUD compact et complet, corrige leur classification et supprime le gros bouton de récupération de souris.** Depuis une version précédente, clique sur **UPDATE** lorsqu'il apparaît. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
+**Eclipse 3.0.2 conserve les soins/HPS et les boucliers sur les alliés dans le HUD compact et complet, corrige leur classification et supprime le gros bouton de récupération de souris.** Depuis une version précédente, clique sur **UPDATE** lorsqu'il apparaît. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
 
-![Interface anglaise d'Eclipse 3.0.1 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
+![Interface anglaise d'Eclipse 3.0.2 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
 
 *Capture de l'application Windows publiée, avec des valeurs fictives signalées dans l'interface. Toutes les captures de présentation sont en anglais.*
 
@@ -66,7 +65,7 @@ La durée du portail de voyage n'est **pas confirmée par cette source** : les p
 
 Les images viennent du client Windows natif et utilisent des données de démonstration. Aucun historique de joueur réel n'est publié.
 
-![Analyse directe d’un donjon dans Eclipse 3.0.1 — dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
+![Analyse directe d’un donjon dans Eclipse 3.0.2 — dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
 
 ![Analyse DPS AION 2 — dégâts, critiques et compétences du groupe dans Eclipse](images/eclipse-analysis-en.png)
 
