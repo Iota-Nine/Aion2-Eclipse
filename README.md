@@ -2,11 +2,11 @@
 
 **[Download Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Official website](https://iota-nine.github.io/Aion2-Eclipse/)** · [Français](docs/README.fr.md)
 
-![Eclipse 3.0.0 — AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
+![Eclipse 3.0.1 — AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
 
 [![Latest release](https://img.shields.io/github/v/release/Iota-Nine/Aion2-Eclipse?label=Download&color=75bdcf)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Iota-Nine/Aion2-Eclipse/total?color=9384d0)](https://github.com/Iota-Nine/Aion2-Eclipse/releases)
-![Version 3.0.0](https://img.shields.io/badge/Version-3.0.0-d8bd88)
+![Version 3.0.1](https://img.shields.io/badge/Version-3.0.1-d8bd88)
 ![Windows x64](https://img.shields.io/badge/Windows-x64-507cab)
 ![English and French](https://img.shields.io/badge/Language-EN%20%2F%20FR-75bdcf)
 
@@ -16,9 +16,9 @@ Eclipse is a free AION 2 damage meter for Windows with a live party overlay and 
 
 [Features](#a-clearer-view-of-every-fight) · [Install Eclipse](#install-eclipse) · [How the numbers work](#how-the-numbers-work) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 3.0.0 adds reported party healing, average run HPS and observed shield applications.** Existing users can use **UPDATE**; new users download **Eclipse-Setup.exe**, which includes the complete application. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
+**Eclipse 3.0.1 adds healing/HPS and allied shield bars to the compact and full HUD, corrects shield classification and removes the large mouse-recovery button.** Existing users can use **UPDATE**; new users download **Eclipse-Setup.exe**, which includes the complete application. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
 
-![AION 2 DPS meter — Eclipse 3.0.0 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
+![AION 2 DPS meter — Eclipse 3.0.1 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
 
 *Native screenshot of the released client. All gallery combat values are explicitly labelled demo data.*
 
@@ -29,10 +29,11 @@ The included 2.1.9 correction restores damage measurement after a completed or i
 | Feature | What you get |
 |---|---|
 | **Live party DPS overlay** | Live party DPS returns to 0 after 2 seconds without received positive damage and starts a fresh DPS window on the next hit. Run totals and received player levels remain available. The HUD starts enabled and shares the client's measurements. |
+| **HUD mouse shortcut** | Press **Ctrl+Alt+L** to toggle click-through. The reminder is integrated into the HUD; no large recovery button. An occupied shortcut leaves the HUD clickable. |
 | **Glass desktop client** | Translucent panels, animated AION artwork, Eclipse branding and an entirely silent startup intro. Move, resize or place the client on another monitor. |
 | **Dungeon run correction** | Internal teleports preserve damage and the run. Supported final-boss deaths archive it and reset live totals; interruptions keep a recovered summary. 22 activity entries are recognized; automatic completion is limited to 7 dungeons. Other finishes remain manual. |
-| **Party healing & HPS** | Received healing, caster shares, average run HPS, skill/HoT and recipient details. Works while the local character plays DPS or tank; a zero-damage healer stays visible. Selected skills only; effective healing and overheal remain unknown. |
-| **Shield applications** | Observed applications of selected shield buffs, with companion notices deduplicated. This is an application count; shield capacity and damage absorbed remain unknown. |
+| **Party healing & HPS** | Green healing/HPS bars under damage in compact and full HUD, plus received healing, caster shares, average run HPS, skill/HoT and recipient details. Works while the local character plays DPS or tank; a zero-damage healer stays visible. Selected skills only; effective healing and overheal remain unknown. |
+| **Shield applications** | Blue allied shield bars in compact and full HUD; healing and shielding can coexist for the same player, including Cleric. Observed applications of selected shield buffs, with companion notices deduplicated. This is an application count; shield capacity and damage absorbed remain unknown. |
 | **Party and skill analysis** | Inspect each member's damage, skill breakdown, critical hits, back attacks, maximum hits and received death counts. Nearby players outside the identified party are excluded. |
 | **Expedition summary** | Total damage, duration, party contribution, burst windows, gaps between hits and target segments, together with the declared build used for that run. |
 | **Interactive damage timeline** | Select a time range, inspect individual hits and find strong five-second burst windows. Large runs keep complete totals and mark partial timeline coverage when relevant. |
@@ -70,13 +71,19 @@ The images below come from the native Windows application. Combat data is simula
 
 ### Open a dungeon directly from history
 
-![Eclipse 3.0.0 AION 2 run history analysis — total damage and contribution bars for every party member](docs/images/eclipse-history-analysis-en.png)
+![Eclipse 3.0.1 AION 2 run history analysis — total damage and contribution bars for every party member](docs/images/eclipse-history-analysis-en.png)
+
+### Healing and shields in the live overlay
+
+![Compact Eclipse HUD with healing/HPS and shield applications to allies — English, fictional demo data](docs/images/eclipse-hud-support-compact-en.png)
+
+*Compact mode shown. Green bars show observed healing and average run HPS; blue bars count shields applied to allies. The same support rows are available in full mode. Values are fictional demonstration data.*
 
 ### Healing and shield applications
 
-![Eclipse 3.0.0 AION 2 party healing, HPS and observed shield applications — English interface, fictional demo data](docs/images/eclipse-support-en.png)
+![Eclipse 3.0.1 AION 2 party healing, HPS and observed shield applications — English interface, fictional demo data](docs/images/eclipse-support-en.png)
 
-Support coverage currently includes eight healing families and five shield families. Missing packet formats or identities can limit observation; zero received events does not prove zero healing occurred. Export diagnostics in Preferences during an affected run.
+Support coverage currently includes eight healing families, six direct shield families and five specialization-dependent shield families. Conditional shields require their received specialization flag. Shield application counts do not measure blocked or absorbed damage. Missing packet formats or identities can limit observation; zero received events does not prove zero healing occurred. Export diagnostics in Preferences during an affected run.
 
 ### Party analysis
 
@@ -114,7 +121,7 @@ Setup creates Desktop and Start menu shortcuts and installs Eclipse for your Win
 
 ## Upgrade from V1 or V2
 
-**UPDATE appears in the full client only when a newer version is detected, just like the overlay.** A luminous progress panel shows the real download percentage, then verification and installation preparation. **Click UPDATE in Eclipse to install Eclipse 3.0.0 in the same folder.** The executable name and public update channel stay compatible. Existing `data`, run history and HUD preferences are preserved. The updater verifies the release and checks the installed executable version before restarting it.
+**UPDATE appears in the full client only when a newer version is detected, just like the overlay.** A luminous progress panel shows the real download percentage, then verification and installation preparation. **Click UPDATE in Eclipse to install Eclipse 3.0.1 in the same folder.** The executable name and public update channel stay compatible. Existing `data`, run history and HUD preferences are preserved. The updater verifies the release and checks the installed executable version before restarting it.
 
 If an older updater keeps reopening V1, run **`Eclipse-Setup.exe`** once. The complete ZIP remains available in release assets for portable installation and in-app updates. V1 is superseded; historical release pages remain available. An already downloaded V1 executable does not disable itself remotely.
 

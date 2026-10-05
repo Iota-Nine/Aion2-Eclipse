@@ -9,7 +9,7 @@ body:
     id: version
     attributes:
       label: Eclipse version / Version Eclipse
-      placeholder: "Example: v3.0.0"
+      placeholder: "Example: v3.0.1"
     validations:
       required: true
   - type: input
@@ -27,6 +27,7 @@ body:
         - Installation / Npcap
         - Capture / Identity / Party levels
         - Damage / DPS values
+        - Healing / HPS / Shield applications
         - Dungeon reset / Run history
         - Builds / Meta
         - Boss timers / Alerts

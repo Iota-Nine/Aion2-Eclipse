@@ -1,5 +1,24 @@
 # Eclipse release notes
 
+## v3.0.1 — Live HUD healing and allied shields
+
+Eclipse 3.0.1 brings party support into the live HUD, in compact and full modes.
+
+- **Healing under the damage bars:** green rows show each player's observed healing total and average HPS over the run. Healers remain visible even with zero damage.
+- **Shields to allies:** blue rows count recognized shield applications to other party members. Healing and shielding can appear together for the same player, including Cleric. Self-shields are excluded from these allied HUD rows.
+- **More accurate shield classification:** block bonuses and protection from death no longer count as shields. Six direct shield families and five specialization-dependent families are recognized; conditional effects require the specialization flag in the received data. Selected coverage spans multiple classes, including Cleric.
+- **Cleaner click-through HUD:** the large “Grab mouse back” button is removed. Press **Ctrl+Alt+L** to toggle mouse interaction; a discreet hint stays inside the HUD. If the shortcut is occupied, the HUD stays clickable. Closing the overlay keeps the main client running.
+
+Support totals stay cumulative when live DPS returns to zero after 2 seconds without positive damage. A new run clears the support totals. English is the default; French remains available.
+
+**Measurement limits:** shields are application counts, not damage amounts. Shield capacity, damage absorbed or blocked, effective healing and overheal remain unknown. The support decoder covers selected packet families and skills; automated checks do not establish exhaustive live-game or regional coverage.
+
+**Install/update:** download **Eclipse-Setup.exe** below, or use **UPDATE** when it appears in Eclipse. Runtime is included; the official Npcap consent wizard is offered if its driver is missing. Existing history and preferences are preserved. The ZIP is also available for a complete extracted installation.
+
+Validation: 615 logic checks, 26 native HUD support checks and 24 shortcut checks, plus existing analysis/history checks, isolated client shutdown, final ZIP migrations from V1 and 3.0.0, and standalone setup verification. Screenshots use fictional demo data.
+
+![Compact HUD with healing and allied shield bars — English, fictional demo data](https://raw.githubusercontent.com/Iota-Nine/Aion2-Eclipse/main/docs/images/eclipse-hud-support-compact-en.png)
+
 ## v3.0.0 — Party healing and shield applications
 
 Eclipse 3.0.0 adds reported party healing and observed shield applications to the Glass client's run analysis.
