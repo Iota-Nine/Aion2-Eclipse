@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## v3.0.4 — HUD return after Alt+Tab
+
+Eclipse 3.0.4 improves HUD visibility when returning to AION 2 after **Alt+Tab**.
+
+- A visible HUD is automatically brought back above the game window, without taking keyboard focus or moving/resizing it. No need to toggle Alt+F8 just to restore its order.
+- A HUD deliberately hidden with **Alt+F8** or **Ctrl+Alt+H**, or closed with ×, stays hidden. Alt+F8 remains available to reopen it.
+- Compact/full, folded header, click-through, live damage/healing/allied-shield counters, run history and settings are retained. This update does not reset the current run when game focus changes.
+- **UPDATE** is available from 3.0.3 and older. The installed 3.0.4 does not offer the same update again.
+
+**Download Eclipse-Setup.exe below** for the complete application and runtime. English is default; French is selectable. Missing Npcap is offered through its official consent wizard.
+
+Validation: 615 logic checks, 44 native Windows foreground/order checks, live-engine HUD and existing interface checks, six previous-version migration paths, standalone setup and shutdown verification. Gallery combat values are fictional. Live-game visual Alt+Tab confirmation has not been explicitly recorded; native fixtures do not establish exclusive-fullscreen compatibility. This correction uses the existing Windows HUD.
+
+---
+
+**Français** — La 3.0.4 remet automatiquement un HUD visible devant la fenêtre d'AION 2 au retour après **Alt+Tab**, sans prendre le focus clavier ni changer sa taille ou sa position. Un masquage volontaire reste respecté ; **Alt+F8** permet toujours d'afficher ou de rouvrir le HUD. Modes compact/complet, en-tête replié, clics, mesures, historique et réglages conservés. **UPDATE** proposé depuis la 3.0.3 et les versions précédentes.
+
+
 ## v3.0.3 — Live HUD and Alt+F8
 
 Eclipse 3.0.3 connects the original transparent HUD directly to the client's combat engine and adds **Alt+F8**.

@@ -2,11 +2,11 @@
 
 **[Download Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Official website](https://iota-nine.github.io/Aion2-Eclipse/)** · [Français](docs/README.fr.md)
 
-![Eclipse 3.0.3 — AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
+![Eclipse 3.0.4 — AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
 
 [![Latest release](https://img.shields.io/github/v/release/Iota-Nine/Aion2-Eclipse?label=Download&color=75bdcf)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Iota-Nine/Aion2-Eclipse/total?color=9384d0)](https://github.com/Iota-Nine/Aion2-Eclipse/releases)
-![Version 3.0.3](https://img.shields.io/badge/Version-3.0.3-d8bd88)
+![Version 3.0.4](https://img.shields.io/badge/Version-3.0.4-d8bd88)
 ![Windows x64](https://img.shields.io/badge/Windows-x64-507cab)
 ![English and French](https://img.shields.io/badge/Language-EN%20%2F%20FR-75bdcf)
 
@@ -14,13 +14,13 @@
 
 Eclipse is a free AION 2 damage meter for Windows with a live party overlay and a full Glass desktop client. Follow damage, inspect skills, review dungeon runs and compare your builds in one place. Keep it on a second monitor, minimize it during the fight, then come back to your expedition summary.
 
-**New in 3.0.3:** the original HUD now reads the combat engine directly. **Alt+F8** shows, hides or reopens the overlay, including while the desktop client is minimized. History and settings are retained.
+**New in 3.0.4:** the visible HUD automatically returns above AION 2 after **Alt+Tab**, without taking keyboard focus. Deliberate hide/close is respected; Alt+F8, run totals, history and settings are retained.
 
 [Features](#a-clearer-view-of-every-fight) · [Install Eclipse](#install-eclipse) · [How the numbers work](#how-the-numbers-work) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 3.0.3 includes healing/HPS and allied shield bars in the compact and full HUD, corrects shield classification and removes the large mouse-recovery button.** Existing users, including 3.0.1, can use **UPDATE**; new users download **Eclipse-Setup.exe**, which includes the complete application. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
+**Eclipse 3.0.4 includes healing/HPS and allied shield bars in the compact and full HUD, corrects shield classification and removes the large mouse-recovery button.** Existing users, including 3.0.1, can use **UPDATE**; new users download **Eclipse-Setup.exe**, which includes the complete application. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
 
-![AION 2 DPS meter — Eclipse 3.0.3 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
+![AION 2 DPS meter — Eclipse 3.0.4 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
 
 *Native screenshot of the released client. All gallery combat values are explicitly labelled demo data.*
 
@@ -32,6 +32,7 @@ The included 2.1.9 correction restores damage measurement after a completed or i
 |---|---|
 | **Live party DPS overlay** | Live party DPS returns to 0 after 2 seconds without received positive damage and starts a fresh DPS window on the next hit. Run totals and received player levels remain available. The HUD starts enabled and shares the client's measurements. |
 | **Collapsible overlay** | Press **−** to keep only the draggable header, then **+** to restore compact/full counters. Measurements keep running. |
+| **Return after Alt+Tab** | A visible HUD is automatically reordered above the game window when AION 2 regains focus. Position, dimensions, click-through and run totals stay intact; a deliberately hidden HUD stays hidden. |
 | **HUD visibility shortcut** | **Alt+F8** shows/hides or reopens the HUD automatically. An occupied shortcut is reported; the client HUD button remains available. Standard Windows overlay; Steam and exclusive-fullscreen integration are not included. |
 | **HUD mouse shortcut** | Press **Ctrl+Alt+L** to toggle click-through. The reminder is integrated into the HUD; no large recovery button. An occupied shortcut leaves the HUD clickable. |
 | **Glass desktop client** | Translucent panels, animated AION artwork, Eclipse branding and an entirely silent startup intro. Move, resize or place the client on another monitor. |

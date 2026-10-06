@@ -1,10 +1,10 @@
 # Eclipse — DPS meter AION 2 gratuit pour Windows
 
-**Nouveau en 3.0.3 :** le HUD original lit directement le moteur de combat. **Alt+F8** affiche, masque ou rouvre l'overlay, même lorsque le client est réduit. Historique et réglages conservés.
+**Nouveau en 3.0.4 :** le HUD visible revient automatiquement devant AION 2 après **Alt+Tab**, sans prendre le focus clavier. Masquage volontaire respecté ; Alt+F8, mesures, historique et réglages conservés.
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 3.0.3 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 3.0.4 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
@@ -12,9 +12,9 @@ Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Window
 
 [Fonctionnalités](#toutes-les-fonctionnalités) · [Installation](#installation) · [Mesures et sources](#mesures-et-sources) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 3.0.3 conserve les soins/HPS et les boucliers sur les alliés dans le HUD compact et complet, corrige leur classification et supprime le gros bouton de récupération de souris.** Depuis une version précédente, clique sur **UPDATE** lorsqu'il apparaît. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
+**Eclipse 3.0.4 conserve les soins/HPS et les boucliers sur les alliés dans le HUD compact et complet, corrige leur classification et supprime le gros bouton de récupération de souris.** Depuis une version précédente, clique sur **UPDATE** lorsqu'il apparaît. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
 
-![Interface anglaise d'Eclipse 3.0.3 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
+![Interface anglaise d'Eclipse 3.0.4 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
 
 *Capture de l'application Windows publiée, avec des valeurs fictives signalées dans l'interface. Toutes les captures de présentation sont en anglais.*
 
@@ -27,6 +27,7 @@ Le correctif 2.1.9 inclus restaure le comptage des dégâts après un run clôtu
 | **Soins du groupe et HPS** | Barres vertes sous les dégâts du HUD compact et complet, soins reçus, parts des soigneurs, HPS moyens, compétences/ticks et destinataires. Le joueur local peut être DPS ou tank ; les healers à zéro dégât restent visibles. Soins effectifs et overheal inconnus. |
 | **Applications de bouclier** | Barres bleues de boucliers posés sur les alliés dans les deux formats. Un Cleric peut figurer dans les soins et les boucliers. Applications de compétences reconnues, notifications doublonnées regroupées. Capacité et dégâts absorbés inconnus. |
 | **HUD DPS du groupe** | Le DPS live revient à 0 après 2 secondes sans dégâts positifs reçus et repart sur une nouvelle fenêtre au prochain impact. Les dégâts cumulés et les niveaux reçus restent disponibles. L'overlay démarre activé et partage les mesures du client. |
+| **Retour après Alt+Tab** | Le HUD visible revient devant lorsque AION 2 reprend le focus. Position, dimensions, clics et cumuls restent intacts ; un HUD masqué volontairement reste masqué. |
 | **Affichage du HUD** | **Alt+F8** affiche, masque ou rouvre l'overlay automatiquement. Un conflit de raccourci est signalé ; le bouton HUD du client reste disponible. Overlay Windows habituel, sans intégration Steam ou plein écran exclusif. |
 | **Raccourci souris du HUD** | **Ctrl+Alt+L** active ou désactive le passage des clics. Rappel discret intégré, gros bouton supprimé. Si le raccourci est occupé, le HUD reste cliquable. |
 | **Client Glass** | Panneaux translucides, illustrations AION animées, identité Eclipse et intro silencieuse. Fenêtre déplaçable et redimensionnable, compatible avec un deuxième écran. |
@@ -66,7 +67,7 @@ La durée du portail de voyage n'est **pas confirmée par cette source** : les p
 
 Les images viennent du client Windows natif et utilisent des données de démonstration. Aucun historique de joueur réel n'est publié.
 
-![Analyse directe d’un donjon dans Eclipse 3.0.3 — dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
+![Analyse directe d’un donjon dans Eclipse 3.0.4 — dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
 
 ![Analyse DPS AION 2 — dégâts, critiques et compétences du groupe dans Eclipse](images/eclipse-analysis-en.png)
 
