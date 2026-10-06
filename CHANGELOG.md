@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## v3.0.6 — Shields and support buffs
+
+Eclipse 3.0.6 expands support analysis in the original compact and full HUD, and retains your local runs and preferences on update.
+
+- Improved detection of selected shield skills across Templar, Cleric, Chanter, Sorcerer, Ranger and Spiritmaster, including verified self effects and specialization requirements.
+- Blue shield bars show observed activations and received duration ranges. Skill and recipient details are retained in new run histories. Companion notices and near-simultaneous group applications are grouped.
+- New violet support-buff bars for selected Cleric and Chanter skills: Light of Protection, Yustiel’s Power, Prayer of Amplification, Sprint Mantra, Undefeated Mantra, Power of the Storm, Guardian Blessing and Barrier Spell. Analysis lists casters, skills and recipients.
+- Repeated overlapping aura/mantra refreshes form one observed sequence instead of inflating activation counts. Selected pre-combat support still active by its received lifetime is retained at the first accepted damage event.
+- Self healing, shields and buffs remain optional and off by default. Existing healing totals are not counted twice. English is default; French is available in Preferences.
+- DPS, run totals, party Combat Power, original HUD controls, Alt+F8, Ctrl+Alt+L, collapse/restore and return after Alt+Tab are retained.
+
+Measurement limits: durations are received lifetimes, not measured active uptime or a shield-destruction countdown. Shield HP capacity, absorbed damage, destruction, buff potency and damage gained are not measured. Selected skills and identified party data only; unavailable metrics stay hidden. Old runs do not invent missing support details.
+
+Validation: 812 logic checks, 390 native Windows interface checks across 16 suites, isolated upgrades from V1 and 3.0.5, standalone setup and shutdown checks. Packet/interface fixtures are fictional; these checks do not establish universal live-game skill coverage.
+
+FR — Détection de boucliers améliorée sur six classes, activations observées et durées reçues. Buffs sélectionnés du Cleric et de l’aède, barres violettes et détails par compétence/destinataire dans l’analyse. Les rafraîchissements de mantras sont regroupés. Détail sur soi en option ; historique et réglages conservés. Les durées ne mesurent pas l’uptime réel. PV des boucliers, absorption, destruction et gain de dégâts des buffs restent inconnus.
+
+
 ## v3.0.5 — HUD support, Combat Power and skill icons
 
 Eclipse 3.0.5 corrects missing skill icons and adds optional self-support details and party Combat Power to the compact and full HUD.

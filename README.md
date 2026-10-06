@@ -2,11 +2,11 @@
 
 **[Download Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Official website](https://iota-nine.github.io/Aion2-Eclipse/)** · [Français](docs/README.fr.md)
 
-![Eclipse 3.0.5 — AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
+![Eclipse 3.0.6 — AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
 
 [![Latest release](https://img.shields.io/github/v/release/Iota-Nine/Aion2-Eclipse?label=Download&color=75bdcf)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Iota-Nine/Aion2-Eclipse/total?color=9384d0)](https://github.com/Iota-Nine/Aion2-Eclipse/releases)
-![Version 3.0.5](https://img.shields.io/badge/Version-3.0.5-d8bd88)
+![Version 3.0.6](https://img.shields.io/badge/Version-3.0.6-d8bd88)
 ![Windows x64](https://img.shields.io/badge/Windows-x64-507cab)
 ![English and French](https://img.shields.io/badge/Language-EN%20%2F%20FR-75bdcf)
 
@@ -14,13 +14,13 @@
 
 Eclipse is a free AION 2 damage meter for Windows with a live party overlay and a full Glass desktop client. Follow damage, inspect skills, review dungeon runs and compare your builds in one place. Keep it on a second monitor, minimize it during the fight, then come back to your expedition summary.
 
-**New in 3.0.5:** missing skill icons corrected, optional self healing/self shields and party **Combat Power** in the compact and full HUD. Display options are available in Preferences; your totals, history and settings are retained.
+**New in 3.0.6:** improved shield detection across six classes, observed activations and received durations, plus selected **Cleric and Chanter support buffs** in compact/full HUD and run analysis. Violet bars, skill/recipient details and grouped mantra refreshes. History and preferences retained.
 
 [Features](#a-clearer-view-of-every-fight) · [Install Eclipse](#install-eclipse) · [How the numbers work](#how-the-numbers-work) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 3.0.5 includes healing/HPS and allied shield bars in the compact and full HUD, corrects shield classification and removes the large mouse-recovery button.** Existing users, including 3.0.1, can use **UPDATE**; new users download **Eclipse-Setup.exe**, which includes the complete application. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
+**Eclipse 3.0.6 includes healing/HPS and allied shield bars in the compact and full HUD, corrects shield classification and removes the large mouse-recovery button.** Existing users, including 3.0.1, can use **UPDATE**; new users download **Eclipse-Setup.exe**, which includes the complete application. English is the default language. French is available in Preferences. No Eclipse account or signup is required.
 
-![AION 2 DPS meter — Eclipse 3.0.5 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
+![AION 2 DPS meter — Eclipse 3.0.6 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
 
 *Native screenshot of the released client. All gallery combat values are explicitly labelled demo data.*
 
@@ -38,8 +38,9 @@ The included 2.1.9 correction restores damage measurement after a completed or i
 | **Glass desktop client** | Translucent panels, animated AION artwork, Eclipse branding and an entirely silent startup intro. Move, resize or place the client on another monitor. |
 | **Dungeon run correction** | Internal teleports preserve damage and the run. Supported final-boss deaths archive it and reset live totals; interruptions keep a recovered summary. 22 activity entries are recognized; automatic completion is limited to 7 dungeons. Other finishes remain manual. |
 | **Party healing & HPS** | Green healing/HPS bars under damage in compact and full HUD, plus received healing, caster shares, average run HPS, skill/HoT and recipient details. Works while the local character plays DPS or tank; a zero-damage healer stays visible. Selected skills only; effective healing and overheal remain unknown. |
-| **Shield applications** | Blue allied shield bars in compact and full HUD; healing and shielding can coexist for the same player, including Cleric. Observed applications of selected shield buffs, with companion notices deduplicated. This is an application count; shield capacity and damage absorbed remain unknown. |
-| **Self support, in detail** | Optional self-healing and self-shield bars in compact/full. Self healing is already part of total healing; it is not counted twice. Recognized self-shield applications, without capacity or absorption. Off by default in Preferences. |
+| **Shields, in detail** | Blue allied bars in compact/full. Selected skills across six classes; observed activations, received duration ranges and recipients. Group/companion notices are grouped. Shield capacity, absorbed damage and destruction remain unknown; duration is not actual uptime. |
+| **Cleric and Chanter buffs** | Violet compact/full bars for eight selected beneficial skill families. Observed activations, received duration ranges, skills and recipients in analysis. Overlapping mantra/aura refreshes form one observed sequence. No invented uptime or damage gain. |
+| **Self support, in detail** | Optional self-healing, self-shield and self-buff bars in compact/full. Self healing is already part of total healing; it is not counted twice. Recognized self-shield applications, without capacity or absorption. Off by default in Preferences. |
 | **Party Combat Power** | CP beside each member in compact/full, when received from structured group information for the matching identity and server. Missing CP stays “—”. Can be disabled in Preferences. |
 | **Party and skill analysis** | Inspect each member's damage, skill breakdown, critical hits, back attacks, maximum hits and received death counts. Nearby players outside the identified party are excluded. |
 | **Expedition summary** | Total damage, duration, party contribution, burst windows, gaps between hits and target segments, together with the declared build used for that run. |
@@ -80,17 +81,17 @@ The images below come from the native Windows application. Combat data is simula
 
 ![Eclipse 3.0.1 AION 2 run history analysis — total damage and contribution bars for every party member](docs/images/eclipse-history-analysis-en.png)
 
-### Healing and shields in the live overlay
+### Healing, shields and support buffs in the live overlay
 
-![Compact Eclipse HUD with healing/HPS and shield applications to allies — English, fictional demo data](docs/images/eclipse-hud-support-compact-en.png)
+![Compact Eclipse HUD with healing/HPS and shield applications to allies — English, fictional demo data](docs/images/eclipse-support-buffs-overlay-compact-en.png)
 
-*Compact mode shown. Green bars show observed healing and average run HPS; blue bars count shields applied to allies. The same support rows are available in full mode. Values are fictional demonstration data.*
+*Green: healing/HPS. Blue: observed shield activations and received lifetimes. Violet: selected Cleric/Chanter buffs. Available in compact and full. Fictional native demonstration data; received lifetime is not actual uptime.*
 
-### Healing and shield applications
+### Support skills and recipients
 
-![Eclipse 3.0.1 AION 2 party healing, HPS and observed shield applications — English interface, fictional demo data](docs/images/eclipse-support-en.png)
+![Eclipse 3.0.6 AION 2 support buffs and shield analysis — English interface, fictional demo data](docs/images/eclipse-support-buffs-analysis-full-en.png)
 
-Support coverage currently includes eight healing families, six direct shield families and five specialization-dependent shield families. Conditional shields require their received specialization flag. Shield application counts do not measure blocked or absorbed damage. Missing packet formats or identities can limit observation; zero received events does not prove zero healing occurred. Export diagnostics in Preferences during an affected run.
+Support coverage currently includes eight healing families, six direct shield families and five specialization-dependent shield families. Conditional shields require their received specialization flag. Observed activations and received lifetimes do not measure actual uptime, shield capacity, blocked/absorbed damage or shield destruction. Eight selected Cleric/Chanter buff families are also tracked; overlapping aura refreshes are grouped. Missing packet formats or identities can limit observation; zero received events does not prove zero healing occurred. Export diagnostics in Preferences during an affected run.
 
 ### Party analysis
 
@@ -160,6 +161,6 @@ AION, AION 2, NCSOFT artwork and game data belong to their respective owners. Ec
 
 ## More detail in your HUD
 
-![Eclipse 3.0.5 — compact HUD with optional self support and party Combat Power](docs/images/eclipse-hud-self-cp-compact-en.png)
+![Eclipse 3.0.6 — compact HUD with optional self support and party Combat Power](docs/images/eclipse-hud-self-cp-compact-en.png)
 
 *Native Windows display fixture with fictional characters and values. Self support is optional; unknown CP stays unknown.*

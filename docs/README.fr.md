@@ -1,10 +1,10 @@
 # Eclipse — DPS meter AION 2 gratuit pour Windows
 
-**Nouveau en 3.0.5 :** icônes manquantes corrigées, soins/boucliers sur soi en option et **Combat Power** du groupe dans le HUD compact/complet. Options dans Préférences ; cumuls, historique et réglages conservés.
+**Nouveau en 3.0.6 :** boucliers mieux détectés sur six classes, activations observées et durées reçues, **buffs sélectionnés du Cleric et de l’aède** dans le HUD compact/complet et l’analyse. Barres violettes, compétences/destinataires et mantras regroupés. Historique et réglages conservés.
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 3.0.5 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 3.0.6 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
@@ -12,9 +12,9 @@ Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Window
 
 [Fonctionnalités](#toutes-les-fonctionnalités) · [Installation](#installation) · [Mesures et sources](#mesures-et-sources) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 3.0.5 conserve les soins/HPS et les boucliers sur les alliés dans le HUD compact et complet, corrige leur classification et supprime le gros bouton de récupération de souris.** Depuis une version précédente, clique sur **UPDATE** lorsqu'il apparaît. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
+**Eclipse 3.0.6 conserve les soins/HPS et les boucliers sur les alliés dans le HUD compact et complet, corrige leur classification et supprime le gros bouton de récupération de souris.** Depuis une version précédente, clique sur **UPDATE** lorsqu'il apparaît. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
 
-![Interface anglaise d'Eclipse 3.0.5 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
+![Interface anglaise d'Eclipse 3.0.6 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
 
 *Capture de l'application Windows publiée, avec des valeurs fictives signalées dans l'interface. Toutes les captures de présentation sont en anglais.*
 
@@ -25,7 +25,8 @@ Le correctif 2.1.9 inclus restaure le comptage des dégâts après un run clôtu
 | Fonction | Ce qu'elle apporte |
 |---|---|
 | **Soins du groupe et HPS** | Barres vertes sous les dégâts du HUD compact et complet, soins reçus, parts des soigneurs, HPS moyens, compétences/ticks et destinataires. Le joueur local peut être DPS ou tank ; les healers à zéro dégât restent visibles. Soins effectifs et overheal inconnus. |
-| **Applications de bouclier** | Barres bleues de boucliers posés sur les alliés dans les deux formats. Un Cleric peut figurer dans les soins et les boucliers. Applications de compétences reconnues, notifications doublonnées regroupées. Capacité et dégâts absorbés inconnus. |
+| **Boucliers en détail** | Barres bleues en compact/complet. Compétences sélectionnées sur six classes, activations observées, plages de durées reçues et destinataires. Notifications regroupées. PV, absorption et destruction inconnus ; la durée reçue ne mesure pas l’uptime réel. |
+| **Buffs du Cleric et de l’aède** | Barres violettes pour huit familles bénéfiques sélectionnées. Activations observées, durées reçues et détails par compétence/destinataire. Rafraîchissements de mantras regroupés ; aucun uptime ou gain de dégâts inventé. |
 | **HUD DPS du groupe** | Le DPS live revient à 0 après 2 secondes sans dégâts positifs reçus et repart sur une nouvelle fenêtre au prochain impact. Les dégâts cumulés et les niveaux reçus restent disponibles. L'overlay démarre activé et partage les mesures du client. |
 | **Retour après Alt+Tab** | Le HUD visible revient devant lorsque AION 2 reprend le focus. Position, dimensions, clics et cumuls restent intacts ; un HUD masqué volontairement reste masqué. |
 | **Affichage du HUD** | **Alt+F8** affiche, masque ou rouvre l'overlay automatiquement. Un conflit de raccourci est signalé ; le bouton HUD du client reste disponible. Overlay Windows habituel, sans intégration Steam ou plein écran exclusif. |
@@ -67,7 +68,7 @@ La durée du portail de voyage n'est **pas confirmée par cette source** : les p
 
 Les images viennent du client Windows natif et utilisent des données de démonstration. Aucun historique de joueur réel n'est publié.
 
-![Analyse directe d’un donjon dans Eclipse 3.0.5 — dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
+![Analyse directe d’un donjon dans Eclipse 3.0.6 — dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
 
 ![Analyse DPS AION 2 — dégâts, critiques et compétences du groupe dans Eclipse](images/eclipse-analysis-en.png)
 
@@ -124,19 +125,19 @@ Eclipse est maintenu par **Iota-Nine**, comme projet communautaire indépendant.
 AION, AION 2, les illustrations NCSOFT et les données du jeu appartiennent à leurs ayants droit. Eclipse n'est pas affilié à NCSOFT. Voir les [conditions de distribution](../LICENSE).
 
 
-### Soins et boucliers dans Eclipse 3.0.1
+### Comp?tences de soutien et destinataires dans Eclipse 3.0.6
 
-![Soins du groupe, HPS et applications de boucliers — interface anglaise, données fictives](images/eclipse-support-en.png)
+![Soins du groupe, HPS et applications de boucliers — interface anglaise, données fictives](images/eclipse-support-buffs-analysis-full-en.png)
 
 Couverture : huit familles de soins, six familles directes de boucliers et cinq conditionnelles selon la spécialisation reçue. Les applications ne mesurent pas les dégâts absorbés ou bloqués. Zéro événement reçu ne prouve pas l’absence de soins. Exporter le diagnostic dans Préférences pendant le run concerné. Validation réelle par les utilisateurs encore nécessaire.
 
 
 ### Soins et boucliers dans le HUD compact
 
-![HUD compact : soins/HPS et applications de boucliers sur les alliés — anglais, données fictives](images/eclipse-hud-support-compact-en.png)
+![HUD compact : soins/HPS et applications de boucliers sur les alliés — anglais, données fictives](images/eclipse-support-buffs-overlay-compact-en.png)
 
-Barres vertes pour les soins et HPS moyens du run, bleues pour les applications sur les alliés. Également visibles dans le format complet. Valeurs fictives de démonstration.
+Barres vertes pour les soins/HPS, bleues pour les activations de boucliers et violettes pour les buffs sélectionnés du Cleric et de l’aède. Durées reçues, sans uptime réel mesuré. Également visibles dans le format complet. Valeurs fictives de démonstration.
 
 ## Détails optionnels du HUD
 
-Les soins sur soi sont déjà inclus dans les soins totaux : le détail ne les ajoute pas une seconde fois. Les boucliers restent des applications reconnues, sans capacité ni absorption mesurée. Le CP utilise les informations structurées du groupe ; une valeur absente reste « — ». Ces options fonctionnent en compact et en complet et se règlent dans Préférences.
+Les soins sur soi sont déjà inclus dans les soins totaux : le détail ne les ajoute pas une seconde fois. Boucliers et buffs ajoutent des activations observées et durées reçues, sans uptime réel, capacité, absorption ou destruction mesurés. Le détail sur soi inclut les buffs et reste désactivé par défaut. Le CP utilise les informations structurées du groupe ; une valeur absente reste « — ». Ces options fonctionnent en compact et en complet et se règlent dans Préférences.
