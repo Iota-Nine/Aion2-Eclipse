@@ -1,5 +1,19 @@
 # Eclipse release notes
 
+## v3.0.5 — HUD support, Combat Power and skill icons
+
+Eclipse 3.0.5 corrects missing skill icons and adds optional self-support details and party Combat Power to the compact and full HUD.
+
+- 97 missing skill icons added, including Murderous Burst and Destructive Impulse. Known skill variants use their matching base icon.
+- Preferences → HUD DISPLAY → Show self healing and self shields (off by default). The separate self-healing detail is already included in the healing total and is not added twice. Shields show recognized applications; capacity and absorbed damage are unknown.
+- Show party Combat Power (on by default, optional). Group values are matched to the player's identity and server. Missing CP is shown as “—”.
+- Existing damage totals, run history, preferences, Alt+F8, click-through, collapse/restore and return after Alt+Tab are retained. English remains the default; French is available in Preferences.
+
+Validation: 637 logic checks, complete native Windows interface checks, isolated upgrades from V1 and 3.0.4, standalone setup and shutdown. The interface and packet checks use fictional fixtures. CP and all self-support skill coverage still need live-game tester comparison; self support uses the existing recognized skills. This update adds no exclusive-fullscreen renderer.
+
+FR — 97 icônes manquantes corrigées, soins/boucliers sur soi en option et CP du groupe dans le HUD compact/complet. Aucun double comptage des soins. Boucliers = applications reconnues, sans capacité ou absorption mesurée. CP absent : —. Historique, réglages et raccourcis conservés. Les tests locaux passent ; la comparaison des nouvelles valeurs en jeu reste à faire.
+
+
 ## v3.0.4 — HUD return after Alt+Tab
 
 Eclipse 3.0.4 improves HUD visibility when returning to AION 2 after **Alt+Tab**.

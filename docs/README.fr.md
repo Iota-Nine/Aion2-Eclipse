@@ -1,10 +1,10 @@
 # Eclipse — DPS meter AION 2 gratuit pour Windows
 
-**Nouveau en 3.0.4 :** le HUD visible revient automatiquement devant AION 2 après **Alt+Tab**, sans prendre le focus clavier. Masquage volontaire respecté ; Alt+F8, mesures, historique et réglages conservés.
+**Nouveau en 3.0.5 :** icônes manquantes corrigées, soins/boucliers sur soi en option et **Combat Power** du groupe dans le HUD compact/complet. Options dans Préférences ; cumuls, historique et réglages conservés.
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 3.0.4 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 3.0.5 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
@@ -12,9 +12,9 @@ Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Window
 
 [Fonctionnalités](#toutes-les-fonctionnalités) · [Installation](#installation) · [Mesures et sources](#mesures-et-sources) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 3.0.4 conserve les soins/HPS et les boucliers sur les alliés dans le HUD compact et complet, corrige leur classification et supprime le gros bouton de récupération de souris.** Depuis une version précédente, clique sur **UPDATE** lorsqu'il apparaît. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
+**Eclipse 3.0.5 conserve les soins/HPS et les boucliers sur les alliés dans le HUD compact et complet, corrige leur classification et supprime le gros bouton de récupération de souris.** Depuis une version précédente, clique sur **UPDATE** lorsqu'il apparaît. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
 
-![Interface anglaise d'Eclipse 3.0.4 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
+![Interface anglaise d'Eclipse 3.0.5 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
 
 *Capture de l'application Windows publiée, avec des valeurs fictives signalées dans l'interface. Toutes les captures de présentation sont en anglais.*
 
@@ -67,7 +67,7 @@ La durée du portail de voyage n'est **pas confirmée par cette source** : les p
 
 Les images viennent du client Windows natif et utilisent des données de démonstration. Aucun historique de joueur réel n'est publié.
 
-![Analyse directe d’un donjon dans Eclipse 3.0.4 — dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
+![Analyse directe d’un donjon dans Eclipse 3.0.5 — dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
 
 ![Analyse DPS AION 2 — dégâts, critiques et compétences du groupe dans Eclipse](images/eclipse-analysis-en.png)
 
@@ -136,3 +136,7 @@ Couverture : huit familles de soins, six familles directes de boucliers et cinq 
 ![HUD compact : soins/HPS et applications de boucliers sur les alliés — anglais, données fictives](images/eclipse-hud-support-compact-en.png)
 
 Barres vertes pour les soins et HPS moyens du run, bleues pour les applications sur les alliés. Également visibles dans le format complet. Valeurs fictives de démonstration.
+
+## Détails optionnels du HUD
+
+Les soins sur soi sont déjà inclus dans les soins totaux : le détail ne les ajoute pas une seconde fois. Les boucliers restent des applications reconnues, sans capacité ni absorption mesurée. Le CP utilise les informations structurées du groupe ; une valeur absente reste « — ». Ces options fonctionnent en compact et en complet et se règlent dans Préférences.

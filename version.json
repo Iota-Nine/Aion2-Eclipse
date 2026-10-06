@@ -1,9 +1,9 @@
 {
-  "version": "3.0.4",
-  "tag": "v3.0.4",
-  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.4/Aion2-Eclipse-v3.0.4-win-x64.zip",
-  "sha256": "b1cffbcaa9a0fd052536204a6248910610f5ab972b0514e5dfeb7805ced1c570",
-  "name": "Eclipse 3.0.4 - HUD return after Alt+Tab",
-  "notes": "Visible HUD automatically returns above AION 2 after Alt+Tab, without taking focus. Deliberate hide/close, damage/support totals, compact/full and history retained. UPDATE available from 3.0.3 and older.",
-  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.4"
+  "version": "3.0.5",
+  "tag": "v3.0.5",
+  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.5/Aion2-Eclipse-v3.0.5-win-x64.zip",
+  "sha256": "bcc1d01b121ebb72ff4324a513e44efb02995da67e67d8cee2fabd5ca3433260",
+  "name": "Eclipse 3.0.5 - HUD support and skill icons",
+  "notes": "Missing skill icons corrected; optional self support and party Combat Power in compact/full HUD. Counters, history and preferences retained.",
+  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.5"
 }
