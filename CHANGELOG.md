@@ -1,5 +1,25 @@
 # Eclipse release notes
 
+## v3.0.7 - Progression and a clearer client
+
+Eclipse 3.0.7 adds Progression to the client: keep your daily activities, weekly checklist and long-term goals together, with a separate list for each character.
+
+- Tick completed activities, add personal objectives or counters, and hide completed tasks. The compact layout uses shorter labels and removes repeated instructions.
+- Recognized dungeon victories can complete the dungeon objective automatically when Eclipse has the matching character and server identity. Other activities are manual reminders, not official reward quotas. Teleports, interrupted runs and manual finishes never imply victory.
+- Keep permanent goals across resets and enter your own Gear Score target. Gear Score is a manual value, separate from received party Combat Power.
+- Choose the reset time zone, hour and weekly day. Automatic resets stay off until you check the schedule against the game and confirm it. An optional visual reminder appears ten minutes before the daily reset.
+- Progression saves locally in the background with a previous backup. Burst edits are grouped, lists do not rebuild on idle ticks, and startup archive reconciliation saves once. Known characters still update when the profile limit is reached.
+- English is default, French is available, including reset weekday names. Run history, settings, HUD shortcuts and existing damage/healing/shield/buff measurements are retained.
+
+Getting started: update Eclipse, open Progression, choose your character and tick your finished activities. Use Set reset schedule only after comparing the settings with your game. No account is required.
+
+Validation: 870 logic checks, 420 native Windows interface checks in 17 suites, isolated upgrades from V1 and 3.0.6, saved-progression preservation, embedded setup and offline shutdown checks. Interface/packet fixtures are fictional, not universal live-game dungeon coverage. The existing selected-skill support measurement limits remain unchanged.
+
+FR : nouvel onglet Progression avec checklist quotidienne et hebdomadaire par personnage, objectifs personnels, compteur et Gear Score manuel. Interface plus concise et filtre pour masquer les tâches terminées. Les victoires de donjons reconnues et identifiées se valident automatiquement ; les autres activités restent manuelles. Horaires de reset configurables et désactivés jusqu’à votre confirmation dans le jeu. Rappel visuel facultatif, sauvegarde locale en arrière-plan, historique et réglages conservés.
+
+Checklist inspiration: https://guidemmo.com/checklist-aion-2/ . These are concise personal reminders, not official reward limits or a universal server reset schedule.
+
+
 ## v3.0.6 — Shields and support buffs
 
 Eclipse 3.0.6 expands support analysis in the original compact and full HUD, and retains your local runs and preferences on update.

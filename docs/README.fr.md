@@ -1,10 +1,10 @@
-# Eclipse — DPS meter AION 2 gratuit pour Windows
+# Eclipse - DPS meter AION 2 gratuit pour Windows
 
-**Nouveau en 3.0.6 :** boucliers mieux détectés sur six classes, activations observées et durées reçues, **buffs sélectionnés du Cleric et de l’aède** dans le HUD compact/complet et l’analyse. Barres violettes, compétences/destinataires et mantras regroupés. Historique et réglages conservés.
+**Nouveau en 3.0.7 :** l’onglet **Progression** réunit checklist quotidienne, tâches hebdomadaires et objectifs permanents. Profils par personnage, compteurs personnalisés, filtre des tâches terminées et horaires de reset configurables. Interface plus claire et sauvegarde en arrière-plan ; historique et réglages conservés.
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 3.0.6 — compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 3.0.7 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
@@ -12,13 +12,11 @@ Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Window
 
 [Fonctionnalités](#toutes-les-fonctionnalités) · [Installation](#installation) · [Mesures et sources](#mesures-et-sources) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Eclipse 3.0.6 conserve les soins/HPS et les boucliers sur les alliés dans le HUD compact et complet, corrige leur classification et supprime le gros bouton de récupération de souris.** Depuis une version précédente, clique sur **UPDATE** lorsqu'il apparaît. Les nouveaux utilisateurs téléchargent **Eclipse-Setup.exe**, qui contient toute l’application. La langue initiale est l'anglais ; le français se choisit dans Preferences. Aucun compte Eclipse ni inscription.
+**Pour commencer :** télécharge **Eclipse-Setup.exe** ou clique sur **UPDATE** lorsqu’il est proposé. Ouvre **Progression**, choisis ton personnage et coche tes activités terminées. L’anglais est la langue initiale ; le français se choisit dans Preferences. Aucun compte Eclipse requis.
 
-![Interface anglaise d'Eclipse 3.0.6 — compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
+![Interface anglaise d'Eclipse 3.0.7 - compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
 
 *Capture de l'application Windows publiée, avec des valeurs fictives signalées dans l'interface. Toutes les captures de présentation sont en anglais.*
-
-Le correctif 2.1.9 inclus restaure le comptage des dégâts après un run clôturé ou interrompu lorsqu'un chargement ultérieur mène à une activité absente du catalogue. Le combat reste sans nom de donjon inventé. Le propriétaire a confirmé en jeu la résolution du cas initial sans DPS.
 
 ## Toutes les fonctionnalités
 
@@ -31,6 +29,7 @@ Le correctif 2.1.9 inclus restaure le comptage des dégâts après un run clôtu
 | **Retour après Alt+Tab** | Le HUD visible revient devant lorsque AION 2 reprend le focus. Position, dimensions, clics et cumuls restent intacts ; un HUD masqué volontairement reste masqué. |
 | **Affichage du HUD** | **Alt+F8** affiche, masque ou rouvre l'overlay automatiquement. Un conflit de raccourci est signalé ; le bouton HUD du client reste disponible. Overlay Windows habituel, sans intégration Steam ou plein écran exclusif. |
 | **Raccourci souris du HUD** | **Ctrl+Alt+L** active ou désactive le passage des clics. Rappel discret intégré, gros bouton supprimé. Si le raccourci est occupé, le HUD reste cliquable. |
+| **Checklist de progression** | Tâches quotidiennes et hebdomadaires par personnage, objectifs permanents, compteurs personnalisés et Gear Score manuel. Filtre des tâches terminées. Seules les victoires reconnues et identifiées sont automatiques. Reset activé après vérification des horaires dans le jeu, rappel visuel facultatif à 10 min et sauvegarde locale. |
 | **Client Glass** | Panneaux translucides, illustrations AION animées, identité Eclipse et intro silencieuse. Fenêtre déplaçable et redimensionnable, compatible avec un deuxième écran. |
 | **Comptage du donjon corrigé** | Les TP internes conservent le run. Une mort de boss final prise en charge archive le bilan et remet les totaux live à zéro ; les interruptions conservent un bilan récupéré. 22 activités reconnues, fin automatique limitée à 7 donjons. Les autres fins restent manuelles. |
 | **Analyse du groupe et des compétences** | Dégâts de chaque joueur, poids des compétences, critiques, attaques de dos, coups maximums et morts reçues. Les attaquants proches hors du groupe identifié sont exclus. |
@@ -54,7 +53,7 @@ Le correctif 2.1.9 inclus restaure le comptage des dégâts après un run clôtu
 
 Le panneau affiche la prochaine ouverture, l'horloge fixe du serveur et quatre horaires à ton heure locale / UTC. Choisis ton service, ajoute le favori et sélectionne le rappel 10, 5 ou 0 minutes. Aucun son n'est activé automatiquement.
 
-![Timer de faille AION 2 — vraie interface anglaise Eclipse, prochaine ouverture et horloge serveur](images/eclipse-rifts-en.png)
+![Timer de faille AION 2 - vraie interface anglaise Eclipse, prochaine ouverture et horloge serveur](images/eclipse-rifts-en.png)
 
 Référence [AION2Hub](https://aion2hub.com/tools/event-timer), vérifiée le **3 octobre 2026**, en remplacement des anciens timers. Global EU/NA/SA/JP : **UTC+9**, à 00/03/06/09/12/15/18/21 h serveur. KR : **UTC+9** ; TW : **UTC+8**, à 02/05/08/11/14/17/20/23 h serveur. Le changement d'heure local ne modifie pas les horaires serveur.
 
@@ -64,23 +63,23 @@ La durée du portail de voyage n'est **pas confirmée par cette source** : les p
 
 **[Ouvrir le site Eclipse](https://iota-nine.github.io/Aion2-Eclipse/)** : téléchargement, présentation FR/EN, captures et musique d'ambiance facultative. **Report a bug** dans le client ouvre le formulaire privé avec ta version. Les champs envoyés sont enregistrés pour le dépannage et exportables en JSON. Aucun log de combat ni jeton n'est transmis automatiquement. GitHub Issues reste disponible pour les discussions publiques.
 
-## Captures — interface anglaise
+## Captures - interface anglaise
 
 Les images viennent du client Windows natif et utilisent des données de démonstration. Aucun historique de joueur réel n'est publié.
 
-![Analyse directe d’un donjon dans Eclipse 3.0.6 — dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
+![Analyse directe d’un donjon dans Eclipse 3.0.7 - dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
 
-![Analyse DPS AION 2 — dégâts, critiques et compétences du groupe dans Eclipse](images/eclipse-analysis-en.png)
+![Analyse DPS AION 2 - dégâts, critiques et compétences du groupe dans Eclipse](images/eclipse-analysis-en.png)
 
-![Résumé de donjon AION 2 — dégâts totaux, burst et segments de cibles](images/eclipse-summary-en.png)
+![Résumé de donjon AION 2 - dégâts totaux, burst et segments de cibles](images/eclipse-summary-en.png)
 
-![Historique des runs AION 2 — favoris et comparaison des builds dans Eclipse](images/eclipse-history-en.png)
+![Historique des runs AION 2 - favoris et comparaison des builds dans Eclipse](images/eclipse-history-en.png)
 
-![Builds et méta AION 2 — profils personnels et sources datées](images/eclipse-builds-en.png)
+![Builds et méta AION 2 - profils personnels et sources datées](images/eclipse-builds-en.png)
 
-![Chronos de boss AION 2 — calendrier coréen et alertes de favoris en anglais](images/eclipse-timers-en.png)
+![Chronos de boss AION 2 - calendrier coréen et alertes de favoris en anglais](images/eclipse-timers-en.png)
 
-![HUD Eclipse AION 2 — overlay anglais avec DPS, dégâts et niveaux du groupe](images/eclipse-overlay-en.png)
+![HUD Eclipse AION 2 - overlay anglais avec DPS, dégâts et niveaux du groupe](images/eclipse-overlay-en.png)
 
 ## Installation
 
@@ -125,19 +124,27 @@ Eclipse est maintenu par **Iota-Nine**, comme projet communautaire indépendant.
 AION, AION 2, les illustrations NCSOFT et les données du jeu appartiennent à leurs ayants droit. Eclipse n'est pas affilié à NCSOFT. Voir les [conditions de distribution](../LICENSE).
 
 
-### Comp?tences de soutien et destinataires dans Eclipse 3.0.6
+### Comp?tences de soutien et destinataires dans Eclipse 3.0.7
 
-![Soins du groupe, HPS et applications de boucliers — interface anglaise, données fictives](images/eclipse-support-buffs-analysis-full-en.png)
+![Soins du groupe, HPS et applications de boucliers - interface anglaise, données fictives](images/eclipse-support-buffs-analysis-full-en.png)
 
 Couverture : huit familles de soins, six familles directes de boucliers et cinq conditionnelles selon la spécialisation reçue. Les applications ne mesurent pas les dégâts absorbés ou bloqués. Zéro événement reçu ne prouve pas l’absence de soins. Exporter le diagnostic dans Préférences pendant le run concerné. Validation réelle par les utilisateurs encore nécessaire.
 
 
 ### Soins et boucliers dans le HUD compact
 
-![HUD compact : soins/HPS et applications de boucliers sur les alliés — anglais, données fictives](images/eclipse-support-buffs-overlay-compact-en.png)
+![HUD compact : soins/HPS et applications de boucliers sur les alliés - anglais, données fictives](images/eclipse-support-buffs-overlay-compact-en.png)
 
 Barres vertes pour les soins/HPS, bleues pour les activations de boucliers et violettes pour les buffs sélectionnés du Cleric et de l’aède. Durées reçues, sans uptime réel mesuré. Également visibles dans le format complet. Valeurs fictives de démonstration.
 
 ## Détails optionnels du HUD
 
-Les soins sur soi sont déjà inclus dans les soins totaux : le détail ne les ajoute pas une seconde fois. Boucliers et buffs ajoutent des activations observées et durées reçues, sans uptime réel, capacité, absorption ou destruction mesurés. Le détail sur soi inclut les buffs et reste désactivé par défaut. Le CP utilise les informations structurées du groupe ; une valeur absente reste « — ». Ces options fonctionnent en compact et en complet et se règlent dans Préférences.
+Les soins sur soi sont déjà inclus dans les soins totaux : le détail ne les ajoute pas une seconde fois. Boucliers et buffs ajoutent des activations observées et durées reçues, sans uptime réel, capacité, absorption ou destruction mesurés. Le détail sur soi inclut les buffs et reste désactivé par défaut. Le CP utilise les informations structurées du groupe ; une valeur absente reste « - ». Ces options fonctionnent en compact et en complet et se règlent dans Préférences.
+
+## Progression au quotidien
+
+Ouvre **Progression**, choisis ton personnage et coche tes activités terminées. Pour les resets, vérifie le fuseau, l’heure et le jour dans le jeu avant d’activer l’automatisation. Les objectifs permanents restent enregistrés.
+
+![Checklist quotidienne et hebdomadaire Eclipse 3.0.7 - interface anglaise, données fictives](images/eclipse-progression-en.png)
+
+Inspiré de la [checklist GuideMMO](https://guidemmo.com/checklist-aion-2/) : rappels personnels, sans quotas de récompenses ni horaires universels présentés comme officiels.
