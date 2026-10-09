@@ -1,8 +1,8 @@
 # Eclipse - DPS meter AION 2 gratuit pour Windows
 
-**Correctif HUD (version 3.0.9 conservée) :** le HUD apparaît en bas à droite de l’écran principal, avec une petite marge. Une position déplacée reste enregistrée. Déjà en 3.0.9 ? Relancez le dernier setup pour recevoir ce correctif ; UPDATE détecte les numéros de version supérieurs. Réglages et historique conservés.
+**Eclipse 3.0.10 disponible :** cliquez sur **UPDATE** lorsqu’il est proposé, ou utilisez le dernier setup. Réglages et historique conservés. Le HUD garde son placement initial en bas à droite et votre position déplacée.
 
-**Nouveau en 3.0.9 :** une vue **Favoris & alertes** plus simple, étoiles et cloches indépendantes, et filtres pour les suivis, alarmes actives, favoris sans alarme ou tous les boss. Vos horaires viennent de vos propres paquets de jeu, par serveur EU détecté. Anciennes alarmes, historique, progression et réglages conservés.
+**Nouveau en 3.0.10 :** des **cloches directement sur les cartes des boss et des failles**. Les favoris du calendrier apparaissent maintenant dans **Favoris & alertes**. Étoile seule silencieuse, alarme indépendante et choix enregistrés.
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
@@ -164,3 +164,11 @@ Alt+F8 affiche le HUD, Ctrl+Alt+L active les interactions, Alt+R conserve le run
 ![Favoris et alertes Eclipse 3.0.9 - interface anglaise, données fictives](images/eclipse-favorites-alerts-en.png)
 
 L’étoile et la cloche sont indépendantes. Retirer l’alarme conserve le favori. Un filtre regroupe vos suivis, les alarmes actives ou les favoris sans alarme. Les horaires reçus dans votre jeu restent distincts par serveur détecté ; rouvrir la liste des monstres de terrain pour les actualiser.
+
+## Cloches sur les timers
+
+![Cloches Eclipse 3.0.10 - interface anglaise, données fictives](images/eclipse-timer-bells-en.png)
+
+L’étoile garde un favori silencieux ; la cloche active son alarme. La retirer conserve le favori. Les prévisions du calendrier restent distinctes des horaires reçus dans le jeu.
+
+![Favoris du calendrier visibles - interface anglaise, données fictives](images/eclipse-calendar-favorites-en.png)

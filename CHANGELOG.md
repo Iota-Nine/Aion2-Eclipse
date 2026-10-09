@@ -1,5 +1,21 @@
 # Eclipse release notes
 
+## v3.0.10 - Direct timer bells and visible favourites
+
+Eclipse 3.0.10 puts alarm bells directly where you use them: on the calendar boss timers and Next Rift card.
+
+- Click a timer's bell to enable its alarm. Click it again to remove the alarm while keeping the favourite. A star alone stays silent; turning on one bell leaves other quiet favourites silent.
+- Calendar and Rift favourites now appear in the shared Favourites & alerts list, alongside your own received game-boss timers. Search, active-alarm and silent-favourite filters include them.
+- The same-region Rift card and calendar entry share their favourite and alarm. Different regions stay separate. Alarm choices are saved and a failed save rolls back the choice.
+- Keep the 10-minute, 5-minute and scheduled-time choices. The bell repeats until STOP in the client or HUD; removing one alarm leaves unrelated ringing active.
+- Calendar timers remain regional community predictions. European calendar boss alarms require clock confirmation in game. Field-boss times still come from each user's own game list and detected EU server; no guessed or shared server times.
+- English and French, with English as the initial language. Existing HUD placement, shortcuts, combat counters, saved history, Progression and settings remain available.
+
+Validation: 1077 native Windows checks across 31 suites, 1534 logic checks, exact ZIP/embedded setup, isolated V1/3.0.8/3.0.9 upgrades and offline shutdown. Screenshots and fixtures use fictional demo data and do not prove universal live-game coverage.
+
+FR : Les cloches sont directement sur les cartes des boss du calendrier et de la prochaine faille. Activer une cloche ajoute le suivi ; retirer l'alarme garde le favori. Les favoris du calendrier et des failles apparaissent dans Favoris & alertes, avec les filtres habituels. Étoile seule silencieuse, choix enregistrés, délais 10/5/0 et STOP conservés. Prévisions du calendrier distinctes des données reçues de votre serveur dans le jeu. Historique et réglages conservés.
+
+
 ## 3.0.9 HUD placement correction - 9 October 2026
 
 - HUD starts at bottom-right of the primary screen with a 12px logical margin; untouched legacy defaults migrate automatically.
