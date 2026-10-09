@@ -1,5 +1,22 @@
 # Eclipse release notes
 
+## v3.0.9 - Clearer timers, favourites and alerts
+
+Eclipse 3.0.9 makes boss timers easier to use, with favourites and alarms together in one clear view.
+
+- Favourites & alerts opens first in Boss & timers. Compact rows put the boss name, received countdown, star and bell together; search finds a boss quickly.
+- Star and bell are independent. Keep a favourite without any sound, or enable its alarm. Removing the bell keeps the favourite and stops that boss's active ringing without silencing another alarm.
+- One filter: All followed bosses, Active alarms, Favourites without alarms, All bosses. Your selected filter, favourites and alarm choices are saved.
+- Each user's timers come from their own received game packets and automatically detected EU server. Open Map → Exploration → Field monsters to sync; reopen that game list for changed times/status. No shared kill feed or fixed Israphel schedule. Missing times/channels are not guessed.
+- Rifts/calendar and Combat timers have separate views. Options & details stay collapsed until needed. The sidebar and lists fit smaller windows without cutting off navigation.
+- Existing enabled field-boss alarms migrate automatically. Observed timestamps, acknowledged reminders, history, Progression and preferences stay saved. The 10-minute, 5-minute and scheduled-time choices, bell until STOP, HUD shortcuts and original combat analysis stay available.
+- English and French. English remains the initial language.
+
+Validation: 1006 native Windows checks across 28 suites, 1534 logic checks, exact ZIP and embedded setup, isolated V1/3.0.8 upgrades and offline shutdown. Screenshots and fixtures use fictional demo data; this does not prove universal live-game coverage. Received boss times require refreshing the game list for changes. The separate regional calendar remains a community prediction with clock confirmation for European boss alerts.
+
+FR : Une vue Favoris & alertes plus claire, avec recherche, étoile et cloche indépendantes. Filtres : tous mes suivis, alarmes actives, favoris sans alarme, tous les boss. Retirer une cloche garde le favori et arrête uniquement sa sonnerie. Les horaires proviennent des paquets reçus dans le jeu de chaque utilisateur et restent distincts par serveur EU détecté. Ouvrir Carte → Exploration → Monstres de terrain pour synchroniser, puis rouvrir cette liste pour recevoir les changements. Failles/calendrier et chronos de combat ont leur propre onglet. Anciennes alarmes, historique, progression et réglages conservés.
+
+
 ## v3.0.8 - Adaptive HUD, V3 guide and boss reminders
 
 Eclipse 3.0.8 makes the overlay easier to read and adds a V3 quick-start guide, a simpler reset shortcut and controllable boss reminders.

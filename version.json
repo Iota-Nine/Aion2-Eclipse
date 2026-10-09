@@ -1,9 +1,9 @@
 {
-  "version": "3.0.8",
-  "tag": "v3.0.8",
-  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.8/Aion2-Eclipse-v3.0.8-win-x64.zip",
-  "sha256": "9e66e3000d5b4a2e17fef115909844ddf96e1791b4a5d55001d6c4c38102ff13",
-  "name": "Eclipse 3.0.8 - Adaptive HUD, V3 guide and automatic boss timers",
-  "notes": "Adaptive compact HUD, class icons and inline healing. Alt+R retains the interrupted run before reset. V3 shortcut guide, repeating bell until STOP and automatic EU field-boss timers from the game map list, with your server detected locally. History, Progression, timers and preferences retained.",
-  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.8"
+  "version": "3.0.9",
+  "tag": "v3.0.9",
+  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.9/Aion2-Eclipse-v3.0.9-win-x64.zip",
+  "sha256": "d47aee78516efc767dc5c8b77098f216efad949ae6e66c6d083624ccb78d36ba",
+  "name": "Eclipse 3.0.9 - Clearer timers, favourites and alerts",
+  "notes": "Simpler Boss & timers workspace. Independent favourite stars and alarm bells, with filters for followed bosses, active alarms, favourites without alarms and all bosses. Your received game times stay separate by detected EU server. Previous alarms, history, Progression and preferences retained.",
+  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.9"
 }

@@ -1,10 +1,10 @@
 # Eclipse - DPS meter AION 2 gratuit pour Windows
 
-**Nouveau en 3.0.8 :** HUD compact adaptatif avec icônes de classe et soins par joueur, **Alt+R** pour conserver le run interrompu puis remettre les compteurs à zéro, **guide V3**, et cloche jusqu’à **STOP**. Timers de boss de terrain synchronisés automatiquement depuis la liste du jeu, distincts par serveur EU. Historique, progression et réglages conservés.
+**Nouveau en 3.0.9 :** une vue **Favoris & alertes** plus simple, étoiles et cloches indépendantes, et filtres pour les suivis, alarmes actives, favoris sans alarme ou tous les boss. Vos horaires viennent de vos propres paquets de jeu, par serveur EU détecté. Anciennes alarmes, historique, progression et réglages conservés.
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 3.0.8 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 3.0.9 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
@@ -14,7 +14,7 @@ Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Window
 
 **Pour commencer :** télécharge **Eclipse-Setup.exe** ou clique sur **UPDATE** lorsqu’il est proposé. Ouvre **Progression**, choisis ton personnage et coche tes activités terminées. L’anglais est la langue initiale ; le français se choisit dans Preferences. Aucun compte Eclipse requis.
 
-![Interface anglaise d'Eclipse 3.0.8 - compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
+![Interface anglaise d'Eclipse 3.0.9 - compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
 
 *Capture de l'application Windows publiée, avec des valeurs fictives signalées dans l'interface. Toutes les captures de présentation sont en anglais.*
 
@@ -67,7 +67,7 @@ La durée du portail de voyage n'est **pas confirmée par cette source** : les p
 
 Les images viennent du client Windows natif et utilisent des données de démonstration. Aucun historique de joueur réel n'est publié.
 
-![Analyse directe d’un donjon dans Eclipse 3.0.8 - dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
+![Analyse directe d’un donjon dans Eclipse 3.0.9 - dégâts de tous les joueurs et barres de contribution, interface anglaise](images/eclipse-history-analysis-en.png)
 
 ![Analyse DPS AION 2 - dégâts, critiques et compétences du groupe dans Eclipse](images/eclipse-analysis-en.png)
 
@@ -124,7 +124,7 @@ Eclipse est maintenu par **Iota-Nine**, comme projet communautaire indépendant.
 AION, AION 2, les illustrations NCSOFT et les données du jeu appartiennent à leurs ayants droit. Eclipse n'est pas affilié à NCSOFT. Voir les [conditions de distribution](../LICENSE).
 
 
-### Comp?tences de soutien et destinataires dans Eclipse 3.0.8
+### Comp?tences de soutien et destinataires dans Eclipse 3.0.9
 
 ![Soins du groupe, HPS et applications de boucliers - interface anglaise, données fictives](images/eclipse-support-buffs-analysis-full-en.png)
 
@@ -145,14 +145,20 @@ Les soins sur soi sont déjà inclus dans les soins totaux : le détail ne les a
 
 Ouvre **Progression**, choisis ton personnage et coche tes activités terminées. Pour les resets, vérifie le fuseau, l’heure et le jour dans le jeu avant d’activer l’automatisation. Les objectifs permanents restent enregistrés.
 
-![Checklist quotidienne et hebdomadaire Eclipse 3.0.8 - interface anglaise, données fictives](images/eclipse-progression-en.png)
+![Checklist quotidienne et hebdomadaire Eclipse 3.0.9 - interface anglaise, données fictives](images/eclipse-progression-en.png)
 
 Inspiré de la [checklist GuideMMO](https://guidemmo.com/checklist-aion-2/) : rappels personnels, sans quotas de récompenses ni horaires universels présentés comme officiels.
 
 ## HUD compact et accueil V3
 
-![HUD compact adaptatif Eclipse 3.0.8 - interface anglaise, données fictives](images/eclipse-compact-focus-en.png)
+![HUD compact adaptatif Eclipse 3.0.9 - interface anglaise, données fictives](images/eclipse-compact-focus-en.png)
 
 ![Guide des raccourcis Eclipse V3 - interface anglaise, aperçu hors ligne](images/eclipse-welcome-v3-en.png)
 
 Alt+F8 affiche le HUD, Ctrl+Alt+L active les interactions, Alt+R conserve le run interrompu avant le reset. Pour Trid et les boss de terrain, ouvrir Carte → Exploration → Monstres de terrain dans le jeu. Le serveur et les horaires reçus sont récupérés automatiquement ; rouvrir la liste pour les actualiser. Les horaires des Abysses restent des prévisions communautaires à vérifier.
+
+## Favoris et alertes
+
+![Favoris et alertes Eclipse 3.0.9 - interface anglaise, données fictives](images/eclipse-favorites-alerts-en.png)
+
+L’étoile et la cloche sont indépendantes. Retirer l’alarme conserve le favori. Un filtre regroupe vos suivis, les alarmes actives ou les favoris sans alarme. Les horaires reçus dans votre jeu restent distincts par serveur détecté ; rouvrir la liste des monstres de terrain pour les actualiser.
