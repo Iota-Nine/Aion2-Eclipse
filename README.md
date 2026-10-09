@@ -2,11 +2,11 @@
 
 **[Download Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Official website](https://iota-nine.github.io/Aion2-Eclipse/)** · [Français](docs/README.fr.md)
 
-![Eclipse 3.0.7 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
+![Eclipse 3.0.8 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
 
 [![Latest release](https://img.shields.io/github/v/release/Iota-Nine/Aion2-Eclipse?label=Download&color=75bdcf)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Iota-Nine/Aion2-Eclipse/total?color=9384d0)](https://github.com/Iota-Nine/Aion2-Eclipse/releases)
-![Version 3.0.7](https://img.shields.io/badge/Version-3.0.7-d8bd88)
+![Version 3.0.8](https://img.shields.io/badge/Version-3.0.8-d8bd88)
 ![Windows x64](https://img.shields.io/badge/Windows-x64-507cab)
 ![English and French](https://img.shields.io/badge/Language-EN%20%2F%20FR-75bdcf)
 
@@ -14,13 +14,13 @@
 
 Eclipse is a free AION 2 damage meter for Windows with a live party overlay and a full Glass desktop client. Follow damage, inspect skills, review dungeon runs and compare your builds in one place. Keep it on a second monitor, minimize it during the fight, then come back to your expedition summary.
 
-**New in 3.0.7:** the **Progression checklist** brings daily activities, weekly tasks and permanent goals into the client. Separate character profiles, custom objectives, a hide-completed filter and configurable reset reminders. A clearer layout and background saving; your run history and settings stay saved.
+**New in 3.0.8:** a cleaner adaptive compact HUD with real class icons and healing per player, **Alt+R** to reset counters while saving the interrupted run, the **V3 shortcut guide**, and boss bells that repeat until **STOP**. Automatic EU field-boss timers read the game map list and keep each server separate. Your Progression checklist, history and settings stay saved.
 
 [Features](#a-clearer-view-of-every-fight) · [Install Eclipse](#install-eclipse) · [How the numbers work](#how-the-numbers-work) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
 **Get started:** download **Eclipse-Setup.exe** or click **UPDATE** when offered in Eclipse. Open **Progression**, choose your character and tick completed activities. English is default; French is available in Preferences. No Eclipse account is required.
 
-![AION 2 DPS meter - Eclipse 3.0.7 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
+![AION 2 DPS meter - Eclipse 3.0.8 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
 
 *Native screenshot of the released client. All gallery combat values are explicitly labelled demo data.*
 
@@ -34,9 +34,12 @@ Eclipse is a free AION 2 damage meter for Windows with a live party overlay and 
 | **HUD visibility shortcut** | **Alt+F8** shows/hides or reopens the HUD automatically. An occupied shortcut is reported; the client HUD button remains available. Standard Windows overlay; Steam and exclusive-fullscreen integration are not included. |
 | **HUD mouse shortcut** | Press **Ctrl+Alt+L** to toggle click-through. The reminder is integrated into the HUD; no large recovery button. An occupied shortcut leaves the HUD clickable. |
 | **Daily and weekly progression** | Your own checklist per character, permanent goals, custom counters and manual Gear Score. Hide completed tasks. Only identified recognized dungeon victories auto-complete; other activities are manual. Automatic resets require a schedule checked against the game. Optional visual ten-minute reminder; saved locally. |
+| **V3 quick start and reset** | A silent V3 intro, shortcut tutorial with Close / Don’t show again, and a guide button in Preferences. Alt+R archives the interrupted run before resetting counters. |
+| **Adaptive compact HUD** | Real class icons, aligned per-player healing, thinner damage bars and smaller rows for larger observed rosters. Scroll to every received member. Support details expand when needed; packet coverage is not universal. |
+| **EU field-boss reminders** | Automatic timers from the in-game Field monsters list, with your EU server detected locally. Choose 10, 5 or 0 minutes and enable each boss alert. Reopen the game list for updates. Unknown times, names or channels are not guessed; no shared kill feed. |
 | **Glass desktop client** | Translucent panels, animated AION artwork, Eclipse branding and an entirely silent startup intro. Move, resize or place the client on another monitor. |
 | **Dungeon run correction** | Internal teleports preserve damage and the run. Supported final-boss deaths archive it and reset live totals; interruptions keep a recovered summary. 22 activity entries are recognized; automatic completion is limited to 7 dungeons. Other finishes remain manual. |
-| **Party healing & HPS** | Green healing/HPS bars under damage in compact and full HUD, plus received healing, caster shares, average run HPS, skill/HoT and recipient details. Works while the local character plays DPS or tank; a zero-damage healer stays visible. Selected skills only; effective healing and overheal remain unknown. |
+| **Party healing & HPS** | Healing aligned per player in Focus compact; full healing/HPS and expanded support details remain available. Skill/HoT and recipient analysis; zero-damage healers stay visible. Selected skills only; effective healing and overheal remain unknown. |
 | **Shields, in detail** | Blue allied bars in compact/full. Selected skills across six classes; observed activations, received duration ranges and recipients. Group/companion notices are grouped. Shield capacity, absorbed damage and destruction remain unknown; duration is not actual uptime. |
 | **Cleric and Chanter buffs** | Violet compact/full bars for eight selected beneficial skill families. Observed activations, received duration ranges, skills and recipients in analysis. Overlapping mantra/aura refreshes form one observed sequence. No invented uptime or damage gain. |
 | **Self support, in detail** | Optional self-healing, self-shield and self-buff bars in compact/full. Self healing is already part of total healing; it is not counted twice. Recognized self-shield applications, without capacity or absorption. Off by default in Preferences. |
@@ -76,9 +79,17 @@ Travel portal entry/lifetime is **not confirmed by this source**, so Eclipse no 
 
 The images below come from the native Windows application. Combat data is simulated for the gallery; no real player records are published.
 
+### Compact Focus and V3 quick start
+
+![Eclipse 3.0.8 adaptive compact HUD - English, fictional demo data](docs/images/eclipse-compact-focus-en.png)
+
+![Eclipse V3 shortcut guide - English, offline preview](docs/images/eclipse-welcome-v3-en.png)
+
+*Alt+F8 shows the HUD. Ctrl+Alt+L changes mouse interaction. Alt+R retains the interrupted run and resets counters. Screenshots use fictional/offline fixtures.*
+
 ### Your checklist between runs
 
-![Eclipse 3.0.7 AION 2 daily and weekly progression checklist - English, fictional demo](docs/images/eclipse-progression-en.png)
+![Eclipse 3.0.8 AION 2 daily and weekly progression checklist - English, fictional demo](docs/images/eclipse-progression-en.png)
 
 *Choose your character, tick completed tasks and keep long-term goals. Gear Score is entered manually. [Checklist inspiration: GuideMMO](https://guidemmo.com/checklist-aion-2/). Reset schedules must be checked against your game.*
 
@@ -94,7 +105,7 @@ The images below come from the native Windows application. Combat data is simula
 
 ### Support skills and recipients
 
-![Eclipse 3.0.7 AION 2 support buffs and shield analysis - English interface, fictional demo data](docs/images/eclipse-support-buffs-analysis-full-en.png)
+![Eclipse 3.0.8 AION 2 support buffs and shield analysis - English interface, fictional demo data](docs/images/eclipse-support-buffs-analysis-full-en.png)
 
 Support coverage currently includes eight healing families, six direct shield families and five specialization-dependent shield families. Conditional shields require their received specialization flag. Observed activations and received lifetimes do not measure actual uptime, shield capacity, blocked/absorbed damage or shield destruction. Eight selected Cleric/Chanter buff families are also tracked; overlapping aura refreshes are grouped. Missing packet formats or identities can limit observation; zero received events does not prove zero healing occurred. Export diagnostics in Preferences during an affected run.
 
@@ -166,6 +177,6 @@ AION, AION 2, NCSOFT artwork and game data belong to their respective owners. Ec
 
 ## More detail in your HUD
 
-![Eclipse 3.0.7 - compact HUD with optional self support and party Combat Power](docs/images/eclipse-hud-self-cp-compact-en.png)
+![Eclipse 3.0.8 - compact HUD with optional self support and party Combat Power](docs/images/eclipse-hud-self-cp-compact-en.png)
 
 *Native Windows display fixture with fictional characters and values. Self support is optional; unknown CP stays unknown.*

@@ -1,5 +1,24 @@
 # Eclipse release notes
 
+## v3.0.8 - Adaptive HUD, V3 guide and boss reminders
+
+Eclipse 3.0.8 makes the overlay easier to read and adds a V3 quick-start guide, a simpler reset shortcut and controllable boss reminders.
+
+- Compact Focus HUD: real class icons, thin damage bars and healing next to each received player. Row height, names and icons adapt to the observed roster; scroll to reach every received member. Existing full, fold, click-through, shields and support details stay available.
+- Alt+R saves the current run as interrupted before clearing counters. History stays saved. Alt+F8 and Ctrl+Alt+L keep their usual actions.
+- Silent Eclipse V3 opening and a shortcut guide. Close keeps the guide for next launch; Don't show again remembers your choice. Reopen it in Preferences.
+- A soft boss/Rift bell repeats every three seconds until STOP in the client or HUD. The small STOP control also works in the folded, click-through HUD. Alerts retain 10-minute, 5-minute and scheduled-time choices.
+- Automatic EU field-boss timers: open Map → Exploration → Field monsters once. Eclipse identifies your local server and reads the times sent in that list without manual entry. Reopen the game list for changed times/status. Timers and alert choices stay separate by server, including Israphel. Unknown times and untransmitted channels are not invented; unresolved boss names remain numbered slots. Altgard includes Deceiver Trid. This is passive game data, not a shared global live feed.
+- A world-boss-only calendar filter, source links and an optional European clock reference. Community sources disagree about the Global clock: compare predicted times with the game and explicitly confirm the chosen clock before EU Abyss-boss alarms are enabled. Changing it clears that confirmation. Field bosses such as Deceiver Trid use their individual observed time rather than this regional calendar.
+- English and French, Progression, DPS/healing/shield/buff analysis, history and settings remain available. No sound during the introduction.
+
+Validation: 889 native Windows checks across 26 suites, logic regression checks, exact ZIP/embedded setup, isolated V1/3.0.7 upgrades and offline shutdown. Screenshots and packet fixtures use fictional demo data. Observed large rosters do not prove every live Force packet format. Shield capacity, absorption and destruction remain unknown.
+
+FR : HUD compact adaptatif avec icônes de classe et soins par joueur, Alt+R avec conservation du run interrompu, accueil V3 et guide des raccourcis. Cloche répétée toutes les trois secondes jusqu’à STOP sur le client ou le HUD. Timers de boss de terrain récupérés automatiquement depuis la liste du jeu, distincts par serveur EU. Ouvrir Carte → Exploration → Monstres de terrain pour synchroniser, puis Eclipse poursuit les comptes à rebours. Les prévisions communautaires des Abysses demandent de vérifier l’horloge ; aucun canal ou horaire manquant n’est inventé. Historique, progression et réglages conservés.
+
+Schedule reference: https://aion2hub.com/tools/world-bosses . Passive field-boss protocol reference: https://github.com/cyberbadger6969/aion2-dps-meter#field-boss-respawn-timers . The map packet supplies timestamps; a published cycle alone cannot identify a current server spawn.
+
+
 ## v3.0.7 - Progression and a clearer client
 
 Eclipse 3.0.7 adds Progression to the client: keep your daily activities, weekly checklist and long-term goals together, with a separate list for each character.
