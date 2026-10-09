@@ -1,5 +1,13 @@
 # Eclipse release notes
 
+## 3.0.9 HUD placement correction - 9 October 2026
+
+- HUD starts at bottom-right of the primary screen with a 12px logical margin; untouched legacy defaults migrate automatically.
+- Growing content remains on-screen while default placement is active. Dragging remembers your chosen position; folding keeps the header in place.
+- Version stays3.0.9. Existing3.0.9 users can run the newest setup again; UPDATE from earlier versions uses the corrected 3.0.9 package. History and preferences stay saved.
+
+FR : Le HUD démarre en bas à droite avec une petite marge. Une position déplacée reste sauvegardée ; le repli conserve l’en-tête en place. Version3.0.9 inchangée : les utilisateurs déjà en 3.0.9 doivent relancer le dernier setup pour recevoir ce correctif.
+
 ## v3.0.9 - Clearer timers, favourites and alerts
 
 Eclipse 3.0.9 makes boss timers easier to use, with favourites and alarms together in one clear view.

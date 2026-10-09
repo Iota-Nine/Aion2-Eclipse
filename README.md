@@ -1,5 +1,7 @@
 # Eclipse - Free AION 2 DPS Meter for Windows
 
+**HUD placement correction (same 3.0.9):** the HUD starts at the bottom-right of the primary screen with a small margin. A manually moved position stays saved. Already using 3.0.9? Run the latest setup again to receive this correction; UPDATE detects higher version numbers. Your settings and history are preserved.
+
 **[Download Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Official website](https://iota-nine.github.io/Aion2-Eclipse/)** · [Français](docs/README.fr.md)
 
 ![Eclipse 3.0.9 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)

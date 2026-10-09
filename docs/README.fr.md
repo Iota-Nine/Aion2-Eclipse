@@ -1,5 +1,7 @@
 # Eclipse - DPS meter AION 2 gratuit pour Windows
 
+**Correctif HUD (version 3.0.9 conservée) :** le HUD apparaît en bas à droite de l’écran principal, avec une petite marge. Une position déplacée reste enregistrée. Déjà en 3.0.9 ? Relancez le dernier setup pour recevoir ce correctif ; UPDATE détecte les numéros de version supérieurs. Réglages et historique conservés.
+
 **Nouveau en 3.0.9 :** une vue **Favoris & alertes** plus simple, étoiles et cloches indépendantes, et filtres pour les suivis, alarmes actives, favoris sans alarme ou tous les boss. Vos horaires viennent de vos propres paquets de jeu, par serveur EU détecté. Anciennes alarmes, historique, progression et réglages conservés.
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
