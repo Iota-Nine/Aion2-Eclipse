@@ -1,5 +1,21 @@
 # Eclipse release notes
 
+## v3.0.11 - Character identity fix and alarm shortcut
+
+Eclipse 3.0.11 corrects character identity across servers and adds a quick way to stop boss alarms.
+
+- Characters with the same nickname on different servers keep their own class and profile. Server switches no longer reuse the first character's class. Missing class data stays unknown until received.
+- **Alt+M** stops all current alarms, even with Eclipse minimized or the HUD hidden, folded or closed. It leaves combat counters, game focus and future reminders alone.
+- Choose **Alt+M**, **Alt+F9** or **Ctrl+Alt+M** in Preferences. The choice is saved. An occupied shortcut is reported; a failed save retains the previous working choice. Client and HUD STOP buttons remain available.
+- A short, softly levelled **Reflection** notification replaces the previous boss cue. It repeats every3seconds until acknowledged. The startup intro remains silent. Recording provenance is included in the audio credits.
+- The V3 quick-start guide and STOP hints show the chosen shortcut in English and French. English remains the initial language.
+- Existing history, preferences, character progression, per-server game boss observations, calendar favourites and independent alarms are preserved.
+
+Install with the latest **Eclipse-Setup.exe**, or click **UPDATE** when offered in Eclipse. Validation: 1583 logic checks and 1133 native Windows checks in32 suites; exact ZIP and embedded setup; isolated upgrades from V1/3.0.8/3.0.9/3.0.10 and quick offline shutdown. Native fixtures use fictional data and do not prove universal live-game coverage.
+
+FR : correction des personnages ayant le même pseudo sur plusieurs serveurs. **Alt+M** arrête les alarmes en cours, même avec Eclipse réduit ou le HUD masqué, sans remettre les compteurs à zéro ni couper les futurs rappels. Raccourci modifiable dans les préférences, choix enregistré, conflit signalé et boutons STOP conservés. Nouveau son Reflection adouci, intro silencieuse. Guide EN/FR, historique, progression, favoris et réglages conservés.
+
+
 ## v3.0.10 - Direct timer bells and visible favourites
 
 Eclipse 3.0.10 puts alarm bells directly where you use them: on the calendar boss timers and Next Rift card.

@@ -4,7 +4,23 @@
     "owner": "NCSOFT",
     "source": "https://assets.playnccdn.com/res/aion2/update/2026/global/260421_teaser/9th/pc/img/sec11/099fef8a0f0341cf3c458edcb26f77f6bafe2d70.webp"
   },
-  "screenshots": "Native Windows client captures with fictional demo data; direct timer bells and shared calendar favourites use Eclipse 3.0.10. Earlier unchanged views retained.",
+  "screenshots": "Native Windows captures; new alarm shortcut and guide views use Eclipse3.0.11 in English offline previews. Combat fixture data is explicitly fictional. Earlier unchanged views retained.",
   "audio": "Original 32-second ambient composition generated for the Eclipse website; no third-party recording.",
-  "skillIconReference": "https://dbaion2.ru/en/skills/"
+  "skillIconReference": "https://dbaion2.ru/en/skills/",
+  "bossAlertRecording": {
+    "design": "Short excerpt of the user-selected Reflection recording with softened level and fades.",
+    "sourceUrl": "https://www.youtube.com/watch?v=Sm5H0W9bC-k",
+    "sourceTitle": "iPhone 11 reflection alarm ( mine ) (iOS 15.6.1)",
+    "sourceChannel": "CappyRetro",
+    "thirdPartyRecording": true,
+    "localPrototypeOnly": false,
+    "sourceOffsetSeconds": 10.308270833333333,
+    "seconds": 2.6,
+    "livePlayerVolume": 0.55,
+    "fullRecordingIncludedInApp": false,
+    "generator": "prepare-alarm-shortcut.py",
+    "format": "PCM16 stereo 48000 Hz",
+    "wavSha256": "39314e40efc5e56bbe1d13c55e6010f769d4b5ee5cc7f252277a346dbf2812c8",
+    "releaseVersion": "3.0.11"
+  }
 }

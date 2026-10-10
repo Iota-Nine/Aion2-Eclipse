@@ -1,14 +1,14 @@
 # Eclipse - Free AION 2 DPS Meter for Windows
 
-**Eclipse 3.0.10 is available:** click **UPDATE** when offered in Eclipse, or use the latest setup. Your settings and history are preserved. The HUD keeps its bottom-right default and your manually saved position.
+**Eclipse 3.0.11 is available:** click **UPDATE** when offered in Eclipse, or use the latest setup. Your settings and history are preserved. The HUD keeps its bottom-right default and your manually saved position.
 
 **[Download Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Official website](https://iota-nine.github.io/Aion2-Eclipse/)** · [Français](docs/README.fr.md)
 
-![Eclipse 3.0.9 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
+![Eclipse 3.0.11 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
 
 [![Latest release](https://img.shields.io/github/v/release/Iota-Nine/Aion2-Eclipse?label=Download&color=75bdcf)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Iota-Nine/Aion2-Eclipse/total?color=9384d0)](https://github.com/Iota-Nine/Aion2-Eclipse/releases)
-![Version 3.0.10](https://img.shields.io/badge/Version-3.0.10-d8bd88)
+![Version 3.0.11](https://img.shields.io/badge/Version-3.0.11-d8bd88)
 ![Windows x64](https://img.shields.io/badge/Windows-x64-507cab)
 ![English and French](https://img.shields.io/badge/Language-EN%20%2F%20FR-75bdcf)
 
@@ -16,7 +16,7 @@
 
 Eclipse is a free AION 2 damage meter for Windows with a live party overlay and a full Glass desktop client. Follow damage, inspect skills, review dungeon runs and compare your builds in one place. Keep it on a second monitor, minimize it during the fight, then come back to your expedition summary.
 
-**New in 3.0.10:** **alarm bells directly on boss and Rift timer cards**, with saved calendar favourites now visible in **Favourites & alerts**. Keep a favourite without sound or turn on its alarm independently. Existing game-server times, history and settings stay saved.
+**New in 3.0.11:** **correct classes for same-name characters across servers**, **Alt+M to stop alarms** and a softer **Reflection** notification. Choose your alarm shortcut in Preferences; stopping an alarm keeps future reminders enabled. Existing history and settings stay saved.
 
 [Features](#a-clearer-view-of-every-fight) · [Install Eclipse](#install-eclipse) · [How the numbers work](#how-the-numbers-work) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
@@ -38,6 +38,8 @@ Eclipse is a free AION 2 damage meter for Windows with a live party overlay and 
 | **Daily and weekly progression** | Your own checklist per character, permanent goals, custom counters and manual Gear Score. Hide completed tasks. Only identified recognized dungeon victories auto-complete; other activities are manual. Automatic resets require a schedule checked against the game. Optional visual ten-minute reminder; saved locally. |
 | **V3 quick start and reset** | A silent V3 intro, shortcut tutorial with Close / Don’t show again, and a guide button in Preferences. Alt+R archives the interrupted run before resetting counters. |
 | **Adaptive compact HUD** | Real class icons, aligned per-player healing, thinner damage bars and smaller rows for larger observed rosters. Scroll to every received member. Support details expand when needed; packet coverage is not universal. |
+| **Alarm STOP shortcut** | **Alt+M** stops current alarms with the client minimized or the HUD hidden. Choose Alt+F9 or Ctrl+Alt+M in Preferences. Saved choice, occupied-key reporting and STOP buttons retained. Future reminders remain enabled. |
+| **Server-aware character identity** | Characters sharing a nickname on different servers keep their own class and profile. Unknown class data is not guessed. |
 | **Favourites & boss alerts** | Your own received game times, separated by detected EU server. Star and bell work independently; remove an alarm while keeping its favourite. Search and filters make followed bosses easy to find. Open the game Field monsters list to sync and reopen it for changes; unknown values are not guessed. |
 | **Glass desktop client** | Translucent panels, animated AION artwork, Eclipse branding and an entirely silent startup intro. Move, resize or place the client on another monitor. |
 | **Dungeon run correction** | Internal teleports preserve damage and the run. Supported final-boss deaths archive it and reset live totals; interruptions keep a recovered summary. 22 activity entries are recognized; automatic completion is limited to 7 dungeons. Other finishes remain manual. |
@@ -80,6 +82,16 @@ Travel portal entry/lifetime is **not confirmed by this source**, so Eclipse no 
 ## Screenshots - English interface
 
 The images below come from the native Windows application. Combat data is simulated for the gallery; no real player records are published.
+
+### Alarm control, from the game
+
+![Eclipse 3.0.11 alarm shortcut preferences - English, fictional offline demo](docs/images/eclipse-alarm-shortcuts-en.png)
+
+*Alt+M is the default. This native example selects Alt+F9; you can change it in Preferences.*
+
+![Eclipse 3.0.11 quick-start guide with alarm STOP - English offline preview](docs/images/eclipse-alarm-guide-en.png)
+
+*Stop the current alarm without disabling future reminders. The intro remains silent.*
 
 ### Direct timer bells and calendar favourites
 

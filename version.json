@@ -1,9 +1,9 @@
 {
-  "version": "3.0.10",
-  "tag": "v3.0.10",
-  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.10/Aion2-Eclipse-v3.0.10-win-x64.zip",
-  "sha256": "80fdb12fef90bfbc3566bbec29e0c473f5bcf481c85a43a3a2acb48d887a84fc",
-  "name": "Eclipse 3.0.10 - Direct timer bells and visible favourites",
-  "notes": "Alarm bells directly on calendar boss timers and Next Rift. Calendar and Rift favourites appear in the shared Favourites & alerts list. Independent alarms: remove the bell while keeping the star. History, saved preferences and game-server timers retained.",
-  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.10"
+  "version": "3.0.11",
+  "tag": "v3.0.11",
+  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.11/Aion2-Eclipse-v3.0.11-win-x64.zip",
+  "sha256": "35b0859a1a0eba42f417438dc4b45e3210ece78480e0877c6676e189df7ecdfe",
+  "name": "Eclipse 3.0.11 - Character identity fix and alarm shortcut",
+  "notes": "Correct class for same-name characters on different servers. Alt+M stops active boss alarms without resetting counters. Saved shortcut alternatives, softer Reflection notification, existing history and preferences preserved.",
+  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.11"
 }
