@@ -1,5 +1,20 @@
 # Eclipse release notes
 
+## v3.0.12 - Support visible by default
+
+Eclipse 3.0.12 makes personal support visible from the start.
+
+- Self healing, shields and support buffs are enabled by default. Existing HUD settings are updated once; you can still hide personal detail in Preferences, and that later choice is remembered.
+- Compact Support now shows a small shield icon with separate counts for allies and self, even when its details are collapsed. Open Support for each player's bars and received durations.
+- Healing remains included once in its original totals. Shield counts reflect recognised packet observations; shield HP, absorption and destruction are not measured.
+- Combat capture, damage, server identity, saved runs, progression, favourites, alarms and HUD shortcuts are retained. English is the initial language; French remains available.
+
+Use **UPDATE** when offered in Eclipse, or download the latest **Eclipse-Setup.exe**.
+Validation: 1600 logic checks and 1185 native Windows checks in 33 suites; exact ZIP and embedded setup; isolated upgrades from V1/3.0.8/3.0.9/3.0.10/3.0.11, default-setting migration and quick offline shutdown. Offline fixtures use fictional data and do not establish universal live-game coverage.
+
+FR : les soins, boucliers et buffs personnels sont activés par défaut, également avec les anciens réglages. Une désactivation choisie ensuite reste mémorisée. Le mode compact affiche un résumé des boucliers sur alliés et sur soi sans ouvrir Support. Les détails et durées reçues restent accessibles, les soins ne sont pas comptés deux fois. Compteurs, identités, historiques, progression, alarmes et préférences conservés.
+
+
 ## v3.0.11 - Character identity fix and alarm shortcut
 
 Eclipse 3.0.11 corrects character identity across servers and adds a quick way to stop boss alarms.
