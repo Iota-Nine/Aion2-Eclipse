@@ -1,5 +1,29 @@
 # Eclipse release notes
 
+## v3.0.14 - Damage counters after resurrection
+
+Eclipse 3.0.14 fixes individual damage totals after resurrection.
+
+- A character receiving a new session ID after resurrection keeps the damage already dealt in the current run. A zero-damage first hit no longer hides the previous individual total in the HUD or client.
+- Hits received late under the former session ID are credited once to the same character, including your own character. Party totals, skills and death counts stay consistent.
+- Death and resurrection do not reset or archive the dungeon. Idle DPS still returns to zero after two seconds without clearing cumulative damage.
+- Server-scoped identity protections, healing, shields, boss names and timers, favourites, alarms, shortcuts, run history, progression and preferences are retained. English is the initial language; French is available in Preferences.
+- The website bug-report titles remain fixed and readable.
+
+Use **UPDATE** when offered, or download the latest **Eclipse-Setup.exe**.
+Validation: 1674 logic checks, including 21 counter regression checks, and 1226 native Windows checks in 34 suites. Exact ZIP and embedded setup, isolated upgrades from V1 and 3.0.8 through 3.0.13, saved data and quick offline shutdown checked. Fictional offline fixtures reproduce the confirmed identity-transition bug; they do not establish universal live-game coverage.
+
+Français
+
+- Les dégâts individuels restent conservés quand un personnage reçoit un nouvel identifiant après résurrection. Un premier coup à zéro ne masque plus le total précédent dans le HUD ou le client.
+- Les coups reçus en retard sous l'ancien identifiant sont attribués une seule fois au même personnage, y compris votre propre personnage. Totaux du groupe, compétences et morts restent cohérents.
+- La mort et la résurrection ne remettent pas le donjon à zéro. Le DPS instantané revient toujours à zéro après deux secondes d'inactivité, sans effacer les dégâts cumulés.
+- Identités par serveur, soins, boucliers, boss et timers, favoris, alarmes, raccourcis, historique, progression et préférences conservés. Choix anglais/français inchangé.
+- Les titres des rapports de bugs restent corrigés sur le site.
+
+Mise à jour via **UPDATE** ou le dernier **Eclipse-Setup.exe**. Vérifications hors ligne avec données fictives ; la trace du joueur ayant signalé le problème n'a pas été reçue.
+
+
 ## v3.0.13 - Individual boss names and timers
 
 Eclipse 3.0.13 gives each supported world boss its own name and timer.
