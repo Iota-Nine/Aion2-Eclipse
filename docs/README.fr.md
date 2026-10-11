@@ -1,12 +1,12 @@
 # Eclipse - DPS meter AION 2 gratuit pour Windows
 
-**Eclipse 3.0.12 disponible :** cliquez sur **UPDATE** lorsqu’il est proposé, ou utilisez le dernier setup. Réglages et historique conservés. Le HUD garde son placement initial en bas à droite et votre position déplacée.
+**Eclipse 3.0.13 disponible :** cliquez sur **UPDATE** lorsqu’il est proposé, ou utilisez le dernier setup. Réglages et historique conservés. Le HUD garde son placement initial en bas à droite et votre position déplacée.
 
-**Nouveau en 3.0.12 :** **soins, boucliers et buffs personnels visibles par défaut**, aussi avec les anciens réglages. Résumé des boucliers sur alliés et sur soi visible en compact sans ouvrir les détails. Une désactivation ultérieure reste enregistrée ; compteurs et historique conservés.
+**Nouveau en 3.0.13 :** **noms et timers individuels des world boss en anglais et en français**, dont les deux variantes d’Argo. Chaque boss du calendrier a sa carte, son favori et sa cloche. Anciens suivis et alarmes acquittées conservés.
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 3.0.12 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 3.0.13 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
@@ -177,14 +177,24 @@ L’étoile garde un favori silencieux ; la cloche active son alarme. La retirer
 
 **Alt+M** coupe les alarmes en cours, même avec le client réduit ou le HUD masqué. Choix Alt+F9 et Ctrl+Alt+M dans les préférences. Les futurs rappels restent activés.
 
-![Raccourcis Eclipse 3.0.12 - interface anglaise, démo fictive](images/eclipse-alarm-shortcuts-en.png)
+![Raccourcis Eclipse 3.0.13 - interface anglaise, démo fictive](images/eclipse-alarm-shortcuts-en.png)
 
 L’exemple utilise Alt+F9 ; le raccourci initial reste Alt+M.
 
-![Guide Eclipse 3.0.12 - aperçu anglais hors ligne](images/eclipse-alarm-guide-en.png)
+![Guide Eclipse 3.0.13 - aperçu anglais hors ligne](images/eclipse-alarm-guide-en.png)
 
 ## Support visible directement
 
-![Résumé compact Eclipse 3.0.12 - interface anglaise, exemple fictif hors ligne](images/eclipse-support-defaults-en.png)
+![Résumé compact Eclipse 3.0.13 - interface anglaise, exemple fictif hors ligne](images/eclipse-support-defaults-en.png)
 
 *Exemple fictif hors ligne. Les boucliers reconnus restent visibles avec Support replié. Les compteurs ne représentent pas des PV de bouclier ni des dégâts absorbés.*
+
+## Timers individuels des boss
+
+![Timers individuels d’Argo, interface anglaise et données fictives](images/eclipse-boss-names-en.png)
+
+*Exemple fictif hors ligne. Variantes d’Argo séparées, horaires reçus du jeu et suivis indépendants.*
+
+![Cartes individuelles des boss du calendrier, interface anglaise et exemple fictif](images/eclipse-boss-calendar-en.png)
+
+*Prévisions communautaires. Horaires régionaux et confirmation de l’horloge EU conservés.*

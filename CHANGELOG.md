@@ -1,5 +1,29 @@
 # Eclipse release notes
 
+## v3.0.13 - Individual boss names and timers
+
+Eclipse 3.0.13 gives each supported world boss its own name and timer.
+
+- English and French names for 56 verified game-map entries: 24 in Verteron, 24 in Altgard and 8 in the Abyss. Argo, the Spirit King and Executor Argo are separate; Guardian Lord Nahma's three locations remain distinct.
+- Individual calendar cards for Executor Argo, Kaira and Tamasa, plus named Watcher Kaira and Guardian Lord Nahma. Regional schedules are retained. KR/TW middle-zone calendar bosses also have individual cards.
+- Stars and bells stay independent on each timer. Existing grouped favourites, muted alarms and acknowledged reminders migrate without arming quiet choices or repeating an acknowledged alarm.
+- Search English or French boss names, including Argo in either language. Renaming keeps the original received times, detected EU server and saved tracking keys.
+- Unrecognised maps or slots remain unresolved. Game-map timers require opening the monster list in game to synchronise; calendar times remain community predictions with the existing EU clock confirmation. No shared cross-server feed or invented spawn time.
+- Damage, healing, shields, identities, history, progression, shortcuts and preferences are preserved. English remains the initial language; French is available in Preferences.
+
+Use **UPDATE** when offered, or download the latest **Eclipse-Setup.exe**.
+Validation: 1653 logic checks and 1215 native Windows checks in 34 suites, exact ZIP and embedded setup, isolated V1/3.0.8/3.0.9/3.0.10/3.0.11/3.0.12 upgrades, grouped-follow migration and quick offline shutdown. Fixtures use explicitly fictional data and do not establish universal live-game coverage.
+
+Français
+
+- Noms individuels en anglais et en français pour 56 entrées vérifiées : 24 à Verteron, 24 à Altgard et 8 dans les Abysses. Les deux variantes d'Argo sont séparées ; les trois emplacements de Nahma restent distincts.
+- Cartes séparées pour Agro exécuteur, Kaira exécutrice et Tamasa l'exécuteur. Kaira la veilleuse et Nahma le seigneur gardien sont nommés. Les horaires régionaux existants sont conservés.
+- Favoris et cloches indépendants pour chaque timer. Les anciens suivis groupés, choix silencieux et rappels acquittés migrent sans activer une alarme silencieuse ni répéter un rappel déjà reçu.
+- Recherche des noms EN/FR ; les horaires reçus du jeu, le serveur EU détecté et les choix sauvegardés sont conservés. Les cartes inconnues restent non identifiées.
+- Ouvrez la liste des monstres dans le jeu pour synchroniser les timers du serveur détecté. Le calendrier reste une prévision communautaire avec confirmation de l'horloge EU. Aucun horaire inventé ni flux partagé entre serveurs.
+- Compteurs, soins, boucliers, identités, historique, progression, raccourcis et préférences conservés. Mise à jour via **UPDATE** ou **Eclipse-Setup.exe**.
+
+
 ## v3.0.12 - Support visible by default
 
 Eclipse 3.0.12 makes personal support visible from the start.
