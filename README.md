@@ -1,14 +1,14 @@
 # Eclipse - Free AION 2 DPS Meter for Windows
 
-**Eclipse 3.0.14 is available:** click **UPDATE** when offered in Eclipse, or use the latest setup. Your settings and history are preserved. The HUD keeps its bottom-right default and your manually saved position.
+**Eclipse 3.0.15 is available:** click **UPDATE** when offered in Eclipse, or use the latest setup. Your settings and history are preserved. The HUD keeps its bottom-right default and your manually saved position.
 
 **[Download Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Official website](https://iota-nine.github.io/Aion2-Eclipse/)** · [Français](docs/README.fr.md)
 
-![Eclipse 3.0.14 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
+![Eclipse 3.0.15 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
 
 [![Latest release](https://img.shields.io/github/v/release/Iota-Nine/Aion2-Eclipse?label=Download&color=75bdcf)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Iota-Nine/Aion2-Eclipse/total?color=9384d0)](https://github.com/Iota-Nine/Aion2-Eclipse/releases)
-![Version 3.0.14](https://img.shields.io/badge/Version-3.0.14-d8bd88)
+![Version 3.0.15](https://img.shields.io/badge/Version-3.0.15-d8bd88)
 ![Windows x64](https://img.shields.io/badge/Windows-x64-507cab)
 ![English and French](https://img.shields.io/badge/Language-EN%20%2F%20FR-75bdcf)
 
@@ -16,7 +16,7 @@
 
 Eclipse is a free AION 2 damage meter for Windows with a live party overlay and a full Glass desktop client. Follow damage, inspect skills, review dungeon runs and compare your builds in one place. Keep it on a second monitor, minimize it during the fight, then come back to your expedition summary.
 
-**New in 3.0.14:** Individual damage totals survive resurrection. Late hits under the former session ID count once, in the same run. Saved runs and preferences are preserved.
+**New in 3.0.15:** Keep individual damage and the current run when resurrection reuses a session ID. Browse the supported boss catalog immediately, then switch with All bosses, Following, Favourites, Alarms and No alarm buttons. Real times remain tied to your detected server and game map list.
 
 [Features](#a-clearer-view-of-every-fight) · [Install Eclipse](#install-eclipse) · [How the numbers work](#how-the-numbers-work) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
@@ -46,7 +46,7 @@ Eclipse is a free AION 2 damage meter for Windows with a live party overlay and 
 | **Party healing & HPS** | Healing aligned per player in Focus compact; full healing/HPS and expanded support details remain available. Skill/HoT and recipient analysis; zero-damage healers stay visible. Selected skills only; effective healing and overheal remain unknown. |
 | **Shields, in detail** | Blue allied bars in compact/full. Selected skills across six classes; observed activations, received duration ranges and recipients. Group/companion notices are grouped. Shield capacity, absorbed damage and destruction remain unknown; duration is not actual uptime. |
 | **Cleric and Chanter buffs** | Violet compact/full bars for eight selected beneficial skill families. Observed activations, received duration ranges, skills and recipients in analysis. Overlapping mantra/aura refreshes form one observed sequence. No invented uptime or damage gain. |
-| **Self support, in detail** | Optional self-healing, self-shield and self-buff bars in compact/full. Self healing is already part of total healing; it is not counted twice. Recognized self-shield applications, without capacity or absorption. Off by default in Preferences. |
+| **Self support, in detail** | Optional self-healing, self-shield and self-buff bars in compact/full. Self healing is already part of total healing; it is not counted twice. Recognized self-shield applications, without capacity or absorption. Enabled by default; your explicit preference is preserved. |
 | **Party Combat Power** | CP beside each member in compact/full, when received from structured group information for the matching identity and server. Missing CP stays “—”. Can be disabled in Preferences. |
 | **Party and skill analysis** | Inspect each member's damage, skill breakdown, critical hits, back attacks, maximum hits and received death counts. Nearby players outside the identified party are excluded. |
 | **Expedition summary** | Total damage, duration, party contribution, burst windows, gaps between hits and target segments, together with the declared build used for that run. |
@@ -85,11 +85,11 @@ The images below come from the native Windows application. Combat data is simula
 
 ### Alarm control, from the game
 
-![Eclipse 3.0.14 alarm shortcut preferences - English, fictional offline demo](docs/images/eclipse-alarm-shortcuts-en.png)
+![Eclipse 3.0.15 alarm shortcut preferences - English, fictional offline demo](docs/images/eclipse-alarm-shortcuts-en.png)
 
 *Alt+M is the default. This native example selects Alt+F9; you can change it in Preferences.*
 
-![Eclipse 3.0.14 quick-start guide with alarm STOP - English offline preview](docs/images/eclipse-alarm-guide-en.png)
+![Eclipse 3.0.15 quick-start guide with alarm STOP - English offline preview](docs/images/eclipse-alarm-guide-en.png)
 
 *Stop the current alarm without disabling future reminders. The intro remains silent.*
 
@@ -213,7 +213,7 @@ AION, AION 2, NCSOFT artwork and game data belong to their respective owners. Ec
 
 ### Support visible at a glance
 
-![Eclipse 3.0.14 compact shield summary in English - fictional offline example](docs/images/eclipse-support-defaults-en.png)
+![Eclipse 3.0.15 compact shield summary in English - fictional offline example](docs/images/eclipse-support-defaults-en.png)
 
 *Fictional offline example. Support is collapsed; recognised shield counts remain visible. Open it for player bars and received durations. Counts are not shield HP or absorbed damage.*
 

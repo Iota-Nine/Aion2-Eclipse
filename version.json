@@ -1,9 +1,9 @@
 {
-  "version": "3.0.14",
-  "tag": "v3.0.14",
-  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.14/Aion2-Eclipse-v3.0.14-win-x64.zip",
-  "sha256": "d8df5135da768fcc5f55f0c967da27f985b7305d9a5b218c0dc6359836ace008",
-  "name": "Eclipse 3.0.14 - Damage counters after resurrection",
-  "notes": "Fix individual damage totals after resurrection and late old-session hits. Run history, preferences, healing, shields and boss timers preserved. EN/FR.",
-  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.14"
+  "version": "3.0.15",
+  "tag": "v3.0.15",
+  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.15/Aion2-Eclipse-v3.0.15-win-x64.zip",
+  "sha256": "ef8da8b2240d4ffa69e4bed36c7ad8f7d1cac8ab489f2173bd803d4c805eec82",
+  "name": "Eclipse 3.0.15 - Run continuity and simpler boss timers",
+  "notes": "Preserve individual damage and current run through resurrection ID reuse. Simpler boss catalog with direct favourites and alarm filters. EN/FR; history and preferences preserved.",
+  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.15"
 }

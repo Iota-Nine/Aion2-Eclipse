@@ -1,5 +1,22 @@
 # Eclipse release notes
 
+## v3.0.15 - Keep your run, follow bosses more easily
+
+- Preserve the current run and individual damage when the old local session ID is reused before resurrection PlayerInfo arrives. Optional identity metadata during that gap no longer clears the displayed personal total.
+- The supported boss catalog is visible before game times arrive. Direct All bosses, Following, Favourites, Alarms and No alarm buttons replace the dropdown; search, zone filters and saved choices remain available.
+- Stars and bells stay independent. Removing an alarm keeps the favourite. Unknown times remain unknown, and received world-boss times remain isolated by the exact detected server.
+- Keep run history, progression, language, HUD position, healing, shields, selected support buffs and existing shortcuts. Idle live DPS still returns to zero without clearing cumulative damage.
+
+Français
+
+- Le run et les dégâts personnels restent conservés quand l’ancien identifiant local est réattribué avant les informations de résurrection. Les métadonnées reçues pendant cet intervalle ne masquent plus le total personnel.
+- Le catalogue des boss pris en charge est visible dès le départ. Boutons directs Tous les boss, Suivis, Favoris, Alarmes et Sans alarme, avec recherche, zones et choix mémorisés.
+- Favoris et cloches restent indépendants. Les horaires absents restent inconnus et les horaires reçus restent propres au serveur détecté.
+- Historique, progression et préférences conservés. Le DPS instantané peut revenir à zéro pendant une pause sans effacer les dégâts cumulés.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe. Utilisez UPDATE lorsqu’il est proposé, ou téléchargez Eclipse-Setup.exe.
+Validation includes 1716 logic checks and native EN/FR fixtures, exact ZIP/embedded setup, isolated migrations and shutdown. Fictional fixtures reproduce the confirmed code paths; they do not establish the affected player’s exact live-game case.
+
 ## v3.0.14 - Damage counters after resurrection
 
 Eclipse 3.0.14 fixes individual damage totals after resurrection.
