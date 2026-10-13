@@ -1,14 +1,14 @@
 # Eclipse - Free AION 2 DPS Meter for Windows
 
-**Eclipse 3.0.17 is available:** click **UPDATE** when offered in Eclipse, or use the latest setup. Your settings and history are preserved. The HUD keeps its bottom-right default and your manually saved position.
+**Eclipse 3.0.18 is available:** click **UPDATE** when offered in Eclipse, or use the latest setup. Your settings and history are preserved. The HUD keeps its bottom-right default and your manually saved position.
 
 **[Download Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Official website](https://iota-nine.github.io/Aion2-Eclipse/)** · [Français](docs/README.fr.md)
 
-![Eclipse 3.0.17 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
+![Eclipse 3.0.18 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
 
 [![Latest release](https://img.shields.io/github/v/release/Iota-Nine/Aion2-Eclipse?label=Download&color=75bdcf)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Iota-Nine/Aion2-Eclipse/total?color=9384d0)](https://github.com/Iota-Nine/Aion2-Eclipse/releases)
-![Version 3.0.17](https://img.shields.io/badge/Version-3.0.17-d8bd88)
+![Version 3.0.18](https://img.shields.io/badge/Version-3.0.18-d8bd88)
 ![Windows x64](https://img.shields.io/badge/Windows-x64-507cab)
 ![English and French](https://img.shields.io/badge/Language-EN%20%2F%20FR-75bdcf)
 
@@ -16,7 +16,7 @@
 
 Eclipse is a free AION 2 damage meter for Windows with a live party overlay and a full Glass desktop client. Follow damage, inspect skills, review dungeon runs and compare your builds in one place. Keep it on a second monitor, minimize it during the fight, then come back to your expedition summary.
 
-**New in 3.0.17:** A silent WAIT tip at the first overlay opening, once per launch. Patch notes remain visible below Show HUD without scrolling and show released changes only. Saved runs and preferences remain intact.
+**New in 3.0.18:** Set alarm volume from 0 to 100% in Preferences for both the client and HUD. Your choice is saved; mute keeps reminders enabled. The existing 55% default, STOP shortcut, runs and preferences are preserved.
 
 [Features](#a-clearer-view-of-every-fight) · [Install Eclipse](#install-eclipse) · [How the numbers work](#how-the-numbers-work) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
@@ -85,11 +85,11 @@ The images below come from the native Windows application. Combat data is simula
 
 ### Alarm control, from the game
 
-![Eclipse 3.0.17 alarm shortcut preferences - English, fictional offline demo](docs/images/eclipse-alarm-shortcuts-en.png)
+![Eclipse 3.0.18 alarm shortcut preferences - English, fictional offline demo](docs/images/eclipse-alarm-shortcuts-en.png)
 
 *Alt+M is the default. This native example selects Alt+F9; you can change it in Preferences.*
 
-![Eclipse 3.0.17 quick-start guide with alarm STOP - English offline preview](docs/images/eclipse-alarm-guide-en.png)
+![Eclipse 3.0.18 quick-start guide with alarm STOP - English offline preview](docs/images/eclipse-alarm-guide-en.png)
 
 *Stop the current alarm without disabling future reminders. The intro remains silent.*
 
@@ -213,7 +213,7 @@ AION, AION 2, NCSOFT artwork and game data belong to their respective owners. Ec
 
 ### Support visible at a glance
 
-![Eclipse 3.0.17 compact shield summary in English - fictional offline example](docs/images/eclipse-support-defaults-en.png)
+![Eclipse 3.0.18 compact shield summary in English - fictional offline example](docs/images/eclipse-support-defaults-en.png)
 
 *Fictional offline example. Support is collapsed; recognised shield counts remain visible. Open it for player bars and received durations. Counts are not shield HP or absorbed damage.*
 

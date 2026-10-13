@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## v3.0.18 - Adjustable alarm volume
+
+- Set alarm volume from 0 to 100% directly in Preferences, for all client and HUD alarms.
+- The saved setting applies immediately to current audio and stays for the next launch. Existing users retain the original 55% default.
+- At 0%, audio is silent while current alarm sources and future reminders remain enabled. STOP and the alarm shortcut keep working.
+- If the choice cannot be saved, the slider and audio retain the previous saved setting.
+- EN/FR, capture, damage/healing/support, run history, progression, boss timers, favourites, HUD placement and shortcuts are preserved.
+
+Français
+
+- Réglez le volume des alarmes de 0 à 100 % directement dans les Préférences, pour le client et le HUD.
+- Le réglage enregistré s’applique immédiatement au son en cours et reste au prochain lancement. Le volume initial de 55 % est conservé pour les utilisateurs existants.
+- À 0 %, le son est coupé ; les sources d’alarme actives et les futurs rappels restent activés. STOP et son raccourci conservent leur fonctionnement.
+- Si le choix ne peut pas être enregistré, le curseur et le son conservent le réglage précédent.
+- Français/anglais, capture, dégâts/soins/support, historique, progression, timers, favoris, placement du HUD et raccourcis conservés.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe. Utilisez UPDATE lorsqu’il est proposé, ou téléchargez Eclipse-Setup.exe.
+
 ## v3.0.17 - WAIT tip and accessible patch notes
 
 - A small WAIT card appears at the first overlay opening, once per Eclipse launch. It explains how teleporting somewhere in the dungeon or on the map may refresh character identity when personal damage is absent.
