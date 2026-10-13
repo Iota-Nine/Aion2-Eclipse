@@ -1,5 +1,24 @@
 # Eclipse release notes
 
+## v3.0.16 - Reliable startup damage and in-app patch notes
+
+- Retain observed character and party frames while detecting the capture adapter. Only the selected game stream is replayed, with TCP sequence ordering and retransmission rejection, so already received startup data is not discarded or counted twice.
+- Recover an obsolete connection when real game keepalives stop. TCP acknowledgements alone no longer keep it selected.
+- Keep same-name characters on different servers distinct in party parsing and HUD filtering. Ambiguous names cannot replace a confirmed local identity.
+- New Patch notes tab inside Eclipse, in English and French, with player-reported problems, released changes and clearly identified pending confirmations.
+- Preserve death/resurrection continuity, cumulative damage, history, progression, healing/support, boss timers, alarms, HUD position and existing shortcuts.
+
+Français
+
+- Les informations du personnage et du groupe reçues pendant la détection réseau sont conservées. Seul le flux du jeu retenu est relu, avec ordre TCP et rejet des retransmissions pour éviter les doublons.
+- Une ancienne connexion est récupérée lorsque les vrais messages de maintien du jeu cessent. Les simples accusés de réception TCP ne suffisent plus à la maintenir.
+- Les personnages de même pseudo sur des serveurs différents restent distincts dans le groupe et le HUD. Un nom ambigu ne remplace pas une identité locale confirmée.
+- Nouvel onglet Notes de mise à jour dans Eclipse, en français et en anglais, avec les retours des joueurs et les confirmations encore attendues.
+- Compteurs après résurrection, dégâts cumulés, historique, progression, soins/support, timers, alarmes, placement du HUD et raccourcis conservés.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe. Utilisez UPDATE lorsqu’il est proposé, ou téléchargez Eclipse-Setup.exe.
+Validation covers 1754 logic checks, the exact client, EN/FR native previews, ZIP and embedded setup, isolated saved-data migrations and shutdown. Synthetic fixtures reproduce the corrected code paths; confirmation of the affected TW player's exact case remains pending. The older Ranger/Assassin report is still under investigation.
+
 ## v3.0.15 - Keep your run, follow bosses more easily
 
 - Preserve the current run and individual damage when the old local session ID is reused before resurrection PlayerInfo arrives. Optional identity metadata during that gap no longer clears the displayed personal total.
