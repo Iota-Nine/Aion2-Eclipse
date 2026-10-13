@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## v3.0.17 - WAIT tip and accessible patch notes
+
+- A small WAIT card appears at the first overlay opening, once per Eclipse launch. It explains how teleporting somewhere in the dungeon or on the map may refresh character identity when personal damage is absent.
+- The card is silent, keeps keyboard focus intact, has a close button and disappears automatically after 12 seconds. Hiding or recreating the overlay does not repeat it during the same launch.
+- Patch notes stay directly below Show HUD, outside the scrolling menu, including at the minimum supported window size.
+- In-app patch notes list released changes only. Ongoing reports are no longer mixed with completed fixes.
+- Capture, damage/healing/support, character identity, run history, progression, boss timers, favourites, alarms, HUD placement and shortcuts are preserved.
+
+Français
+
+- Une petite carte WAIT apparaît au premier affichage de l’overlay, une seule fois par lancement d’Eclipse. Elle explique comment une téléportation dans le donjon ou sur la carte peut rafraîchir l’identification du personnage lorsque ses dégâts sont absents.
+- Le conseil est silencieux, ne prend pas le focus, comporte une croix de fermeture et disparaît automatiquement après 12 secondes. Masquer ou recréer le HUD ne le répète pas pendant le même lancement.
+- Les notes restent directement sous Afficher le HUD, hors du menu qui défile, même dans une petite fenêtre.
+- Les notes du client affichent uniquement des changements publiés ; les signalements en cours ne sont plus mélangés aux corrections.
+- Capture, dégâts/soins/support, identité, historique, progression, timers, favoris, alarmes, placement du HUD et raccourcis conservés.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe. Utilisez UPDATE lorsqu’il est proposé, ou téléchargez Eclipse-Setup.exe.
+
 ## v3.0.16 - Reliable startup damage and in-app patch notes
 
 - Retain observed character and party frames while detecting the capture adapter. Only the selected game stream is replayed, with TCP sequence ordering and retransmission rejection, so already received startup data is not discarded or counted twice.
