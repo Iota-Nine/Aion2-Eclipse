@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## v3.0.19 - Field-boss sync across servers
+
+- Removed the EU-only restriction from received field-boss lists, saved maps, catalog favourites and alarms. Tracking uses the exact positive server ID received from the game.
+- Timer identity now uses the same name boundary and encoding decoder as the DPS meter, including supported Asian UTF-16 names, terminated strings and unflagged name lengths.
+- A delayed old map list cannot acquire a newly switched server identity, even when the connection is reused.
+- Game timestamps remain unchanged; each server keeps separate favourites, alarms and receipts. Unknown names and times remain unknown.
+- EN/FR, capture, damage/healing/support, history, progression, saved alarm volume, STOP, WAIT, pinned patch notes and HUD shortcuts are preserved.
+
+Français
+
+- Retrait de la restriction aux serveurs européens pour les listes de boss reçues du jeu, les cartes enregistrées, les favoris du catalogue et les alarmes. Le suivi utilise l’identifiant exact du serveur transmis par le jeu.
+- Les timers utilisent désormais le même décodage des pseudos que le DPS, y compris les noms asiatiques UTF-16 pris en charge, les chaînes terminées et les variantes de longueur sans indicateur.
+- Une ancienne liste reçue en retard ne peut plus être attribuée au nouveau serveur après un changement d’identité, même si la connexion est réutilisée.
+- Les horaires du jeu restent inchangés ; favoris, alarmes et reçus restent séparés par serveur. Les noms et horaires inconnus restent inconnus.
+- Français/anglais, capture, dégâts/soins/support, historique, progression, volume enregistré, STOP, WAIT, notes fixes et raccourcis du HUD conservés.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe. Utilisez UPDATE lorsqu’il est proposé, ou téléchargez Eclipse-Setup.exe.
+
 ## v3.0.18 - Adjustable alarm volume
 
 - Set alarm volume from 0 to 100% directly in Preferences, for all client and HUD alarms.
