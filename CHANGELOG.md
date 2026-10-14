@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## v3.0.21 - Keep your party and dungeon damage
+
+- Partial, empty or transitional party updates retain known allies until a complete update or confirmed leave is received.
+- Old party and character messages cannot replace newer identity information. Name capitalization changes preserve the same character and counters.
+- Late boss identification enriches the current run instead of resetting its damage. Numbered boss copies in the same dungeon mode stay in the same run.
+- Confirmed party leaves still clear the party without erasing personal damage. Real character changes, real run boundaries and manual reset retain their behavior.
+- Existing class corrections, alarm volume/STOP, WAIT, pinned patch notes, history, progression and EN/FR controls are retained.
+
+Français
+
+- Les mises à jour incomplètes, vides ou transitoires conservent les alliés connus jusqu’à une liste complète ou une sortie confirmée.
+- Les anciens messages du groupe et du personnage ne remplacent plus une identité récente. Un changement de casse du pseudo conserve le personnage et ses compteurs.
+- Un boss identifié tardivement enrichit le run en cours sans remettre ses dégâts à zéro. Les copies numérotées d’un boss du même mode restent dans le même run.
+- Une sortie confirmée vide toujours le groupe sans effacer les dégâts personnels. Changements réels de personnage, véritables fins de run et reset manuel conservent leurs comportements.
+- Corrections de classe, volume/STOP, WAIT, notes fixes, historique, progression et interface FR/EN conservés.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe. Utilisez UPDATE lorsqu’il est proposé, ou téléchargez Eclipse-Setup.exe.
+
 ## v3.0.20 - Correct character class
 
 - Fixed PlayerInfo class decoding: the job code follows both server bytes. A server byte is no longer mistaken for Assassin or another playable class on unlisted servers.
