@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## v3.0.20 - Correct character class
+
+- Fixed PlayerInfo class decoding: the job code follows both server bytes. A server byte is no longer mistaken for Assassin or another playable class on unlisted servers.
+- A stale known local class can now be corrected by two distinct, recognized active skill cooldowns from the same class within 30 seconds, after fresh local identification.
+- Replayed skills, mixed classes, incomplete batches, zero durations, stale timestamps and changed identities cannot confirm a class correction.
+- Corrected class names and icons reach the party row, client, HUD and saved preferences without resetting damage or the current run. Noisy teleport job bytes cannot undo the correction.
+- All existing boss timers, alarm volume/STOP, WAIT, pinned patch notes, history, progression and EN/FR controls are retained.
+
+Français
+
+- Correction de la lecture de la classe dans PlayerInfo : le code suit les deux octets du serveur. Un octet de serveur n’est plus confondu avec Assassin ou une autre classe sur les serveurs absents de l’ancien catalogue.
+- Une ancienne classe locale erronée peut désormais être corrigée par deux compétences actives distinctes, reconnues et concordantes, observées en moins de 30 secondes après une identification locale reçue du jeu.
+- Les compétences répétées, classes mélangées, trames incomplètes, durées nulles, données anciennes et changements d’identité ne confirment pas de correction.
+- Nom et icône actualisés dans le groupe, le client, le HUD et les préférences enregistrées, sans remise à zéro des dégâts ou du run. Un code incohérent lors d’une téléportation ne défait pas la correction.
+- Timers de boss, volume/STOP, WAIT, notes fixes, historique, progression et interface FR/EN conservés.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe. Utilisez UPDATE lorsqu’il est proposé, ou téléchargez Eclipse-Setup.exe.
+
 ## v3.0.19 - Field-boss sync across servers
 
 - Removed the EU-only restriction from received field-boss lists, saved maps, catalog favourites and alarms. Tracking uses the exact positive server ID received from the game.

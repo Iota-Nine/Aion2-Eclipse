@@ -1,12 +1,12 @@
 # Eclipse - DPS meter AION 2 gratuit pour Windows
 
-**Eclipse 3.0.19 disponible :** cliquez sur **UPDATE** lorsqu’il est proposé, ou utilisez le dernier setup. Réglages et historique conservés. Le HUD garde son placement initial en bas à droite et votre position déplacée.
+**Eclipse 3.0.20 disponible :** cliquez sur **UPDATE** lorsqu’il est proposé, ou utilisez le dernier setup. Réglages et historique conservés. Le HUD garde son placement initial en bas à droite et votre position déplacée.
 
-**Nouveau en 3.0.19 :** Les listes de boss reçues du jeu sont acceptées pour le serveur exact détecté, sans restriction aux serveurs européens. Les timers utilisent le décodage des pseudos du DPS ; une ancienne liste en retard ne peut plus être attribuée à un nouveau serveur. Horaires, favoris et alarmes restent séparés par serveur.
+**Nouveau en 3.0.20 :** Lecture de la classe corrigée après les deux octets du serveur. Des compétences locales actives distinctes et concordantes corrigent une ancienne classe erronée dans le groupe, le client, le HUD et le cache, sans remettre les dégâts ou le run à zéro.
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 3.0.19 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 3.0.20 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
@@ -177,15 +177,15 @@ L’étoile garde un favori silencieux ; la cloche active son alarme. La retirer
 
 **Alt+M** coupe les alarmes en cours, même avec le client réduit ou le HUD masqué. Choix Alt+F9 et Ctrl+Alt+M dans les préférences. Les futurs rappels restent activés.
 
-![Raccourcis Eclipse 3.0.19 - interface anglaise, démo fictive](images/eclipse-alarm-shortcuts-en.png)
+![Raccourcis Eclipse 3.0.20 - interface anglaise, démo fictive](images/eclipse-alarm-shortcuts-en.png)
 
 L’exemple utilise Alt+F9 ; le raccourci initial reste Alt+M.
 
-![Guide Eclipse 3.0.19 - aperçu anglais hors ligne](images/eclipse-alarm-guide-en.png)
+![Guide Eclipse 3.0.20 - aperçu anglais hors ligne](images/eclipse-alarm-guide-en.png)
 
 ## Support visible directement
 
-![Résumé compact Eclipse 3.0.19 - interface anglaise, exemple fictif hors ligne](images/eclipse-support-defaults-en.png)
+![Résumé compact Eclipse 3.0.20 - interface anglaise, exemple fictif hors ligne](images/eclipse-support-defaults-en.png)
 
 *Exemple fictif hors ligne. Les boucliers reconnus restent visibles avec Support replié. Les compteurs ne représentent pas des PV de bouclier ni des dégâts absorbés.*
 
