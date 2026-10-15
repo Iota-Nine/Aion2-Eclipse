@@ -1,5 +1,27 @@
 # Eclipse release notes
 
+## v3.0.22 - Live status and verified repairs
+
+- Live creator announcements in the client: normal, orange or red, with a dated last message when the status service is unavailable. Public status can be changed by the creator without a client release.
+- Cleric Benevolence is classified as healing without adding that healing to DPS.
+- Received ally damage is retained across a confirmed departure and return, including between interface refreshes.
+- Invalid local history fields are recovered while keeping valid data and an original-file backup.
+- Combat duration, charts and boundaries use elapsed instants across daylight saving changes.
+- Updates reject ambiguous Windows paths that could bypass local data protection.
+- Existing timers, alarm volume/STOP, WAIT, pinned patch notes, class corrections, history, progression and preferences are retained.
+
+Français
+
+- Statut du créateur en direct dans le client : normal, orange ou rouge, avec le dernier message daté si le service est indisponible. Le créateur peut changer le statut sans republier l’application.
+- Benevolence du clerc est comptabilisé dans les soins sans ajouter ce soin au DPS.
+- Les dégâts reçus d’un allié restent conservés quand il quitte puis revient, même entre deux actualisations de l’interface.
+- Les champs invalides de l’historique local sont récupérés en gardant les données valides et une copie du fichier original.
+- Durées, courbes et limites des combats restent cohérentes lors d’un changement d’heure.
+- La mise à jour rejette les chemins Windows ambigus contournant la protection des données locales.
+- Timers, volume/STOP, WAIT, notes fixes, corrections de classe, historique, progression et réglages conservés.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe. Utilisez UPDATE lorsqu’il est proposé, ou téléchargez Eclipse-Setup.exe.
+
 ## v3.0.21 - Keep your party and dungeon damage
 
 - Partial, empty or transitional party updates retain known allies until a complete update or confirmed leave is received.
