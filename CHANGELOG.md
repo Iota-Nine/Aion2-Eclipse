@@ -1,5 +1,26 @@
 # Eclipse release notes
 
+
+## 3.0.23 — 16 October 2026
+
+### English
+- Redesigned party HUD with existing class colors and bars proportional to total damage. Live DPS remains a separate value.
+- More transparent compact surfaces and bars, high-contrast text with a subtle shadow and larger CP. Ctrl+Alt+L click-through lock and the saved HUD position remain available.
+- Health section reserved for recognised bosses, excluding training dummies; hitting an add keeps the boss selected for this section.
+- Corrected decoding of received HP fields. Percentages require current HP and a consistent received maximum; missing, stale or inconsistent data is labelled without an assumed percentage.
+- Status message scrolls in the client header; click for a complete anchored message bubble instead of a modal dialog.
+- Preserves existing combat, healing, history, timers, alarm volume, preferences and updates.
+
+### Français
+- HUD du groupe remanié : couleurs des classes conservées et barres proportionnelles aux dégâts totaux. Le DPS reste une valeur séparée.
+- Fonds et barres du compact plus transparents, texte contrasté avec ombre discrète et CP agrandis. Verrouillage des clics Ctrl+Alt+L et position enregistrée conservés.
+- Section de vie réservée aux boss reconnus, hors mannequins ; frapper un monstre secondaire conserve le boss dans cette section.
+- Lecture corrigée des champs de PV reçus. Le pourcentage nécessite des PV actuels et un maximum reçu cohérent ; les données manquantes, anciennes ou incohérentes sont signalées sans pourcentage supposé.
+- Statut défilant dans l’en-tête du client ; un clic affiche le message complet dans une bulle ancrée.
+- Combat, soins, historique, timers, volume des alarmes, préférences et mises à jour conservés.
+
+Available HP fields and boss recognition depend on the received game data; this release does not establish universal regional compatibility or confirm resolution of an individual player report.
+
 ## v3.0.22 - Live status and verified repairs
 
 - Live creator announcements in the client: normal, orange or red, with a dated last message when the status service is unavailable. Public status can be changed by the creator without a client release.
