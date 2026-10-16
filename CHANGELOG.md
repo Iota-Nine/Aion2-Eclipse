@@ -1,5 +1,25 @@
 # Eclipse release notes
 
+## 3.0.24 — 16 October 2026
+
+
+## English
+- Fixed an interruption that could keep an outdated class displayed, including Ranger shown as Spiritmaster.
+- Empty, unknown or expired cooldown updates no longer discard earlier valid class observations. They do not count as a skill or extend the thirty-second evidence window.
+- Two distinct, concordant local active skills after fresh character identification remain necessary to correct a known wrong class. Conflicting, stale, incomplete and different-character data still cannot confirm a correction.
+- The corrected name and icon reach the client and HUD and are saved without resetting damage, the party or the current run. Clearing the identity cache is not required for this corrected path.
+- Existing compact HUD, class-colored total-damage bars, readable CP, boss HP availability, status, history, timers, alarm volume/STOP and preferences are preserved.
+
+## Français
+- Correction d’un blocage pouvant conserver une ancienne classe, notamment Ranger affiché Spiritmaster.
+- Les actualisations de délais vides, inconnues ou expirées n’effacent plus les observations valides précédentes. Elles ne comptent pas comme une compétence et ne prolongent pas la fenêtre de trente secondes.
+- Deux compétences locales actives, distinctes et concordantes après une identification récente restent nécessaires pour corriger une classe connue erronée. Les données contradictoires, anciennes, incomplètes ou d’un autre personnage ne confirment aucune correction.
+- Nom et icône corrigés dans le client et le HUD, avec sauvegarde de la classe sans reset des dégâts, du groupe ou du run. Ce chemin corrigé ne nécessite pas de vider le cache d’identité.
+- HUD compact, barres de dégâts totaux aux couleurs des classes, CP lisibles, PV de boss disponibles, statut, historique, timers, volume/STOP et préférences conservés.
+
+This corrects a reproduced code path; it does not confirm resolution of every individual player report or every regional packet format.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe. Utilisez UPDATE lorsqu’il est proposé, ou téléchargez Eclipse-Setup.exe.
 
 ## 3.0.23 — 16 October 2026
 

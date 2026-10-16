@@ -1,12 +1,14 @@
 # Eclipse - DPS meter AION 2 gratuit pour Windows
 
-**Eclipse 3.0.23 disponible :** cliquez sur **UPDATE** lorsqu’il est proposé, ou utilisez le dernier setup. Réglages et historique conservés. Le HUD garde son placement initial en bas à droite et votre position déplacée.
+**Eclipse 3.0.24 disponible :** cliquez sur **UPDATE** lorsqu’il est proposé, ou utilisez le dernier setup. Réglages et historique conservés. Le HUD garde son placement initial en bas à droite et votre position déplacée.
 
-**Nouveau en 3.0.23 :** Barres de dégâts totaux aux couleurs des classes, HUD compact plus transparent avec texte contrasté et CP agrandis, PV reçus des boss uniquement et statut défilant avec une bulle de lecture.
+**Nouveau en 3.0.24 :** Les actualisations de compétences vides ou expirées ne bloquent plus la correction d’une ancienne classe, notamment Ranger affiché Spiritmaster. La bonne classe est sauvegardée sans reset des dégâts ou du run. Le HUD, les timers et vos réglages restent disponibles.
+
+Si l’ancienne classe reste affichée après la mise à jour, gardez Eclipse ouvert, faites un TP ou changez de canal, puis utilisez deux compétences actives différentes de votre classe en moins de 30 secondes. Conservez vos données et votre historique.
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 3.0.23 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 3.0.24 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
