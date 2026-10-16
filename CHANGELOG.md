@@ -1,5 +1,28 @@
 # Eclipse release notes
 
+## 3.0.25 — 16 October 2026
+
+
+## English
+You reported through a bug report that some buttons in the Eclipse client did not show an explanation when hovered. Thank you for pointing it out: this is now patched.
+
+- Added missing hover descriptions across client controls, navigation, progression and relevant HUD actions.
+- Made tooltips easier to read with a dark background, contrasting wrapped text and a short hover delay. Descriptions follow your English/French language setting.
+- Improved Alt+R responsiveness: counters reset promptly while the complete previous run is archived in the background.
+- Optimized network packet processing, loading of history and visual assets, and combat analysis. Full replay data and saved preferences are retained.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe. Your reports help us improve Eclipse.
+
+## Français
+Vous nous avez signalé via un rapport de bug que certains boutons du client Eclipse n’affichaient pas d’explication au survol. Merci pour ce retour : ce problème est maintenant corrigé.
+
+- Ajout des infobulles manquantes sur les commandes du client, la navigation, la progression et les actions concernées du HUD.
+- Infobulles plus lisibles : fond sombre, texte contrasté avec retour à la ligne et court délai au survol. Les descriptions suivent votre choix de langue français/anglais.
+- Alt+R plus réactif : les compteurs se réinitialisent rapidement pendant que le run précédent complet est enregistré en arrière-plan.
+- Optimisation du traitement des paquets réseau, du chargement de l’historique et des images, et de l’analyse des combats. Les replays complets et préférences restent conservés.
+
+Utilisez UPDATE lorsqu’il est proposé, ou téléchargez Eclipse-Setup.exe. Vos rapports nous aident à améliorer Eclipse.
+
 ## 3.0.24 — 16 October 2026
 
 
