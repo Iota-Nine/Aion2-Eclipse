@@ -1,5 +1,26 @@
 # Eclipse release notes
 
+## 3.0.28 — 17 October 2026
+
+
+## English
+
+- Party and character information already received by Eclipse can now refresh the supported party lists without requiring a teleport or a first hit.
+- Confirmed party departures return the HUD to solo. New complete party lists update joins and departures at the next display refresh.
+- Personal damage and returning allies’ accumulated damage are preserved. Partial lists and dungeon transitions do not erase known allies.
+- Detection depends on information sent by the game server. All open-world and regional party formats are not yet confirmed in real gameplay.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe.
+
+## Français
+
+- Les informations de personnage et de groupe déjà reçues par Eclipse peuvent désormais actualiser les listes prises en charge sans téléportation ni premier coup.
+- Une sortie de groupe confirmée remet le HUD en solo. Les nouvelles listes complètes actualisent les arrivées et départs au prochain rafraîchissement.
+- Les dégâts personnels et les dégâts cumulés des alliés qui reviennent sont conservés. Les listes partielles et transitions de donjon n’effacent pas les alliés connus.
+- La détection dépend des informations envoyées par le serveur du jeu. Tous les formats de groupe en monde ouvert et régionaux ne sont pas encore confirmés en jeu.
+
+Utilisez UPDATE lorsqu’il est proposé, ou téléchargez Eclipse-Setup.exe.
+
 ## 3.0.27 — 17 October 2026
 
 
