@@ -1,5 +1,26 @@
 # Eclipse release notes
 
+## 3.0.29 — 17 October 2026
+
+
+## English
+
+- Final boss victory no longer automatically clears the counters. Total damage and average DPS stay visible in the overlay and the client keeps the finished summary.
+- Leaving the party or the exit teleport retains that summary. Delayed hits cannot change the finished totals, and the run is archived once.
+- Use Alt+R or RESET to clear the counters. The first valid hit of a new run starts a separate measurement, keeping the previous run in history.
+- This fix passed focused offline scenarios. The exact reported gameplay session has not been independently verified.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe.
+
+## Français
+
+- La victoire sur le boss final ne remet plus automatiquement les compteurs à zéro. Les dégâts totaux et le DPS moyen restent visibles dans l’overlay et le client conserve le bilan terminé.
+- La sortie du groupe ou la téléportation de sortie conserve ce bilan. Les coups tardifs ne modifient pas les totaux terminés et le run est archivé une seule fois.
+- Alt+R ou RESET efface les compteurs. Le premier coup valide d’un nouveau run démarre une mesure distincte et conserve le run précédent dans l’historique.
+- Ce correctif a passé des scénarios ciblés hors ligne. La session exacte signalée en jeu n’a pas été vérifiée indépendamment.
+
+Utilisez UPDATE lorsqu’il est proposé, ou téléchargez Eclipse-Setup.exe.
+
 ## 3.0.28 — 17 October 2026
 
 
