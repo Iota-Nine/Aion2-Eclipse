@@ -1,5 +1,28 @@
 # Eclipse release notes
 
+## 3.0.26 — 17 October 2026
+
+
+## English
+You reported through a bug report that DPS returned to zero as soon as combat ended. Average DPS now stays visible so you can review the fight. Thank you for the feedback.
+
+- Personal, party and player averages use the same cumulative damage measurement since reset. Idle time after the last hit and zero-damage events do not lower the displayed average.
+- Added a small Alt+R reminder beside Ctrl+Alt+L in the full and compact HUD, with an explanatory tooltip and a warning if the shortcut is already in use.
+- Press Alt+R before starting a new measurement. Without a reset, the next fight continues the cumulative measurement, including the interval between fights.
+- Complete run archives, replays, saved preferences and existing features are retained.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe.
+
+## Français
+Vous nous avez signalé via un rapport de bug que le DPS revenait à zéro dès la fin du combat. Le DPS moyen reste désormais visible pour vous permettre de consulter votre résultat. Merci pour ce retour.
+
+- Les moyennes personnelles, du groupe et de chaque joueur utilisent les mêmes dégâts cumulés depuis le reset. L’attente après le dernier impact et les événements sans dégâts ne font plus baisser la moyenne affichée.
+- Ajout d’un petit rappel Alt+R à côté de Ctrl+Alt+L dans les HUD complet et compact, avec une infobulle et une indication si le raccourci est déjà occupé.
+- Appuyez sur Alt+R avant une nouvelle mesure. Sans reset, le combat suivant prolonge la mesure cumulée, en incluant l’intervalle entre les combats.
+- Archives complètes des runs, replays, préférences et fonctions existantes conservés.
+
+Utilisez UPDATE lorsqu’il est proposé, ou téléchargez Eclipse-Setup.exe.
+
 ## 3.0.25 — 16 October 2026
 
 
