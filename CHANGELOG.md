@@ -1,5 +1,26 @@
 # Eclipse release notes
 
+## 3.0.30 — 18 October 2026
+
+
+## English
+
+- Recognized boss fights now start on the first positive party hit and close on confirmed death, or after 30 seconds without damage when death information is absent. The next boss starts a separate fight automatically.
+- The in-game HUD shows damage for the current boss beside each player's cumulative run damage, with DPS separately. Its named boss history keeps the per-boss ranking while the full expedition totals remain available.
+- The client analysis can open each boss fight or the complete expedition. Boss health is shown when supported packets provide usable values; ≈ marks an estimate and missing values remain explicit.
+- Focused offline checks passed. Real gameplay, every regional boss format and every player's exact session remain unconfirmed.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe.
+
+## Français
+
+- Chaque boss reconnu démarre un combat au premier dégât positif du groupe. Il se termine à la mort confirmée ou, sans information de mort, après 30 secondes sans dégâts. Le boss suivant démarre automatiquement un combat distinct.
+- Dans l'overlay, les dégâts du boss actuel figurent à côté du total cumulé de chaque joueur pour le run ; le DPS reste séparé. L'historique nommé conserve le classement par boss et le total de l'expédition reste accessible.
+- Le client permet d'analyser chaque boss ou l'expédition complète. La vie du boss s'affiche quand les paquets pris en charge contiennent des valeurs exploitables ; ≈ signale une estimation et les données manquantes restent explicites.
+- Les vérifications ciblées hors ligne passent. Le fonctionnement en partie réelle, tous les formats régionaux et la session exacte de chaque joueur restent à confirmer.
+
+Utilisez UPDATE lorsqu'il est proposé, ou téléchargez Eclipse-Setup.exe.
+
 ## 3.0.29 — 17 October 2026
 
 

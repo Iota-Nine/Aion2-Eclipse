@@ -1,9 +1,9 @@
-{
-  "version": "3.0.29",
-  "tag": "v3.0.29",
-  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.29/Aion2-Eclipse-v3.0.29-win-x64.zip",
-  "sha256": "7a2affdc799f29d0ab207adaa925d22a458fb125556ffce07963cabdd56f8655",
-  "name": "Eclipse 3.0.29 - Keep final boss totals",
-  "notes": "Final boss victory retains total damage and average DPS. Finished summaries survive party exit and exit teleport, with one archive. Alt+R or RESET clears counters; a valid new run starts separately.",
-  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.29"
+﻿{
+    "version":  "3.0.30",
+    "tag":  "v3.0.30",
+    "zip":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.30/Aion2-Eclipse-v3.0.30-win-x64.zip",
+    "sha256":  "577e3411efe6a9d35906ebda08a829b1b3b6efe1aab569eee4f1cfb8d86ea037",
+    "name":  "Eclipse 3.0.30 - Boss-by-boss encounters",
+    "notes":  "Recognized boss fights split automatically. The HUD shows damage for the current boss beside cumulative run damage, with named boss history and analysis. Boss HP shows exact, estimated or unavailable data according to the packets received. Real gameplay and regional formats remain to be confirmed.",
+    "html":  "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.30"
 }
