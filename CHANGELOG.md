@@ -1,5 +1,26 @@
 # Eclipse release notes
 
+## 3.0.27 — 17 October 2026
+
+
+## English
+Following your feedback, the reset reminder is easier to find and read.
+
+- RESET now appears beside DPS in the HUD header, with Alt+R directly underneath. The existing button still resets your counters and keeps the previous run in history.
+- Ctrl+Alt+L stays on its own in the footer. Help for resetting and making the HUD clickable is separated.
+- Available in the full and compact HUD. Average DPS retained after combat, saved preferences and existing features are preserved.
+
+Use UPDATE when offered, or download Eclipse-Setup.exe.
+
+## Français
+À la suite de vos retours, le rappel de réinitialisation est plus facile à trouver et à lire.
+
+- RESET apparaît désormais à côté de DPS dans l’en-tête du HUD, avec Alt+R juste dessous. Le bouton existant réinitialise toujours les compteurs et conserve le run précédent dans l’historique.
+- Ctrl+Alt+L reste seul en bas. Les explications de réinitialisation et du mode cliquable sont séparées.
+- Disponible dans les HUD complet et compact. Le DPS moyen conservé après combat, les préférences et les fonctions existantes sont préservés.
+
+Utilisez UPDATE lorsqu’il est proposé, ou téléchargez Eclipse-Setup.exe.
+
 ## 3.0.26 — 17 October 2026
 
 

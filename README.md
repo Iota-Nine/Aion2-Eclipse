@@ -1,14 +1,14 @@
 # Eclipse - Free AION 2 DPS Meter for Windows
 
-**Eclipse 3.0.26 is available:** click **UPDATE** when offered in Eclipse, or use the latest setup. Your settings and history are preserved. The HUD keeps its bottom-right default and your manually saved position.
+**Eclipse 3.0.27 is available:** click **UPDATE** when offered in Eclipse, or use the latest setup. Your settings and history are preserved. The HUD keeps its bottom-right default and your manually saved position.
 
 **[Download Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Official website](https://iota-nine.github.io/Aion2-Eclipse/)** · [Français](docs/README.fr.md)
 
-![Eclipse 3.0.26 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
+![Eclipse 3.0.27 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
 
 [![Latest release](https://img.shields.io/github/v/release/Iota-Nine/Aion2-Eclipse?label=Download&color=75bdcf)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Iota-Nine/Aion2-Eclipse/total?color=9384d0)](https://github.com/Iota-Nine/Aion2-Eclipse/releases)
-![Version 3.0.26](https://img.shields.io/badge/Version-3.0.26-d8bd88)
+![Version 3.0.27](https://img.shields.io/badge/Version-3.0.27-d8bd88)
 ![Windows x64](https://img.shields.io/badge/Windows-x64-507cab)
 ![English and French](https://img.shields.io/badge/Language-EN%20%2F%20FR-75bdcf)
 
@@ -16,7 +16,7 @@
 
 Eclipse is a free AION 2 damage meter for Windows with a live party overlay and a full Glass desktop client. Follow damage, inspect skills, review dungeon runs and compare your builds in one place. Keep it on a second monitor, minimize it during the fight, then come back to your expedition summary.
 
-**New in 3.0.26:** You reported that DPS returned to zero after combat. The average now remains visible. A small Alt+R reminder sits beside Ctrl+Alt+L in the HUD: reset before a new measurement.
+**New in 3.0.27:** RESET now sits beside DPS in the HUD header, with Alt+R directly underneath. Ctrl+Alt+L stays on its own in the footer. Average DPS retained after combat and existing features are preserved.
 
 If an old class is still displayed after updating, keep Eclipse open, teleport or change channels, then use two different active class skills within 30 seconds. Keep your existing data and history.
 

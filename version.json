@@ -1,9 +1,9 @@
 {
-  "version": "3.0.26",
-  "tag": "v3.0.26",
-  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.26/Aion2-Eclipse-v3.0.26-win-x64.zip",
-  "sha256": "a31a0139d307904bc8e7eb6c74128d4913d3c70080cfc5074e1b2ebf58735616",
-  "name": "Eclipse 3.0.26 - Retained DPS and HUD reset reminder",
-  "notes": "Average DPS stays visible after combat. Personal and party averages share cumulative damage since reset. Alt+R reminder beside Ctrl+Alt+L in both HUD modes. Press Alt+R before a new measurement. Full replays and saved preferences retained.",
-  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.26"
+  "version": "3.0.27",
+  "tag": "v3.0.27",
+  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.27/Aion2-Eclipse-v3.0.27-win-x64.zip",
+  "sha256": "bde0be5549c5e455ccbfff2026606c51bdee3448dfb7fc984f4cbd5b1148cad4",
+  "name": "Eclipse 3.0.27 - Clearer HUD reset control",
+  "notes": "RESET beside DPS in the HUD header, Alt+R underneath and Ctrl+Alt+L on its own in the footer. Full and compact HUD, retained average DPS, run history and saved preferences preserved.",
+  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.27"
 }
