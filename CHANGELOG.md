@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## 3.0.31 — 18 October 2026
+
+
+## English
+
+- HUD refresh cadence reduced to 100 ms. Packet bursts coalesce into one pending refresh instead of accumulating visual work.
+- Unchanged player statistics and boss summaries are cached; identical HUD states skip redundant visual assignments.
+- Combat timelines are constructed on demand. Background archive materialization retains the complete run and per-boss history; recent damage reads avoid log copies.
+- Existing class repair, boss health evidence, run totals and manual Alt+R reset remain. The cadence is not a guarantee of end-to-end gameplay latency.
+
+## Français
+
+- Cadence du HUD ramenée à 100 ms. Les rafales de paquets sont regroupées dans un seul rafraîchissement en attente.
+- Statistiques et bilans de boss inchangés réutilisés ; les vues identiques évitent les mises à jour visuelles inutiles.
+- Timelines préparées à la demande. La sauvegarde en arrière-plan conserve le run complet et chaque boss ; les dégâts récents sont lus sans copier le journal.
+- Correction des classes, données de vie des boss, totaux et Alt+R conservés. La cadence ne garantit pas le délai réel en partie.
+
+
 ## 3.0.30 — 18 October 2026
 
 
