@@ -5,6 +5,8 @@
 
 ## English
 
+- Class detection uses supported party lists and two distinct observed skills to repair an old incorrect class without clearing damage. Generic monster actions cannot establish a player class.
+
 - Recognized boss fights now start on the first positive party hit and close on confirmed death, or after 30 seconds without damage when death information is absent. The next boss starts a separate fight automatically.
 - The health bar now advances between server samples from observed damage, instead of keeping an old value for up to 15 seconds. ≈ marks an estimate; a received reading stays authoritative.
 - Open-world bosses are marked dead on confirmed death, without waiting for the idle timeout. History reads no longer block packet processing.
@@ -15,6 +17,8 @@
 Use UPDATE when offered, or download Eclipse-Setup.exe.
 
 ## Français
+
+- La classe est reconnue dans les listes de groupe prises en charge et corrigée par deux compétences distinctes observées, sans effacer les dégâts. Les actions génériques des monstres ne déterminent plus une classe.
 
 - Chaque boss reconnu démarre un combat au premier dégât positif du groupe. Il se termine à la mort confirmée ou, sans information de mort, après 30 secondes sans dégâts. Le boss suivant démarre automatiquement un combat distinct.
 - La jauge de vie avance entre deux mesures serveur à partir des dégâts observés, au lieu de garder une ancienne valeur jusqu’à 15 secondes. ≈ signale une estimation ; une mesure reçue reste prioritaire.
