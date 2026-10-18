@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## 3.0.32 — 18 October 2026
+
+
+## English
+
+- A compact **View stats per boss** HUD button opens the client. Run and boss result panels no longer stack in the overlay.
+- Select a recorded boss to review each player's damage, DPS, skills and timeline. Existing per-boss storage and run totals remain available.
+- **You reported ping staying at — ms.** Eclipse now supports the modern Windows echoed clock and the older KR/TW clock, inspired by the public A2Tool implementation. Invalid or stale readings remain unavailable; the green dot means connected capture.
+- Focused offline checks pass. Real gameplay ping and every regional clock format are not universally confirmed.
+
+## Français
+
+- Un bouton compact **Stats par boss** ouvre le client. Les résultats du run et des boss ne s'empilent plus dans l'overlay.
+- Choisissez un boss enregistré pour consulter les dégâts, le DPS, les compétences et la courbe de chaque joueur. Les bilans enregistrés et les totaux du run sont conservés.
+- **Vous nous avez signalé un ping bloqué sur — ms.** Eclipse reconnaît désormais l'horloge Windows moderne et l'ancien format KR/TW, en s'inspirant du code public A2Tool. Une valeur invalide ou expirée reste indisponible ; le point vert signifie que la capture est connectée.
+- Vérifications ciblées hors ligne validées. Le ping réel en jeu et tous les formats régionaux ne sont pas universellement confirmés.
+
+
 ## 3.0.31 — 18 October 2026
 
 

@@ -1,14 +1,14 @@
 # Eclipse - DPS meter AION 2 gratuit pour Windows
 
-**Eclipse 3.0.31 disponible :** cliquez sur **UPDATE** lorsqu’il est proposé, ou utilisez le dernier setup. Réglages et historique conservés. Le HUD garde son placement initial en bas à droite et votre position déplacée.
+**Eclipse 3.0.32 disponible :** cliquez sur **UPDATE** lorsqu’il est proposé, ou utilisez le dernier setup. Réglages et historique conservés. Le HUD garde son placement initial en bas à droite et votre position déplacée.
 
-**Nouveau en 3.0.31 :** Combats distincts et automatiques pour les boss reconnus ; dégâts du boss et total du run côte à côte dans l'overlay ; historique et analyse par boss. La jauge avance entre deux mesures serveur à partir des dégâts observés, au lieu de garder une ancienne valeur jusqu’à 15 secondes. Les boss hors donjon sont marqués morts dès la mort confirmée ; les lectures d’historique ne bloquent plus les paquets. Vérifié hors ligne ; la partie réelle et tous les formats régionaux restent à confirmer.
+**Nouveau en 3.0.32 :** Combats distincts et automatiques pour les boss reconnus ; dégâts du boss et total du run côte à côte dans l'overlay ; historique et analyse par boss. La jauge avance entre deux mesures serveur à partir des dégâts observés, au lieu de garder une ancienne valeur jusqu’à 15 secondes. Les boss hors donjon sont marqués morts dès la mort confirmée ; les lectures d’historique ne bloquent plus les paquets. Vérifié hors ligne ; la partie réelle et tous les formats régionaux restent à confirmer.
 
 Si l’ancienne classe reste affichée après la mise à jour, gardez Eclipse ouvert, faites un TP ou changez de canal, puis utilisez deux compétences actives différentes de votre classe en moins de 30 secondes. Conservez vos données et votre historique.
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 3.0.31 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 3.0.32 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
