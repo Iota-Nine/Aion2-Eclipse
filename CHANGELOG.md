@@ -6,8 +6,10 @@
 ## English
 
 - Recognized boss fights now start on the first positive party hit and close on confirmed death, or after 30 seconds without damage when death information is absent. The next boss starts a separate fight automatically.
+- The health bar now advances between server samples from observed damage, instead of keeping an old value for up to 15 seconds. ≈ marks an estimate; a received reading stays authoritative.
+- Open-world bosses are marked dead on confirmed death, without waiting for the idle timeout. History reads no longer block packet processing.
 - The in-game HUD shows damage for the current boss beside each player's cumulative run damage, with DPS separately. Its named boss history keeps the per-boss ranking while the full expedition totals remain available.
-- The client analysis can open each boss fight or the complete expedition. Boss health is shown when supported packets provide usable values; ≈ marks an estimate and missing values remain explicit.
+- The client analysis can open each boss fight or the complete expedition. Boss health is shown when supported packets provide usable values; missing values remain explicit.
 - Focused offline checks passed. Real gameplay, every regional boss format and every player's exact session remain unconfirmed.
 
 Use UPDATE when offered, or download Eclipse-Setup.exe.
@@ -15,8 +17,10 @@ Use UPDATE when offered, or download Eclipse-Setup.exe.
 ## Français
 
 - Chaque boss reconnu démarre un combat au premier dégât positif du groupe. Il se termine à la mort confirmée ou, sans information de mort, après 30 secondes sans dégâts. Le boss suivant démarre automatiquement un combat distinct.
+- La jauge de vie avance entre deux mesures serveur à partir des dégâts observés, au lieu de garder une ancienne valeur jusqu’à 15 secondes. ≈ signale une estimation ; une mesure reçue reste prioritaire.
+- Les boss hors donjon sont marqués morts dès la mort confirmée, sans attendre le délai d’inactivité. Les lectures d’historique ne bloquent plus le traitement des paquets.
 - Dans l'overlay, les dégâts du boss actuel figurent à côté du total cumulé de chaque joueur pour le run ; le DPS reste séparé. L'historique nommé conserve le classement par boss et le total de l'expédition reste accessible.
-- Le client permet d'analyser chaque boss ou l'expédition complète. La vie du boss s'affiche quand les paquets pris en charge contiennent des valeurs exploitables ; ≈ signale une estimation et les données manquantes restent explicites.
+- Le client permet d'analyser chaque boss ou l'expédition complète. La vie du boss s'affiche quand les paquets pris en charge contiennent des valeurs exploitables ; les données manquantes restent explicites.
 - Les vérifications ciblées hors ligne passent. Le fonctionnement en partie réelle, tous les formats régionaux et la session exacte de chaque joueur restent à confirmer.
 
 Utilisez UPDATE lorsqu'il est proposé, ou téléchargez Eclipse-Setup.exe.

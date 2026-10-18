@@ -16,7 +16,7 @@
 
 Eclipse is a free AION 2 damage meter for Windows with a live party overlay and a full Glass desktop client. Follow damage, inspect skills, review dungeon runs and compare your builds in one place. Keep it on a second monitor, minimize it during the fight, then come back to your expedition summary.
 
-**New in 3.0.30:** Automatic, separate encounters for recognized bosses; current-boss damage and cumulative run total side by side in the HUD; named per-boss history and analysis. The boss health bar distinguishes exact, estimated and missing data. Focused offline checks passed; real gameplay and all regional packet formats remain unconfirmed.
+**New in 3.0.30:** Automatic, separate encounters for recognized bosses; current-boss damage and cumulative run total side by side in the HUD; named per-boss history and analysis. The health bar now advances between server samples from observed damage instead of keeping an old value for up to 15 seconds. Open-world bosses are marked dead on confirmed death; history reads no longer block packet processing. Focused offline checks passed; real gameplay and all regional packet formats remain unconfirmed.
 
 If an old class is still displayed after updating, keep Eclipse open, teleport or change channels, then use two different active class skills within 30 seconds. Keep your existing data and history.
 

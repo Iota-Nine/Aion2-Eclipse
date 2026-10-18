@@ -2,7 +2,7 @@
 
 **Eclipse 3.0.30 disponible :** cliquez sur **UPDATE** lorsqu’il est proposé, ou utilisez le dernier setup. Réglages et historique conservés. Le HUD garde son placement initial en bas à droite et votre position déplacée.
 
-**Nouveau en 3.0.30 :** Combats distincts et automatiques pour les boss reconnus ; dégâts du boss et total du run côte à côte dans l'overlay ; historique et analyse par boss. La jauge de vie distingue mesures exactes, estimations et données manquantes. Vérifié hors ligne ; la partie réelle et tous les formats régionaux restent à confirmer.
+**Nouveau en 3.0.30 :** Combats distincts et automatiques pour les boss reconnus ; dégâts du boss et total du run côte à côte dans l'overlay ; historique et analyse par boss. La jauge avance entre deux mesures serveur à partir des dégâts observés, au lieu de garder une ancienne valeur jusqu’à 15 secondes. Les boss hors donjon sont marqués morts dès la mort confirmée ; les lectures d’historique ne bloquent plus les paquets. Vérifié hors ligne ; la partie réelle et tous les formats régionaux restent à confirmer.
 
 Si l’ancienne classe reste affichée après la mise à jour, gardez Eclipse ouvert, faites un TP ou changez de canal, puis utilisez deux compétences actives différentes de votre classe en moins de 30 secondes. Conservez vos données et votre historique.
 
