@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## 3.0.33 — 19 October 2026
+
+
+## English
+
+- Uninstall Eclipse is available at the bottom of preferences, with an inline confirmation and a Cancel button.
+- After confirmation, the installed version closes Eclipse and removes its application files and shortcuts. Your history and settings are kept.
+- The game, Npcap and unrelated files are preserved. Portable copies explain how to remove their extracted folder.
+- Confirmation, cancellation and cleanup were checked in isolated test folders, without uninstalling the owner’s application.
+
+## Français
+
+- Le bouton Désinstaller Eclipse est disponible en bas des préférences, avec une confirmation intégrée et un bouton Annuler.
+- Après confirmation, la version installée ferme Eclipse puis retire ses fichiers et ses raccourcis. Vos historiques et réglages sont conservés.
+- Le jeu, Npcap et les fichiers sans rapport ne sont pas désinstallés. Les copies portables expliquent comment retirer leur dossier extrait.
+- Confirmation, annulation et nettoyage vérifiés dans des dossiers de test isolés, sans désinstaller l’application du propriétaire.
+
+
 ## 3.0.32 — 18 October 2026
 
 

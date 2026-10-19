@@ -1,14 +1,14 @@
 # Eclipse - Free AION 2 DPS Meter for Windows
 
-**Eclipse 3.0.32 is available:** click **UPDATE** when offered in Eclipse, or use the latest setup. Your settings and history are preserved. The HUD keeps its bottom-right default and your manually saved position.
+**Eclipse 3.0.33 is available:** click **UPDATE** when offered in Eclipse, or use the latest setup. Your settings and history are preserved. The HUD keeps its bottom-right default and your manually saved position.
 
 **[Download Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Official website](https://iota-nine.github.io/Aion2-Eclipse/)** · [Français](docs/README.fr.md)
 
-![Eclipse 3.0.32 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
+![Eclipse 3.0.33 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
 
 [![Latest release](https://img.shields.io/github/v/release/Iota-Nine/Aion2-Eclipse?label=Download&color=75bdcf)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Iota-Nine/Aion2-Eclipse/total?color=9384d0)](https://github.com/Iota-Nine/Aion2-Eclipse/releases)
-![Version 3.0.32](https://img.shields.io/badge/Version-3.0.32-d8bd88)
+![Version 3.0.33](https://img.shields.io/badge/Version-3.0.33-d8bd88)
 ![Windows x64](https://img.shields.io/badge/Windows-x64-507cab)
 ![English and French](https://img.shields.io/badge/Language-EN%20%2F%20FR-75bdcf)
 
@@ -16,7 +16,7 @@
 
 Eclipse is a free AION 2 damage meter for Windows with a live party overlay and a full Glass desktop client. Follow damage, inspect skills, review dungeon runs and compare your builds in one place. Keep it on a second monitor, minimize it during the fight, then come back to your expedition summary.
 
-**New in 3.0.32:** Automatic, separate encounters for recognized bosses; current-boss damage and cumulative run total side by side in the HUD; named per-boss history and analysis. The health bar now advances between server samples from observed damage instead of keeping an old value for up to 15 seconds. Open-world bosses are marked dead on confirmed death; history reads no longer block packet processing. Focused offline checks passed; real gameplay and all regional packet formats remain unconfirmed.
+**New in 3.0.33:** Automatic, separate encounters for recognized bosses; current-boss damage and cumulative run total side by side in the HUD; named per-boss history and analysis. The health bar now advances between server samples from observed damage instead of keeping an old value for up to 15 seconds. Open-world bosses are marked dead on confirmed death; history reads no longer block packet processing. Focused offline checks passed; real gameplay and all regional packet formats remain unconfirmed.
 
 If an old class is still displayed after updating, keep Eclipse open, teleport or change channels, then use two different active class skills within 30 seconds. Keep your existing data and history.
 
