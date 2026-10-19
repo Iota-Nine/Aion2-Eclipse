@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## 3.0.34 — 19 October 2026
+
+
+## English
+
+- You reported damage disappearing from the HUD after dying and returning to a boss.
+- Fixed the boss counter when your character session ID changes on resurrection before the party identity link arrives. Previous damage remains included with new hits.
+- Run totals, delayed hits and the manual Alt+R reset are preserved.
+- Checked offline on mini-boss scenarios with four players. The exact reported in-game case still needs confirmation.
+
+## Français
+
+- Vous nous avez signalé des dégâts qui disparaissaient dans le HUD après une mort et un retour sur un boss.
+- Correction du compteur du boss lorsque l’identifiant de votre personnage change à la résurrection avant l’arrivée de la liaison au groupe. Les dégâts précédents restent ajoutés aux nouveaux impacts.
+- Les dégâts totaux de la run, les impacts tardifs et le reset manuel Alt+R sont conservés.
+- Vérifié hors ligne sur des mini-boss avec quatre joueurs. Le cas exact signalé en jeu reste à confirmer.
+
+
 ## 3.0.33 — 19 October 2026
 
 
