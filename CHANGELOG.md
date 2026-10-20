@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## 3.0.35 — 20 October 2026
+
+
+## English
+
+- You asked for a smaller, resizable HUD: drag its edges or corner after unlocking with Ctrl+Alt+L.
+- Down to 180 px wide: the layout adapts to keep Damage, Total and DPS readable without scaling the text as an image. Long names remain available on hover.
+- Compact and full sizes are saved separately. Discreet scrolling keeps large parties accessible in a short window.
+- RESET Alt+R, boss statistics, support, STOP and UPDATE remain accessible. Locking prevents accidental resizing.
+
+## Français
+
+- Vous nous avez demandé un HUD plus petit et redimensionnable : tirez ses bords ou son coin après déverrouillage avec Ctrl+Alt+L.
+- Jusqu’à 180 px de large : le contenu se réorganise pour conserver Dégâts, Total et DPS lisibles, sans réduire les chiffres en image. Les noms longs restent consultables au survol.
+- Les tailles compactes et complètes sont enregistrées séparément. Le défilement discret garde les grands groupes accessibles dans une fenêtre basse.
+- RESET Alt+R, statistiques par boss, support, STOP et UPDATE restent accessibles. Le verrouillage empêche un redimensionnement accidentel.
+
+
 ## 3.0.34 — 19 October 2026
 
 
