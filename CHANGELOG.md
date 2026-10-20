@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## 3.0.36 — 20 October 2026
+
+
+## English
+
+- The HUD automatically switches to a miniature layout when space is tight: class icons, small bars and readable damage figures keep every party member visible without scrolling. Enlarge the window for full details, also available on hover.
+- You asked to delete incomplete runs: Delete is now available in run history and in a run’s details.
+- Completed and incomplete runs can be deleted after confirmation. Cancel keeps the run; the currently active run remains protected.
+- Deleted runs stay removed after restarting. Other runs, settings and live counters are preserved.
+
+## Français
+
+- Le HUD passe automatiquement en mode miniature quand la place manque : icônes de classe, petites barres et dégâts lisibles, avec tous les membres visibles sans défilement. Les détails reviennent en agrandissant la fenêtre et restent accessibles au survol.
+- Vous nous avez demandé de pouvoir supprimer les runs incomplets : le bouton Supprimer est maintenant disponible dans l’historique et dans le détail d’un run.
+- Un run terminé ou incomplet peut être supprimé après confirmation. Annuler conserve le run ; le run actuellement en cours reste protégé.
+- Les runs supprimés restent masqués après redémarrage. Les autres runs, les réglages et les compteurs en direct sont conservés.
+
+
 ## 3.0.35 — 20 October 2026
 
 
