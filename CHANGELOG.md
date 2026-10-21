@@ -1,5 +1,21 @@
 # Eclipse release notes
 
+## 3.0.40 — 21 October 2026
+
+
+## English
+
+- You reported that Alt+M did not change HUD mode. The shortcut is now owned by the main client, including when the overlay is hidden or closed and the client is minimized.
+- If another application already uses Alt+M, Eclipse reports it and retries when the shortcut becomes available. The Alt+M hint remains clickable to switch mode.
+- All three modes, boss HP and player statistics are retained. Switching mode never resets counters.
+
+## Français
+
+- Vous nous avez signalé qu’Alt+M ne changeait pas le mode du HUD. Le raccourci est maintenant géré par le client principal, même lorsque l’overlay est masqué ou fermé et lorsque le client est réduit.
+- Si une autre application utilise déjà Alt+M, Eclipse l’indique et réessaie lorsque la touche se libère. Le rappel Alt+M reste cliquable pour changer de mode.
+- Les trois modes, la barre de vie du boss et les statistiques sont conservés. Changer de mode ne remet jamais les compteurs à zéro.
+
+
 ## 3.0.39 — 21 October 2026
 
 
