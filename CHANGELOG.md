@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## 3.0.37 — 21 October 2026
+
+
+## English
+
+- You reported garbled characters instead of player names in the HUD and Party Contribution. We fixed a name-reading defect that could cause this symptom.
+- Received names are validated as complete fields. Accented and international names remain supported; incomplete or invalid information no longer replaces a name with garbled characters.
+- An invalid saved identity is automatically discarded at startup: there is no need to delete the whole cache. Your settings and history are preserved.
+- The exact reported case still needs confirmation in game from the affected player.
+
+## Français
+
+- Vous nous avez signalé des caractères incohérents à la place des pseudos dans le HUD et la contribution du groupe. Nous avons corrigé un défaut de lecture des noms qui pouvait produire ce symptôme.
+- Les noms reçus sont validés en entier. Les accents et les écritures internationales restent pris en charge ; une information incomplète ou invalide ne remplace plus un nom par des caractères incohérents.
+- Une identité invalide déjà enregistrée est écartée automatiquement au lancement : inutile de supprimer tout le cache. Vos réglages et votre historique sont conservés.
+- Le cas précis du rapport reste à confirmer en jeu avec la personne concernée.
+
+
 ## 3.0.36 — 20 October 2026
 
 
