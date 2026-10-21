@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## 3.0.39 — 21 October 2026
+
+
+## English
+
+- At your request, a third ultra-compact mode shows only boss HP and player bars, without the large header or footer.
+- Alt+M cycles between full, compact and ultra-compact without resetting counters. Your selected mode and its size are saved.
+- Bars retain class colors, names, CP, encounter damage, run total and DPS. The layout keeps the whole party visible at a readable size.
+- Old shortcut labels are hidden in the HUD. The usual controls remain available when returning to full or compact mode.
+
+## Français
+
+- À votre demande, un troisième mode ultra-compact affiche uniquement les PV du boss et les barres des joueurs, sans gros en-tête ni pied de page.
+- Alt+M alterne instantanément entre complet, compact et ultra-compact sans remettre les compteurs à zéro. Le mode choisi et sa taille sont enregistrés.
+- Les barres gardent les couleurs des classes, les pseudos, CP, dégâts du combat, total du run et DPS. La disposition conserve tout le groupe visible à une taille lisible.
+- Les anciens rappels de raccourcis sont masqués dans le HUD. Les commandes habituelles restent disponibles en revenant au mode complet ou compact.
+
+
 ## 3.0.38 — 21 October 2026
 
 

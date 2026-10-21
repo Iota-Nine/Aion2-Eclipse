@@ -1,9 +1,9 @@
 {
-  "version": "3.0.38",
-  "tag": "v3.0.38",
-  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.38/Aion2-Eclipse-v3.0.38-win-x64.zip",
-  "sha256": "646c32e3e9736e2d0e97bb99cce00a0595e1fc14b9a1d4b77ae0d9adb074a58a",
-  "name": "Eclipse 3.0.38 - Mini-boss tracking and readable HUD",
-  "notes": "Fix damage freezing when switching between simultaneous mini-bosses. Readable resized HUD with class colors, names, CP, damage, run total and DPS.",
-  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.38"
+  "version": "3.0.39",
+  "tag": "v3.0.39",
+  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.39/Aion2-Eclipse-v3.0.39-win-x64.zip",
+  "sha256": "396f57104a5649db02700e1d911ef33f3131d2c31b27f54f443b7e9a222a4e39",
+  "name": "Eclipse 3.0.39 - Ultra-compact HUD and Alt+M",
+  "notes": "Ultra-compact boss and party HUD. Alt+M switches modes without resetting counters; class colors, CP, damage, run total and DPS remain visible.",
+  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.39"
 }
