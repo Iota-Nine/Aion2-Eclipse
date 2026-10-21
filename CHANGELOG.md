@@ -1,5 +1,23 @@
 # Eclipse release notes
 
+## 3.0.38 — 21 October 2026
+
+
+## English
+
+- You reported damage freezing on mini-bosses until Alt+R. We fixed encounter tracking when several bosses are fought at the same time.
+- Switching between bosses now preserves their separate counters. The detailed-history limit no longer stops live damage; the run total is preserved.
+- The resized HUD now uses readable rows with class icon, name, CP, damage, run total and DPS. Bars keep their class color and CP values remain readable.
+- The layout adapts to the party and protects a readable minimum size. Support, statistics, RESET and lock controls remain accessible.
+
+## Français
+
+- Vous nous avez signalé des dégâts figés sur les mini-boss, débloqués uniquement par Alt+R. Nous avons corrigé un défaut de suivi lorsque plusieurs boss sont combattus en même temps.
+- Changer de cible entre deux boss conserve maintenant leurs compteurs séparés. La limite de l’historique détaillé ne bloque plus les dégâts du combat en cours ; le total du run reste conservé.
+- Le HUD redimensionné affiche des lignes lisibles avec icône de classe, pseudo, CP, dégâts, total du run et DPS. Les barres gardent la couleur de la classe et les CP restent lisibles.
+- La disposition s’adapte au groupe et protège une taille minimale lisible. Les commandes Support, statistiques, RESET et verrouillage restent accessibles.
+
+
 ## 3.0.37 — 21 October 2026
 
 
