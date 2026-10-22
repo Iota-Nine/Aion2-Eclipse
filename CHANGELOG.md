@@ -1,5 +1,21 @@
 # Eclipse release notes
 
+## 3.0.41 — 22 October 2026
+
+
+## English
+
+- You reported that previous dungeon players remained in the HUD after leaving the party. The overlay now follows the current party, including after a completed or interrupted run.
+- After a confirmed party departure, the HUD returns to your character alone. A new party appears as soon as it is received, without waiting for the next fight.
+- History, boss statistics and cumulative run damage retain the original participants and their results. Changing party does not erase counters.
+
+## Français
+
+- Vous nous avez signalé que les joueurs du donjon précédent restaient dans le HUD après avoir quitté le groupe. L’overlay suit maintenant le groupe actuel, y compris après un run terminé ou interrompu.
+- Après une sortie confirmée du groupe, le HUD revient à votre personnage seul. Un nouveau groupe est affiché dès sa réception, sans attendre le prochain combat.
+- L’historique, les statistiques par boss et les dégâts cumulés du run conservent les anciens participants et leurs résultats. Aucun compteur n’est effacé par un changement de groupe.
+
+
 ## 3.0.40 — 21 October 2026
 
 
