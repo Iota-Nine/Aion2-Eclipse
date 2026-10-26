@@ -1,5 +1,20 @@
 # Eclipse release notes
 
+## 3.0.42 — 26 October 2026
+
+## English
+
+- You reported that Alt+R did not work while RESET remained available. Eclipse now retries shortcut registration automatically after a startup conflict.
+- Once Alt+R is released, it recovers without restarting, including with the client minimized or HUD hidden. If another application keeps it reserved, use RESET or free the shortcut.
+- Retries stop on exit. Settings and history are preserved.
+
+## Français
+
+- Vous nous avez signalé qu’Alt+R ne fonctionnait pas alors que RESET restait disponible. Eclipse réessaie désormais automatiquement d’activer le raccourci après un conflit au démarrage.
+- Dès qu’Alt+R est libéré, il revient sans redémarrage, même avec le client réduit ou le HUD masqué. Si un autre logiciel le conserve, utilisez RESET ou libérez ce raccourci.
+- Les tentatives s’arrêtent à la fermeture. Vos réglages et historiques sont conservés.
+
+
 ## 3.0.41 — 22 October 2026
 
 
