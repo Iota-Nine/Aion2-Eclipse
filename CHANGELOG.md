@@ -1,5 +1,20 @@
 # Eclipse release notes
 
+## 3.0.44 — 30 October 2026
+
+## English
+
+- Choose background transparency independently of HUD information. Click the small ◐ icon near Alt+M to open a 0–100% slider.
+- Full, compact and transparent modes each remember their own setting. Changes apply immediately; click outside to close the panel.
+- Names, damage and other values stay readable. Previous settings, counters and history are preserved.
+
+## Français
+
+- Choisissez la transparence du fond indépendamment du contenu du HUD. Cliquez sur la petite icône ◐ près d’Alt+M pour ouvrir un curseur de 0 à 100 %.
+- Chaque mode — complet, compact ou transparent — mémorise son propre réglage. Le résultat est immédiat ; cliquez ailleurs pour refermer le panneau.
+- Les noms, dégâts et autres chiffres restent lisibles. Vos réglages précédents, compteurs et historiques sont conservés.
+
+
 ## 3.0.43 — 30 October 2026
 
 ## English

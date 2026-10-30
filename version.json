@@ -1,9 +1,9 @@
 {
-  "version": "3.0.43",
-  "tag": "v3.0.43",
-  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.43/Aion2-Eclipse-v3.0.43-win-x64.zip",
-  "sha256": "a76b0faeccd0f46f4d1ee15f67f26c2cd15b3e38ea91ff35c690c7c5bd1050c8",
-  "name": "Eclipse 3.0.43 - Transparent HUD",
-  "notes": "Transparent mode replaces ultra-compact: names and damage only, a small drag handle, no large backdrop or player bars. Alt+M switches modes; boss HP and details remain in compact/full.",
-  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.43"
+  "version": "3.0.44",
+  "tag": "v3.0.44",
+  "zip": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/download/v3.0.44/Aion2-Eclipse-v3.0.44-win-x64.zip",
+  "sha256": "0a38e94f9c6d50c161669377e6553cc9e600bded25bd8aa4c41ace0ed953e2e6",
+  "name": "Eclipse 3.0.44 - HUD transparency control",
+  "notes": "Small HUD transparency slider near Alt+M, independent saved background transparency for full, compact and transparent modes. Text stays readable; previous settings and history are preserved.",
+  "html": "https://github.com/Iota-Nine/Aion2-Eclipse/releases/tag/v3.0.44"
 }
