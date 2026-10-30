@@ -1,5 +1,20 @@
 # Eclipse release notes
 
+## 3.0.43 — 30 October 2026
+
+## English
+
+- You asked for a HUD that covers less of the game. Transparent mode replaces ultra-compact: just names and damage, with no backdrop or large colored bars.
+- A small handle lets you move the HUD. Alt+M still cycles full, compact and transparent; the other modes retain boss HP and detailed statistics.
+- High-contrast text with a subtle shadow, class-colored names and height fitted to the party. Counters, history and settings are preserved.
+
+## Français
+
+- Vous nous avez demandé un HUD qui masque moins le jeu. Le mode transparent remplace l’ultra-compact : seulement les noms et les dégâts, sans fond ni grandes barres colorées.
+- Une petite poignée permet de déplacer le HUD. Alt+M conserve le changement entre complet, compact et transparent ; les autres modes gardent les PV du boss et leurs détails.
+- Texte contrasté avec une ombre discrète, couleurs de classe sur les noms et hauteur adaptée au groupe. Les compteurs, l’historique et les réglages sont conservés.
+
+
 ## 3.0.42 — 26 October 2026
 
 ## English

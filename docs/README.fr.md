@@ -1,14 +1,14 @@
 # Eclipse - DPS meter AION 2 gratuit pour Windows
 
-**Eclipse 3.0.42 disponible :** cliquez sur **UPDATE** lorsqu’il est proposé, ou utilisez le dernier setup. Réglages et historique conservés. Le HUD garde son placement initial en bas à droite et votre position déplacée.
+**Eclipse 3.0.43 disponible :** cliquez sur **UPDATE** lorsqu’il est proposé, ou utilisez le dernier setup. Réglages et historique conservés. Le HUD garde son placement initial en bas à droite et votre position déplacée.
 
-**Nouveau dans la 3.0.42 :** reprise automatique d’Alt+R après un conflit au démarrage. Le raccourci revient dès sa libération, sans redémarrage. RESET reste disponible si un autre logiciel conserve Alt+R.
+**Nouveau dans la 3.0.43 :** HUD transparent à la place de l’ultra-compact : noms, dégâts et petite poignée, sans grand fond ni barres. Alt+M change de mode ; les PV du boss et les détails restent dans compact/complet.
 
 Si l’ancienne classe reste affichée après la mise à jour, gardez Eclipse ouvert, faites un TP ou changez de canal, puis utilisez deux compétences actives différentes de votre classe en moins de 30 secondes. Conservez vos données et votre historique.
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 3.0.42 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 3.0.43 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
