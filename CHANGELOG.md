@@ -1,5 +1,18 @@
 # Eclipse release notes
 
+## 3.0.45 — 4 November 2026
+
+## English
+
+- HUD optimization: hidden graphs no longer rebuild their plot.
+- Closing the overlay now stops deferred refreshes and clears pending requests.
+
+## Français
+
+- Optimisation du HUD : les graphiques masqués ne recalculent plus leur tracé.
+- Fermeture de l’overlay : les rafraîchissements différés sont arrêtés et les demandes en attente sont libérées.
+
+
 ## 3.0.44 — 30 October 2026
 
 ## English
