@@ -1,28 +1,28 @@
 # Eclipse - Free AION 2 DPS Meter for Windows
 
-**Eclipse 3.0.45 is available:** click **UPDATE** when offered in Eclipse, or use the latest setup. Your settings and history are preserved. The HUD keeps its bottom-right default and your manually saved position.
+**Eclipse 3.0.46 is available:** click **UPDATE** when offered in Eclipse, or use the latest setup. Your settings and history are preserved. The HUD keeps its bottom-right default and your manually saved position.
 
 **[Download Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Official website](https://iota-nine.github.io/Aion2-Eclipse/)** · [Français](docs/README.fr.md)
 
-![Eclipse 3.0.45 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
+![Eclipse 3.0.46 - AION 2 party DPS meter, Glass client and combat analysis for Windows](docs/images/eclipse-banner.svg)
 
 [![Latest release](https://img.shields.io/github/v/release/Iota-Nine/Aion2-Eclipse?label=Download&color=75bdcf)](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Iota-Nine/Aion2-Eclipse/total?color=9384d0)](https://github.com/Iota-Nine/Aion2-Eclipse/releases)
-![Version 3.0.45](https://img.shields.io/badge/Version-3.0.45-d8bd88)
+![Version 3.0.46](https://img.shields.io/badge/Version-3.0.46-d8bd88)
 ![Windows x64](https://img.shields.io/badge/Windows-x64-507cab)
-![English and French](https://img.shields.io/badge/Language-EN%20%2F%20FR-75bdcf)
+![English, French, Brazilian Portuguese and Spanish](https://img.shields.io/badge/Languages-EN%20%2F%20FR%20%2F%20PT--BR%20%2F%20ES-75bdcf)
 
 **See your party's DPS while you play. Understand the whole run when you finish.**
 
 Eclipse is a free AION 2 damage meter for Windows with a live party overlay and a full Glass desktop client. Follow damage, inspect skills, review dungeon runs and compare your builds in one place. Keep it on a second monitor, minimize it during the fight, then come back to your expedition summary.
 
-**New in 3.0.45:** HUD maintenance: hidden graphs no longer rebuild their plot, and deferred refresh work stops when the overlay closes.
+**New in 3.0.46:** Brazilian Portuguese and Spanish for the client and HUD. Choose a language at the top of the client or in Preferences. Your choice is saved, with localized dates and numbers.
 
 If an old class is still displayed after updating, keep Eclipse open, teleport or change channels, then use two different active class skills within 30 seconds. Keep your existing data and history.
 
 [Features](#a-clearer-view-of-every-fight) · [Install Eclipse](#install-eclipse) · [How the numbers work](#how-the-numbers-work) · [What's new](CHANGELOG.md) · [Report an issue](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Get started:** download **Eclipse-Setup.exe** or click **UPDATE** when offered in Eclipse. Open **Progression**, choose your character and tick completed activities. English is default; French is available in Preferences. No Eclipse account is required.
+**Get started:** download **Eclipse-Setup.exe** or click **UPDATE** when offered in Eclipse. Open **Progression**, choose your character and tick completed activities. English is the default. Choose English, French, Brazilian Portuguese or Spanish at the top of the client or in Preferences. No Eclipse account is required.
 
 ![AION 2 DPS meter - Eclipse 3.0.9 English combat overview with party damage and skill analysis](docs/images/eclipse-combat-en.png)
 
@@ -61,7 +61,7 @@ If an old class is still displayed after updating, keep Eclipse open, teleport o
 | **Rift reminders** | Favourite the Rift and enable its independent alert at 10 minutes before, 5 minutes before or opening. Region, favourite and timing are saved; reminders continue while minimized. |
 | **Boss and event timers** | Regional AION2Hub calendar, corrected Kaira and executor times, Abyss events, Beritra and KR/TW PvP activities. Personal monster reminders and target segments remain available. |
 | **Favourite boss alerts** | Star the event, enable **Notify me** and choose **10 minutes before**, **5 minutes before** or **at the scheduled time**. Reminders work while minimized and avoid duplicate alerts. |
-| **English / Français** | English on first launch; switch client, overlay and setup labels to French. Your language choice is saved. |
+| **EN / FR / PT-BR / ES** | English, French, Brazilian Portuguese and Spanish for the client, HUD and setup. Change language in the client header or Preferences. Your choice is saved. |
 | **Performance controls** | Adjust transparency, animation quality and always-on-top behaviour. Visual effects stop when minimized while capture, timers and saving continue. |
 | **Exports and diagnostics** | Export run data and a share card; create a restricted diagnostic report for support. Logs and authentication tokens are excluded from that report. |
 | **Guided setup and updates** | Included application runtime, automatic prerequisite check, official Npcap installation with consent when needed, shortcuts and verified in-app update downloads. |

@@ -1,5 +1,18 @@
 # Eclipse release notes
 
+## 3.0.46 — 18 November 2026
+
+## English
+
+- Brazilian Portuguese and Spanish are now available in the client and HUD.
+- Choose your language at the top of the client or in Preferences. Your choice is saved, and dates and numbers follow the selected language.
+
+## Français
+
+- Le portugais brésilien et l’espagnol sont disponibles dans le client et le HUD.
+- Choisissez votre langue en haut du client ou dans les Préférences. Le choix est mémorisé et les dates et nombres suivent la langue sélectionnée.
+
+
 ## 3.0.45 — 4 November 2026
 
 ## English

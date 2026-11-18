@@ -1,14 +1,14 @@
 # Eclipse - DPS meter AION 2 gratuit pour Windows
 
-**Eclipse 3.0.45 disponible :** cliquez sur **UPDATE** lorsqu’il est proposé, ou utilisez le dernier setup. Réglages et historique conservés. Le HUD garde son placement initial en bas à droite et votre position déplacée.
+**Eclipse 3.0.46 disponible :** cliquez sur **UPDATE** lorsqu’il est proposé, ou utilisez le dernier setup. Réglages et historique conservés. Le HUD garde son placement initial en bas à droite et votre position déplacée.
 
-**Nouveau dans la 3.0.45 :** entretien du HUD : les graphiques masqués ne recalculent plus leur tracé et les rafraîchissements différés s’arrêtent à la fermeture de l’overlay.
+**Nouveau dans la 3.0.46 :** portugais brésilien et espagnol pour le client et le HUD. Choix de langue en haut du client ou dans les Préférences, mémorisé avec les dates et nombres localisés.
 
 Si l’ancienne classe reste affichée après la mise à jour, gardez Eclipse ouvert, faites un TP ou changez de canal, puis utilisez deux compétences actives différentes de votre classe en moins de 30 secondes. Conservez vos données et votre historique.
 
 **[Télécharger Eclipse-Setup.exe](https://github.com/Iota-Nine/Aion2-Eclipse/releases/latest/download/Eclipse-Setup.exe)** · **[Site officiel en français](https://iota-nine.github.io/Aion2-Eclipse/fr/)** · [English](../README.md)
 
-![Eclipse 3.0.45 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
+![Eclipse 3.0.46 - compteur DPS AION 2, client Glass et analyse de groupe pour Windows](images/eclipse-banner.svg)
 
 **Suis les DPS de ton groupe en combat. Comprends tout le run quand le donjon est terminé.**
 
@@ -16,7 +16,7 @@ Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Window
 
 [Fonctionnalités](#toutes-les-fonctionnalités) · [Installation](#installation) · [Mesures et sources](#mesures-et-sources) · [Nouveautés](../CHANGELOG.md) · [Signaler un bug](https://github.com/Iota-Nine/Aion2-Eclipse/issues/new/choose)
 
-**Pour commencer :** télécharge **Eclipse-Setup.exe** ou clique sur **UPDATE** lorsqu’il est proposé. Ouvre **Progression**, choisis ton personnage et coche tes activités terminées. L’anglais est la langue initiale ; le français se choisit dans Preferences. Aucun compte Eclipse requis.
+**Pour commencer :** télécharge **Eclipse-Setup.exe** ou clique sur **UPDATE** lorsqu’il est proposé. Ouvre **Progression**, choisis ton personnage et coche tes activités terminées. L’anglais est la langue initiale. Choisis le français, l’anglais, le portugais brésilien ou l’espagnol en haut du client ou dans les Préférences. Aucun compte Eclipse requis.
 
 ![Interface anglaise d'Eclipse 3.0.9 - compteur DPS et dégâts du groupe dans AION 2](images/eclipse-combat-en.png)
 
@@ -47,7 +47,7 @@ Eclipse réunit un compteur de dégâts AION 2, un HUD et un grand client Window
 | **Alertes de faille** | Favori + rappel indépendant à 10 min, 5 min ou à l’ouverture. Serveur et réglages mémorisés ; rappel actif en fenêtre réduite. |
 | **Chronos de boss et d'événements** | Calendrier régional AION2Hub, horaires corrigés Kaira/exécuteurs, événement des Abysses, Beritra et PvP KR/TW. Rappels personnels conservés. |
 | **Alertes de boss favoris** | Étoile + **Notify me**, puis choix entre **10 min avant**, **5 min avant** et **à l'heure prévue**. Fonctionne en fenêtre réduite, sans doublons. |
-| **Anglais / Français** | Anglais à la première ouverture, français dans les réglages du client, du HUD et du setup. Choix mémorisé. |
+| **FR / EN / PT-BR / ES** | Français, anglais, portugais brésilien et espagnol pour le client, le HUD et le setup. Sélection en haut du client ou dans les Préférences. Choix mémorisé. |
 | **Réglages de performance** | Transparence, qualité des animations et premier plan. Les effets s'arrêtent en fenêtre réduite ; capture, chronos et sauvegardes continuent. |
 | **Exports et diagnostic** | Données du run, carte de partage et rapport de diagnostic limité, sans journaux ni jeton d'authentification. |
 | **Setup et mises à jour** | Runtime inclus, prérequis vérifiés, installation officielle Npcap avec consentement si nécessaire, raccourcis et téléchargement UPDATE vérifié. |
